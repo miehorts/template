@@ -5,20 +5,19 @@ const buttonH = document.querySelector('div.button-area').offsetHeight;
 information.style.height
 = (window.innerHeight - mainH - buttonH) + 'px';
 
-let inOut;
-let slideCount;
+const ekiList = [...JreYamanote];
 
 $('#throw-dice').on('click', (evt) => {
-    setTimeout(() => { slideOut(); }      );
-    setTimeout(() => { slideIn();  }, 1000);
-    setTimeout(() => { slideOut(); }, 2000);
-    setTimeout(() => { slideIn();  }, 3000);
-    setTimeout(() => { slideOut(); }, 4000);
-    setTimeout(() => { slideIn();  }, 5000);
-    setTimeout(() => { slideOut(); }, 6000);
-    setTimeout(() => { slideIn();  }, 7000);
-    setTimeout(() => { slideOut(); }, 8000);
-    setTimeout(() => { slideIn();  }, 9000);
+    setTimeout(() => {                    slideOut(); }      );
+    setTimeout(() => { updateMainPanel(); slideIn();  }, 1000);
+    setTimeout(() => {                    slideOut(); }, 2000);
+    setTimeout(() => { updateMainPanel(); slideIn();  }, 3000);
+    setTimeout(() => {                    slideOut(); }, 4000);
+    setTimeout(() => { updateMainPanel(); slideIn();  }, 5000);
+    setTimeout(() => {                    slideOut(); }, 6000);
+    setTimeout(() => { updateMainPanel(); slideIn();  }, 7000);
+    setTimeout(() => {                    slideOut(); }, 8000);
+    setTimeout(() => { updateMainPanel(); slideIn();  }, 9000);
 });
 
 function slideIn() {
@@ -43,4 +42,18 @@ function slideOut() {
             duration: 1000,
         }
     );
+}
+
+function updateMainPanel() {
+    const next = randomEki();
+    $('span.ekimeiKanj').text(next.ekimeiKanj);
+    $('span.ekimeiKana').text(next.ekimeiKana);
+    $('span.ekimeiRoma').text(next.ekimeiRoma);
+    $('span.compName'  ).text(next.compName  );
+    $('span.lineName'  ).text(next.lineName  );
+    $('span.sttnAddr'  ).text(next.sttnSddr  );
+}
+
+function randomEki() {
+    return ekiList[Math.floor(Math.random() * ekiList.length)];
 }
