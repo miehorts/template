@@ -5,7 +5,10 @@ const buttonH = document.querySelector('div.button-area').offsetHeight;
 information.style.height
 = (window.innerHeight - mainH - buttonH) + 'px';
 
-const ekiList = [...JreYamanote];
+const ekiList = [
+    ...JreYamanote,
+    ...JreNegishi,
+];
 
 $('#throw-dice').on('click', (evt) => {
     setTimeout(() => {                    slideOut(); }      );
