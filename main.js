@@ -16,5 +16,14 @@ document.querySelector('#throw-dice').addEventListener('click',
                 duration: 1000,
             }
         );
+        document.querySelector('div.main-fore').animate(
+            [
+                { transform: 'translateX(2000px)' },
+                { transform: 'translateX(0)' },
+            ],
+            {
+                duration: 1000,
+            }
+        );
     }
 );
