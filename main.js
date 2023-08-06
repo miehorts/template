@@ -9,10 +9,11 @@ let inOut;
 let slideCount;
 
 $('#throw-dice').on('click', (evt) => {
-    slideOut();
-    setTimeout(slideIn(), 1000);
+    setTimeout(slideOut()      );
+    setTimeout(slideIn(),  1000);
+    setTimeout(slideOut(), 2000);
 });
-
+/*
 document.querySelector('div.main-fore').addEventListener('animationend',
     (evt) => {
         if (3 < ++slideCount) { return; }
@@ -26,6 +27,7 @@ document.querySelector('div.main-fore').addEventListener('animationend',
         }
     }
 );
+*/
 
 function slideIn() {
     document.querySelector('div.main-fore').animate(
