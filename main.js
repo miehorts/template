@@ -9,9 +9,9 @@ let inOut;
 let slideCount;
 
 $('#throw-dice').on('click', (evt) => {
-    setTimeout(slideOut()      );
-    setTimeout(slideIn(),  1000);
-    setTimeout(slideOut(), 2000);
+    setTimeout(() => { slideOut(); }      );
+    setTimeout(() => { slideIn();  }, 1000);
+    setTimeout(() => { slideOut(); }, 2000);
 });
 /*
 document.querySelector('div.main-fore').addEventListener('animationend',
