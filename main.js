@@ -10,6 +10,7 @@ let slideCount;
 
 $('#throw-dice').on('click', (evt) => {
     slideOut();
+    setTimeout(slideIn(), 1000);
 });
 
 document.querySelector('div.main-fore').addEventListener('animationend',
@@ -39,11 +40,6 @@ function slideIn() {
 }
 
 function slideOut() {
-    $('div.main-fore').animate(
-        { transform: 'translateX(-2000px)' },
-        1000
-    );
-    /*
     document.querySelector('div.main-fore').animate(
         [
             { transform: 'translateX(0)' },
@@ -53,5 +49,4 @@ function slideOut() {
             duration: 1000,
         }
     );
-    */
 }
