@@ -11,15 +11,7 @@ let slideCount;
 $('#throw-dice').on('click', (evt) => {
     slideOut();
 });
-/*
-document.querySelector('#throw-dice').addEventListener('click',
-    (evt) => {
-        slideCount = 0;
-        slideOut();
-        inOut = 'out';
-    }
-);
-*/
+
 document.querySelector('div.main-fore').addEventListener('animationend',
     (evt) => {
         if (3 < ++slideCount) { return; }
@@ -47,6 +39,11 @@ function slideIn() {
 }
 
 function slideOut() {
+    $('div.main-fore').animate(
+        { transform: 'translateX(-2000px)' },
+        1000
+    );
+    /*
     document.querySelector('div.main-fore').animate(
         [
             { transform: 'translateX(0)' },
@@ -56,4 +53,5 @@ function slideOut() {
             duration: 1000,
         }
     );
+    */
 }
