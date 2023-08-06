@@ -8,6 +8,10 @@ information.style.height
 let inOut;
 let slideCount;
 
+$('#throw-dice').on('click', (evt) => {
+    slideOut();
+});
+/*
 document.querySelector('#throw-dice').addEventListener('click',
     (evt) => {
         slideCount = 0;
@@ -15,7 +19,7 @@ document.querySelector('#throw-dice').addEventListener('click',
         inOut = 'out';
     }
 );
-
+*/
 document.querySelector('div.main-fore').addEventListener('animationend',
     (evt) => {
         if (3 < ++slideCount) { return; }
