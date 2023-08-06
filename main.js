@@ -7,10 +7,10 @@ information.style.height
 
 document.querySelector('#throw-dice').addEventListener('click',
     (evt) => {
-        document.querySelector('div.main-back').animate(
+        document.querySelector('div.main-fore').animate(
             [
                 { transform: 'translateX(0)' },
-                { transform: 'translateX(2000px)' }
+                { transform: 'translateX(-2000px)' }
             ],
             {
                 duration: 1000,
