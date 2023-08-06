@@ -6,16 +6,19 @@ information.style.height
 = (window.innerHeight - mainH - buttonH) + 'px';
 
 let inOut;
+let slideCount;
 
 document.querySelector('#throw-dice').addEventListener('click',
     (evt) => {
+        slideCount = 0;
         slideOut();
         inOut = 'out';
     }
 );
 
-document.querySelector('#throw-dice').addEventListener('animationend',
+document.querySelector('div.main-fore').addEventListener('animationend',
     (evt) => {
+        if (3 < ++slideCount) { return; }
         if (inOut === 'in') {
             slideOut();
             inOut = 'out';
