@@ -1,5 +1,5 @@
 const information = document.querySelector('div.information');
-information.innerHTML = window.innerHeight;
+//information.innerHTML = window.innerHeight;
 const mainH = document.querySelector('div.main-back').offsetHeight;
 const buttonH = document.querySelector('div.button-area').offsetHeight;
 information.style.height
@@ -51,7 +51,7 @@ function updateMainPanel() {
     $('span.ekimeiRoma').text(next.ekimeiRoma);
     $('span.compName'  ).text(next.compName  );
     $('span.lineName'  ).text(next.lineName  );
-    $('span.sttnAddr'  ).text(next.sttnSddr  );
+    $('span.sttnAddr'  ).text(next.sttnAddr  );
 }
 
 function randomEki() {
