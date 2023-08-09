@@ -19,6 +19,13 @@ $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {                    slideOut(); }       );
+    setTimeout(() => { updateMainPanel(); slideOut(); },  1000);
+    setTimeout(() => { updateMainPanel(); slideOut(); },  2000);
+    setTimeout(() => { updateMainPanel(); slideOut(); },  3000);
+    setTimeout(() => { updateMainPanel(); slideOut(); },  4000);
+    setTimeout(() => { updateMainPanel(); slideEnd(); },  5000);
+    /*
+    setTimeout(() => {                    slideOut(); }       );
     setTimeout(() => { updateMainPanel(); slideIn();  },  1000);
     setTimeout(() => {                    slideOut(); },  2000);
     setTimeout(() => { updateMainPanel(); slideIn();  },  3000);
@@ -28,6 +35,7 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { updateMainPanel(); slideIn();  },  7000);
     setTimeout(() => {                    slideOut(); },  8000);
     setTimeout(() => { updateMainPanel(); slideIn();  },  9000);
+    */
     setTimeout(() => { $(self).show();                }, 10000);
 });
 
@@ -53,6 +61,10 @@ function slideOut() {
             duration: 1000,
         }
     );
+}
+
+function slideEnd() {
+    document.querySelector('div.main-fore').css({ transform: 'translateY(0)' });
 }
 
 function updateMainPanel() {
