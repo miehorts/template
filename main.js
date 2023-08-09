@@ -36,7 +36,7 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => {                    slideOut(); },  8000);
     setTimeout(() => { updateMainPanel(); slideIn();  },  9000);
     */
-    setTimeout(() => { $(self).show();                }, 10000);
+    setTimeout(() => { $(self).show();                },  5000);
 });
 
 function slideIn() {
