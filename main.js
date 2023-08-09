@@ -15,16 +15,19 @@ const ekiList = [
 ];
 
 $('#throw-dice').on('click', (evt) => {
-    setTimeout(() => {                    slideOut(); }      );
-    setTimeout(() => { updateMainPanel(); slideIn();  }, 1000);
-    setTimeout(() => {                    slideOut(); }, 2000);
-    setTimeout(() => { updateMainPanel(); slideIn();  }, 3000);
-    setTimeout(() => {                    slideOut(); }, 4000);
-    setTimeout(() => { updateMainPanel(); slideIn();  }, 5000);
-    setTimeout(() => {                    slideOut(); }, 6000);
-    setTimeout(() => { updateMainPanel(); slideIn();  }, 7000);
-    setTimeout(() => {                    slideOut(); }, 8000);
-    setTimeout(() => { updateMainPanel(); slideIn();  }, 9000);
+    const self = evt.target;
+    $(self).hide();
+    setTimeout(() => {                    slideOut(); }       );
+    setTimeout(() => { updateMainPanel(); slideIn();  },  1000);
+    setTimeout(() => {                    slideOut(); },  2000);
+    setTimeout(() => { updateMainPanel(); slideIn();  },  3000);
+    setTimeout(() => {                    slideOut(); },  4000);
+    setTimeout(() => { updateMainPanel(); slideIn();  },  5000);
+    setTimeout(() => {                    slideOut(); },  6000);
+    setTimeout(() => { updateMainPanel(); slideIn();  },  7000);
+    setTimeout(() => {                    slideOut(); },  8000);
+    setTimeout(() => { updateMainPanel(); slideIn();  },  9000);
+    setTimeout(() => { $(self).show();                }, 10000);
 });
 
 function slideIn() {
