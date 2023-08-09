@@ -34,8 +34,8 @@ $('#throw-dice').on('click', (evt) => {
 function slideIn() {
     document.querySelector('div.main-fore').animate(
         [
-            { transform: 'translateX(2000px)' },
-            { transform: 'translateX(0)' },
+            { transform: 'translateY(600px)' },
+            { transform: 'translateY(0)' },
         ],
         {
             duration: 1000,
@@ -46,8 +46,8 @@ function slideIn() {
 function slideOut() {
     document.querySelector('div.main-fore').animate(
         [
-            { transform: 'translateX(0)' },
-            { transform: 'translateX(-2000px)' }
+            { transform: 'translateY(0)' },
+            { transform: 'translateY(-600px)' }
         ],
         {
             duration: 1000,
