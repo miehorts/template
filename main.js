@@ -24,10 +24,22 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 3000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
-    setTimeout(() => { $(self).show();                },  5000);
+    setTimeout(() => { $(self).show();                            }, 5000);
 });
 
 function slideUp() {
+    $('div.main-fore').each(() => {
+        this.animate(
+            [
+                { transform: 'translateY(0)' },
+                { transform: 'translateY(-600px)' }
+            ],
+            {
+                duration: 1000,
+            }
+        );
+    });
+    /*
     const $divMainFore = $('div.main-fore');
     $divMainFore[0].animate(
         [
@@ -47,6 +59,7 @@ function slideUp() {
             duration: 1000,
         }
     );
+    */
 }
 
 function slideIn() {
