@@ -18,8 +18,7 @@ const ekiList = [
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
-    setTimeout(() => {                    slideOut(); }       );
-    setTimeout(() => { updateMainPanel(); slideIn();  },      );
+    setTimeout(() => { updateMainPanel(); slideUp();  },      );
     /*
     setTimeout(() => {                    slideOut(); }       );
     setTimeout(() => { updateMainPanel(); slideOut(); },  1000);
@@ -42,6 +41,28 @@ $('#throw-dice').on('click', (evt) => {
     */
     setTimeout(() => { $(self).show();                },  5000);
 });
+
+function slideUp() {
+    const $divMainFore = $('div.main-fore');
+    $divMainFore[0].animate(
+        [
+            { transform: 'translateY(0)' },
+            { transform: 'translateY(-600px)' }
+        ],
+        {
+            duration: 1000,
+        }
+    );
+    $divMainFore[1].animate(
+        [
+            { transform: 'translateY(0)' },
+            { transform: 'translateY(-600px)' }
+        ],
+        {
+            duration: 1000,
+        }
+    );
+}
 
 function slideIn() {
     $('div.main-fore')[1].animate(
