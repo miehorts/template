@@ -18,7 +18,8 @@ const ekiList = [
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
-    setTimeout(() => { updateMainPanel(); slideUp();  },      );
+    setTimeout(() => {              updateMainPanel(); slideUp(); },      );
+    setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 1000);
     /*
     setTimeout(() => {                    slideOut(); }       );
     setTimeout(() => { updateMainPanel(); slideOut(); },  1000);
@@ -86,6 +87,17 @@ function slideOut() {
             duration: 1000,
         }
     );
+}
+
+function copyTexts() {
+    const $mfp0 = $('div.main-fore').eq(0);
+    const $mfp1 = $('div.main-fore').eq(1);
+    $mfp0.find('span.ekimeiKanj').text($mfp1.find('span.ekimeiKanj').text());
+    $mfp0.find('span.ekimeiKana').text($mfp1.find('span.ekimeiKana').text());
+    $mfp0.find('span.ekimeiRoma').text($mfp1.find('span.ekimeiRoma').text());
+    $mfp0.find('span.compName'  ).text($mfp1.find('span.compName'  ).text());
+    $mfp0.find('span.lineName'  ).text($mfp1.find('span.lineName'  ).text());
+    $mfp0.find('span.sttnAddr'  ).text($mfp1.find('span.sttnAddr'  ).text());
 }
 
 function slideEnd() {
