@@ -39,27 +39,6 @@ function slideUp() {
             }
         );
     });
-    /*
-    const $divMainFore = $('div.main-fore');
-    $divMainFore[0].animate(
-        [
-            { transform: 'translateY(0)' },
-            { transform: 'translateY(-600px)' }
-        ],
-        {
-            duration: 1000,
-        }
-    );
-    $divMainFore[1].animate(
-        [
-            { transform: 'translateY(0)' },
-            { transform: 'translateY(-600px)' }
-        ],
-        {
-            duration: 1000,
-        }
-    );
-    */
 }
 
 function slideIn() {
