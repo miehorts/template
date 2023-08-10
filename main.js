@@ -28,8 +28,8 @@ $('#throw-dice').on('click', (evt) => {
 });
 
 function slideUp() {
-    $('div.main-fore').each(() => {
-        this.animate(
+    $('div.main-fore').each((idx, elm) => {
+        elm.animate(
             [
                 { transform: 'translateY(0)' },
                 { transform: 'translateY(-600px)' }
