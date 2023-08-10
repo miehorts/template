@@ -19,11 +19,15 @@ $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {                    slideOut(); }       );
+    setTimeout(() => { updateMainPanel(); slideIn();  },      );
+    /*
+    setTimeout(() => {                    slideOut(); }       );
     setTimeout(() => { updateMainPanel(); slideOut(); },  1000);
     setTimeout(() => { updateMainPanel(); slideOut(); },  2000);
     setTimeout(() => { updateMainPanel(); slideOut(); },  3000);
     setTimeout(() => { updateMainPanel(); slideOut(); },  4000);
     setTimeout(() => { updateMainPanel(); slideEnd(); },  5000);
+    */
     /*
     setTimeout(() => {                    slideOut(); }       );
     setTimeout(() => { updateMainPanel(); slideIn();  },  1000);
@@ -40,7 +44,7 @@ $('#throw-dice').on('click', (evt) => {
 });
 
 function slideIn() {
-    document.querySelector('div.main-fore').animate(
+    $('div.main-fore')[1].animate(
         [
             { transform: 'translateY(600px)' },
             { transform: 'translateY(0)' },
@@ -69,12 +73,13 @@ function slideEnd() {
 
 function updateMainPanel() {
     const next = randomEki();
-    $('span.ekimeiKanj').text(next.ekimeiKanj);
-    $('span.ekimeiKana').text(next.ekimeiKana);
-    $('span.ekimeiRoma').text(next.ekimeiRoma);
-    $('span.compName'  ).text(next.compName  );
-    $('span.lineName'  ).text(next.lineName  );
-    $('span.sttnAddr'  ).text(next.sttnAddr  );
+    const $mfp1 = $('div.main-fore').eq(1);
+    $mfp1('span.ekimeiKanj').text(next.ekimeiKanj);
+    $mfp1('span.ekimeiKana').text(next.ekimeiKana);
+    $mfp1('span.ekimeiRoma').text(next.ekimeiRoma);
+    $mfp1('span.compName'  ).text(next.compName  );
+    $mfp1('span.lineName'  ).text(next.lineName  );
+    $mfp1('span.sttnAddr'  ).text(next.sttnAddr  );
 }
 
 function randomEki() {
