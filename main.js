@@ -95,12 +95,12 @@ function slideEnd() {
 function updateMainPanel() {
     const next = randomEki();
     const $mfp1 = $('div.main-fore').eq(1);
-    $mfp1('span.ekimeiKanj').text(next.ekimeiKanj);
-    $mfp1('span.ekimeiKana').text(next.ekimeiKana);
-    $mfp1('span.ekimeiRoma').text(next.ekimeiRoma);
-    $mfp1('span.compName'  ).text(next.compName  );
-    $mfp1('span.lineName'  ).text(next.lineName  );
-    $mfp1('span.sttnAddr'  ).text(next.sttnAddr  );
+    $mfp1.find('span.ekimeiKanj').text(next.ekimeiKanj);
+    $mfp1.find('span.ekimeiKana').text(next.ekimeiKana);
+    $mfp1.find('span.ekimeiRoma').text(next.ekimeiRoma);
+    $mfp1.find('span.compName'  ).text(next.compName  );
+    $mfp1.find('span.lineName'  ).text(next.lineName  );
+    $mfp1.find('span.sttnAddr'  ).text(next.sttnAddr  );
 }
 
 function randomEki() {
