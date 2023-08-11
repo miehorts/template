@@ -23,12 +23,11 @@ const ekiList = [
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
-    setTimeout(() => {              updateMainPanel(); slideUp(); },     );
-    setTimeout(() => { copyTexts();                               },  500);
-    setTimeout(() => {              updateMainPanel(); slideUp(); }, 1000);
-    setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 2000);
-    setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 3000);
-    setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 4000);
+    setTimeout(() => {              slideUp(); updateMainPanel(); },     );
+    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 1000);
+    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 2000);
+    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 3000);
+    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
     setTimeout(() => { $(self).show();                            }, 5000);
 });
