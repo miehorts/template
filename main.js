@@ -24,7 +24,8 @@ $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {              slideUp(); updateMainPanel(); },     );
-    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 1000);
+    setTimeout(() => { copyTexts(); slideUp();                    }, 1000);
+    setTimeout(() => {                         updateMainPanel(); }, 1100);
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 2000);
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 3000);
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
