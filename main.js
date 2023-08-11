@@ -23,7 +23,8 @@ $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {              updateMainPanel(); slideUp(); },     );
-    setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 1000);
+    setTimeout(() => { copyTexts();                               },  900);
+    setTimeout(() => {              updateMainPanel(); slideUp(); }, 1000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 2000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 3000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 4000);
