@@ -16,6 +16,7 @@ const ekiList = [
     ...JreSaikyou,
     ...JreKawagoe,
     ...JreChuuouhon,
+    ...JreChuuoukaisoku,
     ...JreOume,
 ];
 
@@ -23,7 +24,7 @@ $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {              updateMainPanel(); slideUp(); },     );
-    setTimeout(() => { copyTexts();                               },  900);
+    setTimeout(() => { copyTexts();                               },  500);
     setTimeout(() => {              updateMainPanel(); slideUp(); }, 1000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 2000);
     setTimeout(() => { copyTexts(); updateMainPanel(); slideUp(); }, 3000);
