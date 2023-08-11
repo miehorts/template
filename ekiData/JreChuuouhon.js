@@ -270,4 +270,32 @@ const JreChuuouhon = [
         sttnAddr: '長野県塩尻市大門八番町',
         ...JreChuuouhonCommon
     },
+    {
+        ekimeiKanj: '川岸',
+        ekimeiKana: 'かわぎし',
+        ekimeiRoma: 'Kawagishi',
+        sttnAddr: '長野県岡谷市川岸東',
+        ...JreChuuouhonCommon
+    },
+    {
+        ekimeiKanj: '辰野',
+        ekimeiKana: 'たつの',
+        ekimeiRoma: 'Tatsuno',
+        sttnAddr: '長野県上伊那郡辰野町大字辰野',
+        ...JreChuuouhonCommon
+    },
+    {
+        ekimeiKanj: '信濃川島',
+        ekimeiKana: 'しなのかわしま',
+        ekimeiRoma: 'Shinano-Kawashima',
+        sttnAddr: '長野県上伊那郡辰野町大字上島',
+        ...JreChuuouhonCommon
+    },
+    {
+        ekimeiKanj: '小野',
+        ekimeiKana: 'おの',
+        ekimeiRoma: 'Ono',
+        sttnAddr: '長野県上伊那郡辰野町大字小野',
+        ...JreChuuouhonCommon
+    },
 ];
