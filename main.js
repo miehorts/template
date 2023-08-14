@@ -17,6 +17,7 @@ const ekiList = [
     ...JreKawagoe,
     ...JreChuuouhon,
     ...JreChuuoukaisoku,
+    ...JreChuuousoubukankou,
     ...JreOume,
 ];
 
