@@ -1,6 +1,6 @@
 const JreItsukaichiCommon = {
     compName: '東日本旅客鉄道',
-    lineName: '中央・総武緩行線',
+    lineName: '五日市線',
 };
 
 const JreItsukaichi = [
@@ -33,38 +33,24 @@ const JreItsukaichi = [
         ...JreItsukaichiCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '武蔵引田',
+        ekimeiKana: 'むさしひきだ',
+        ekimeiRoma: 'Musashi-Hikida',
+        sttnAddr: '東京都あきる野市引田16',
         ...JreItsukaichiCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '武蔵増戸',
+        ekimeiKana: 'むさしますこ',
+        ekimeiRoma: 'Musashi-Masuko',
+        sttnAddr: '東京都あきる野市伊奈873-2',
         ...JreItsukaichiCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
-        ...JreItsukaichiCommon
-    },
-    {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
-        ...JreItsukaichiCommon
-    },
-    {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '武蔵五日市',
+        ekimeiKana: 'むさしいつかいち',
+        ekimeiRoma: 'Musashi-Itsukaichi',
+        sttnAddr: '東京都あきる野市舘谷台16',
         ...JreItsukaichiCommon
     },
 ];
