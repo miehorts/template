@@ -1,5 +1,5 @@
 const JreChuuousoubukankouCommon = {
-    compName: '東日本旅客鉄道',
+    compName: 'JR東日本',
     lineName: '中央・総武緩行線',
 };
 

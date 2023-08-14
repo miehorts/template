@@ -20,6 +20,7 @@ const ekiList = [
     ...JreChuuousoubukankou,
     ...JreOume,
     ...JreItsukaichi,
+    ...JreSoubuhon,
 ];
 
 $('#throw-dice').on('click', (evt) => {

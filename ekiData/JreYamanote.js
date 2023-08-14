@@ -1,5 +1,5 @@
 const JreYamanoteCommon = {
-    compName: '東日本旅客鉄道',
+    compName: 'JR東日本',
     lineName: '山手線',
 }
 
