@@ -8,6 +8,7 @@ information.style.height
 
 const ekiList = [
     ...JreYamanote,
+    ...JreShounanshinjuku,
     ...JreNegishi,
     ...JreYokohama,
     ...JreNanbu,
