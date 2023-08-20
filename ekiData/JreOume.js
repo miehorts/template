@@ -1,5 +1,5 @@
 const JreOumeCommon = {
-    compName: 'JR東日本',
+    ...compNameJre,
     lineName: '青梅線',
 };
 

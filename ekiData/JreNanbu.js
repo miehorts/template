@@ -1,5 +1,5 @@
 const JreNanbuCommon = {
-    compName: 'JR東日本',
+    ...compNameJre,
     lineName: '南武線',
 };
 

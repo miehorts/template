@@ -1,5 +1,5 @@
 const JreChuuoukaisokuCommon = {
-    compName: 'JR東日本',
+    ...compNameJre,
     lineName: '中央快速線',
 };
 

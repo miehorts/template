@@ -1,5 +1,5 @@
 const JreSagamiCommon = {
-    compName: 'JR東日本',
+    ...compNameJre,
     lineName: '相模線',
 };
 
