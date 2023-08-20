@@ -1,9 +1,10 @@
 const JreSoutetsujrchokutsuuCommon = {
     ...compNameJre,
-    lineName: '相鉄・JR直通線',
+    lineName: '相鉄線直通',
 }
 
 const JreSoutetsujrchokutsuu = [
+    /*
     {
         ekimeiKanj: '新宿',
         ekimeiKana: 'しんじゅく',
@@ -25,6 +26,7 @@ const JreSoutetsujrchokutsuu = [
         sttnAddr: '東京都渋谷区恵比寿南一丁目5-5',
         ...JreSoutetsujrchokutsuuCommon
     },
+    */
     {
         ekimeiKanj: '大崎',
         ekimeiKana: 'おおさき',
