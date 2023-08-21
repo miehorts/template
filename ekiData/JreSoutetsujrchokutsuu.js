@@ -1,6 +1,8 @@
 const JreSoutetsujrchokutsuuCommon = {
     ...compNameJre,
-    lineName: '相鉄線直通',
+    lineName: '相鉄・JR直通線',
+    lineName1: { lineName: '相鉄線直通' },
+    lineName2: { lineName: '相鉄線直通／埼京線直通' },
 }
 
 const JreSoutetsujrchokutsuu = [
@@ -32,27 +34,31 @@ const JreSoutetsujrchokutsuu = [
         ekimeiKana: 'おおさき',
         ekimeiRoma: 'Ōsaki',
         sttnAddr: '東京都品川区大崎一丁目21-4',
-        ...JreSoutetsujrchokutsuuCommon
+        ...compNameJre,
+        ...JreSoutetsujrchokutsuuCommon.lineName1,
     },
     {
         ekimeiKanj: '西大井',
         ekimeiKana: 'にしおおい',
         ekimeiRoma: 'Nishi-Ōi',
         sttnAddr: '東京都品川区西大井一丁目3-2',
-        ...JreSoutetsujrchokutsuuCommon
+        ...compNameJre,
+        ...JreSoutetsujrchokutsuuCommon.lineName2,
     },
     {
         ekimeiKanj: '武蔵小杉',
         ekimeiKana: 'むさしこすぎ',
         ekimeiRoma: 'Musashi-Kosugi',
         sttnAddr: '川崎市中原区新丸子東三丁目1111番地',
-        ...JreSoutetsujrchokutsuuCommon
+        ...compNameJre,
+        ...JreSoutetsujrchokutsuuCommon.lineName2,
     },
     {
         ekimeiKanj: '羽沢横浜国大',
         ekimeiKana: 'はざわ よこはまこくだい',
         ekimeiRoma: 'Hazawa yokohama-kokudai',
         sttnAddr: '横浜市神奈川区羽沢南二丁目471-3',
-        ...JreSoutetsujrchokutsuuCommon
+        ...compNameJre,
+        ...JreSoutetsujrchokutsuuCommon.lineName1,
     },
 ];
