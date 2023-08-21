@@ -1,7 +1,8 @@
 const JreChuuoukaisokuCommon = {
     ...compNameJre,
-    lineName1: '中央線',
-    lineName2: '中央線（快速）',
+    lineName: '中央快速線',
+    lineName1: { lineName: '中央線' },
+    lineName2: { lineName: '中央線（快速）' },
 };
 
 const JreChuuoukaisoku = [
@@ -11,7 +12,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Tōkyō',
         sttnAddr: '東京都千代田区丸の内一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '神田',
@@ -19,7 +20,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Kanda',
         sttnAddr: '東京都千代田区',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '御茶ノ水',
@@ -27,7 +28,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Ochanomizu',
         sttnAddr: '東京都千代田区・文京区',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '四ツ谷',
@@ -35,7 +36,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Yotsuya',
         sttnAddr: '東京都新宿区四谷一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '新宿',
@@ -43,7 +44,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Shinjuku',
         sttnAddr: '東京都新宿区・渋谷区',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '中野',
@@ -51,7 +52,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Nakano',
         sttnAddr: '東京都中野区中野五丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '高円寺',
@@ -59,7 +60,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Kōenji',
         sttnAddr: '東京都杉並区高円寺南四丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '阿佐ケ谷',
@@ -67,7 +68,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Asagaya',
         sttnAddr: '東京都杉並区阿佐谷南三丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '荻窪',
@@ -75,7 +76,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Ogikubo',
         sttnAddr: '東京都杉並区',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '西荻窪',
@@ -83,7 +84,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Nishi-Ogikubo',
         sttnAddr: '東京都杉並区西荻南三丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '吉祥寺',
@@ -91,7 +92,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Kichijōji',
         sttnAddr: '東京都武蔵野市吉祥寺南町一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '三鷹',
@@ -99,7 +100,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Mitaka',
         sttnAddr: '東京都三鷹市下連雀三丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName2,
+        ...JreChuuoukaisokuCommon.lineName2,
     },
     {
         ekimeiKanj: '武蔵境',
@@ -107,7 +108,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Musashi-Sakai',
         sttnAddr: '東京都武蔵野市境一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '東小金井',
@@ -115,7 +116,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Higashi-Koganei',
         sttnAddr: '東京都小金井市梶野町五丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '武蔵小金井',
@@ -123,7 +124,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Musashi-Koganei',
         sttnAddr: '東京都小金井市本町六丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '国分寺',
@@ -131,7 +132,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Kokubunji',
         sttnAddr: '東京都国分寺市本町二丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '西国分寺',
@@ -139,7 +140,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Nishi-Kokubunji',
         sttnAddr: '東京都国分寺市西恋ヶ窪二丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '国立',
@@ -147,7 +148,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Kunitachi',
         sttnAddr: '東京都国立市北一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '立川',
@@ -155,7 +156,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Tachikawa',
         sttnAddr: '東京都立川市曙町二丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '日野',
@@ -163,7 +164,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Hino',
         sttnAddr: '東京都日野市大坂上一丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '豊田',
@@ -171,7 +172,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Toyoda',
         sttnAddr: '東京都日野市豊田四丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '八王子',
@@ -179,7 +180,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Hachiōji',
         sttnAddr: '東京都八王子市旭町に',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '西八王子',
@@ -187,7 +188,7 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Nishi-Hachiōji',
         sttnAddr: '東京都八王子市千人町二丁目',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
     {
         ekimeiKanj: '高尾',
@@ -195,6 +196,6 @@ const JreChuuoukaisoku = [
         ekimeiRoma: 'Takao',
         sttnAddr: '東京都八王子市高尾町1201-2',
         ...compNameJre,
-        lineName: JreChuuoukaisokuCommon.lineName1,
+        ...JreChuuoukaisokuCommon.lineName1,
     },
 ];
