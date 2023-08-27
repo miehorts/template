@@ -19,7 +19,7 @@ const JreKeiyou = [
         ...JreKeiyouCommon
     },
     {
-        ekimeiKanj: '越中島駅',
+        ekimeiKanj: '越中島',
         ekimeiKana: 'えっちゅうじま',
         ekimeiRoma: 'Etchūjima',
         sttnAddr: '東京都江東区越中島二丁目',
