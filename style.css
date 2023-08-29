@@ -1,3 +1,20 @@
 * {
     box-sizing: border-box;
 }
+
+/* ハンバーガーメニューのボタン */
+.sp-menu__box {
+    position: fixed;  /* 位置を固定 */
+    top: 0;  /* 最上部 */
+    right: 0;  /* 右端 */
+    /* 中の要素を上下中央寄せ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* サイズ指定 */
+    height: 60px;
+    width: 60px;
+    /* 最前面にする */
+    z-index: 100;
+    background-color: #3584bb;
+}
