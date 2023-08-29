@@ -1,6 +1,6 @@
 const JreShinetsuhonCommon = {
     ...compNameJre,
-    lineName: '高崎線',
+    lineName: '信越本線',
 }
 
 const JreShinetsuhon = [
