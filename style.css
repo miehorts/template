@@ -33,6 +33,8 @@
   background-color: #000000;
   /* 3本線の位置は絶対位置で指定 */
   position: absolute;
+  /* 最前面にする */
+  z-index: 100;
 }
 
 /* 上の線の位置 */
