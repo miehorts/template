@@ -96,10 +96,9 @@
 .sp-menu__link {
     display: block;
     width: 100%;
-    font-size: 15px;
+    font-size: 50px;
     box-sizing: border-box;
     color: #ffffff;
     text-decoration: none;
     padding: 9px 15px 10px 0;
 }
-  
