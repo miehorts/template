@@ -85,7 +85,7 @@
     z-index: 90;
     background-color: #3584bb;
 }
-.sp-menu__content opened {
+.sp-menu__content.opened {
     left: 0;
 }
 /* スマホ用メニューのリスト */
