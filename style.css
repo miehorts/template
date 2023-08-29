@@ -68,3 +68,38 @@
     /* 左に45度傾けてバツの片側の線にする */
     transform: rotate(-45deg);
 }
+
+/* スマホ用メニュー */
+.sp-menu__content {
+    /* 絶対位置で指定   */
+    position: fixed;
+    /* 画面全体に表示 */
+    width: 100%;
+    height: 100%;
+    /* 開始位置は左上隅 */
+    top: 0;
+    left: 0;
+    /* 前面に表示するがハンバーガーボタンよりは背後 */
+    z-index: 90;
+    background-color: #3584bb;
+}
+/* スマホ用メニューのリスト */
+.sp-menu__list {
+    padding: 70px 10px 0;
+}
+/* スマホ用メニュー項目 */
+.sp-menu__item {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+/* スマホ用メニュー項目のリンク */
+.sp-menu__link {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+}
+  
