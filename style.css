@@ -30,7 +30,7 @@
   height: 6px;
   width: 50px;
   border-radius: 6px;
-  background-color: #ffffff;
+  background-color: #000000;
   /* 3本線の位置は絶対位置で指定 */
   position: absolute;
 }
@@ -45,4 +45,26 @@
 .sp-menu__box span:after {
   /* 真ん中の線と離す距離 */
   top: 16px;
+}
+
+/* ON（スマホ用メニューを開いた状態） */
+/* 真ん中の線 */
+.sp-menu__box.opened span {
+    /* 透明にして見えなくする */
+    background: rgba(255, 255, 255, 0);
+  }
+
+/* 上の線 */
+.sp-menu__box.opened span::before {
+    /* 真ん中の線との距離を無くす（真ん中の線と同じ位置にする） */
+    bottom: 0;
+    /* 右に45度傾けてバツの片側の線にする */
+    transform: rotate(45deg);
+}
+/* 下の線 */
+.sp-menu__box.opened span::after {
+    /* 真ん中の線との距離を無くす（真ん中の線と同じ位置にする） */
+    top: 0;
+    /* 左に45度傾けてバツの片側の線にする */
+    transform: rotate(-45deg);
 }
