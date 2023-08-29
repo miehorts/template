@@ -16,7 +16,7 @@
     width:  140px;
     /* 最前面にする */
     z-index: 100;
-    background-color: #3584bb;
+    background-color: #ffffff;
 }
 
 /* メニューの白線を疑似要素を使って3本作成 */
@@ -83,7 +83,7 @@
     left: 100%;
     /* 前面に表示するがハンバーガーボタンよりは背後 */
     z-index: 90;
-    background-color: #3584bb;
+    background-color: #ffffff;
 }
 .sp-menu__content.opened {
     left: 0;
