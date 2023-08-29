@@ -45,6 +45,7 @@ const ekiList = [
     ...JreNarita,
     ...JreItou,
     ...JreShinetsuhon,
+    ...JreShinonoi,
 ];
 
 $('#throw-dice').on('click', (evt) => {
