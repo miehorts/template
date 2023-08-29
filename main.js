@@ -49,7 +49,8 @@ const ekiList = [
 ];
 
 $('div.sp-menu__box').on('click', (evt) => {
-    $(evt.target).toggleClass('opened');    
+    $(evt.target            ).toggleClass('opened');
+    $('div.sp-menu__content').toggleClass('opened');
 });
 
 $('#throw-dice').on('click', (evt) => {

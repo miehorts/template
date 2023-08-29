@@ -80,7 +80,7 @@
     height: 100%;
     /* 開始位置は左上隅 */
     top: 0;
-    left: 0;
+    left: 100%;
     /* 前面に表示するがハンバーガーボタンよりは背後 */
     z-index: 90;
     background-color: #3584bb;
@@ -91,7 +91,7 @@
 }
 /* スマホ用メニュー項目 */
 .sp-menu__item {
-    border-bottom: solid 1px #ffffff;
+    border-bottom: solid 1px #000000;
     list-style: none;
 }
 /* スマホ用メニュー項目のリンク */
@@ -100,7 +100,7 @@
     width: 100%;
     font-size: 50px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 9px 15px 10px 0;
 }
