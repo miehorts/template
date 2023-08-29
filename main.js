@@ -48,6 +48,10 @@ const ekiList = [
     ...JreShinonoi,
 ];
 
+$('div.sp-menu__box').on('click', (evt) => {
+    $(evt.target).toggleClass('opened');    
+});
+
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
