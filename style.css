@@ -85,6 +85,9 @@
     z-index: 90;
     background-color: #3584bb;
 }
+.sp-menu__content opened {
+    left: 0;
+}
 /* スマホ用メニューのリスト */
 .sp-menu__list {
     padding: 70px 10px 0;
