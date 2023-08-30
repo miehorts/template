@@ -71,7 +71,7 @@ function slideUp() {
         elm.animate(
             [
                 { transform: 'translateY(0)' },
-                { transform: 'translateY(-600px)' }
+                { transform: 'translateY(-180px)' }
             ],
             {
                 duration: 1000,
