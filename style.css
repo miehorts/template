@@ -27,9 +27,9 @@
   content: "";
   /* ３本線のサイズと色を指定 */
   display: block;
-  height: 6px;
-  width: 50px;
-  border-radius: 6px;
+  height: 3px;
+  width: 30px;
+  border-radius: 3px;
   background-color: #000000;
   /* 3本線の位置は絶対位置で指定 */
   position: absolute;
@@ -40,13 +40,13 @@
 /* 上の線の位置 */
 .sp-menu__box span:before {
   /* 真ん中の線と離す距離 */
-  bottom: 16px;
+  bottom: 8px;
 }
 
 /* 下の線の位置 */
 .sp-menu__box span:after {
   /* 真ん中の線と離す距離 */
-  top: 16px;
+  top: 8px;
 }
 
 /* ON（スマホ用メニューを開いた状態） */
