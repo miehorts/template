@@ -113,8 +113,8 @@
     width: 100%;
     height: calc(100% - 140px);
     top: 140px;
-    /*left: 100%;*/
-    left: 0;
+    left: 100%;
+    /*left: 0;*/
     z-index: 90;
     background-color: #ffffff;
     font-size: 50px;
