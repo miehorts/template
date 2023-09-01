@@ -54,11 +54,15 @@ $('div.sp-menu__box').on('click', (evt) => {
     $('div.sp-menu__content').addClass('opened');
 });
 
-$('a.go-to-main').on('click', (evt) => {
+$('a.hide-menu').on('click', (evt) => {
     $('div.sp-menu__content').toggleClass('opened');
 });
 
-$('a.go-to-config-lines').on('click', (evt) => {
+$('a.show-config-lines').on('click', (evt) => {
+    $('div.config-lines').toggleClass('opened');
+});
+
+$('a.hide-config-lines').on('click', (evt) => {
     $('div.config-lines').toggleClass('opened');
 });
 
