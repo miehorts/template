@@ -77,9 +77,8 @@
     position: fixed;
     /* 画面全体に表示 */
     width: 100%;
-    height: 100%;
-    /* 開始位置は左上隅 */
-    top: 0;
+    height: calc(100% - 56px);
+    top: 56px;
     left: 100%;
     /* 前面に表示するがハンバーガーボタンよりは背後 */
     z-index: 90;
@@ -90,7 +89,7 @@
 }
 /* スマホ用メニューのリスト */
 .sp-menu__list {
-    padding: 140px 10px 0;
+    padding: 10px 10px 0;
 }
 /* スマホ用メニュー項目 */
 .sp-menu__item {
@@ -101,7 +100,7 @@
 .sp-menu__link {
     display: block;
     width: 100%;
-    font-size: 50px;
+    font-size: 24px;
     box-sizing: border-box;
     color: #000000;
     text-decoration: none;
@@ -111,11 +110,11 @@
 .config-lines {
     position: fixed;
     width: 100%;
-    height: calc(100% - 140px);
-    top: 140px;
+    height: calc(100% - 56px);
+    top: 56px;
     left: 100%;
     /*left: 0;*/
     z-index: 90;
     background-color: #ffffff;
-    font-size: 50px;
+    font-size: 24px;
 }
