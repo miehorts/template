@@ -125,5 +125,6 @@
 }
 
 .config-lines label {
+    display: block;
     width: 100%;
 }
