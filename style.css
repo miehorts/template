@@ -123,3 +123,7 @@
 .config-lines.opened {
     left: 0;
 }
+
+.config-lines label {
+    width: 100%;
+}
