@@ -89,7 +89,7 @@
 }
 /* スマホ用メニューのリスト */
 .sp-menu__list {
-    padding: 10px 10px 0;
+    padding: 0 10px 0;
 }
 /* スマホ用メニュー項目 */
 .sp-menu__item {
