@@ -83,6 +83,10 @@ $('a.hide-config-lines').on('click', (evt) => {
 });
 
 $('#throw-dice').on('click', (evt) => {
+    if (!ekiList.length) {
+        alert('対象となる駅が０件です。設定を確認してください。');
+        return;
+    }
     const self = evt.target;
     $(self).hide();
     setTimeout(() => {              slideUp(); updateMainPanel(); },     );
