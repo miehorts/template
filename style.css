@@ -124,6 +124,10 @@
     left: 0;
 }
 
+.config-lines.line-name {
+    padding-left: 10px;    
+}
+
 .config-lines label {
     display: block;
     width: 100%;
