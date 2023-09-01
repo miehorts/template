@@ -49,7 +49,7 @@ const ekiList = [
 ];
 
 $('div.sp-menu__box').on('click', (evt) => {
-    $('div.sp-menu__box'    ).toggleClass('opened');
+    //$('div.sp-menu__box'    ).toggleClass('opened');
     $('div.sp-menu__content').toggleClass('opened');
 });
 
