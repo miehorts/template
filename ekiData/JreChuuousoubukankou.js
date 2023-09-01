@@ -1,5 +1,6 @@
 const JreChuuousoubukankouCommon = {
     ...compNameJre,
+    lineName: '中央・総武緩行線',
     lineName1: { lineName: '総武線（各駅停車）' },
     lineName2: { lineName: '中央・総武線（各駅停車）' },
 };

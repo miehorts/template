@@ -49,55 +49,12 @@ const lines = {
 };
 
 let ekiListAll = [];
-
 Object.keys(lines).forEach((key) => {
     ekiListAll = ekiListAll.concat(lines[key]);
 });
 
 const ekiList = ekiListAll;
-/*
-const ekiList = [
-    ...JreYamanote,
-    ...JreShounanshinjuku,
-    ...JreSaikyou,
-    ...JreSoutetsujrchokutsuu,
-    ...JreNegishi,
-    ...JreYokohama,
-    ...JreNanbu,
-    ...JreMusashino,
-    ...JreKeiyou,
-    ...JreKawagoe,
-    ...JreChuuouhon,
-    ...JreChuuoukaisoku,
-    ...JreChuuousoubukankou,
-    ...JreOume,
-    ...JreItsukaichi,
-    ...JreSoubuhon,
-    ...JreYokosukasoubukaisoku,
-    ...JreTsurumi,
-    ...JreSagami,
-    ...JreKeihintouhoku,
-    ...JreToukaidou,
-    ...JreUenotoukyou,
-    ...JreTouhokuhon,
-    ...JreUtsunomiya,
-    ...JreSendaikuukouakusesu,
-    ...JreSensekitouhoku,
-    ...JreRifu,
-    ...JreTakasaki,
-    ...JreJouban,
-    ...JreJoubankankou,
-    ...JreJouetsu,
-    ...JreRyoumou,
-    ...JreMito,
-    ...JreSotobou,
-    ...JreUchibou,
-    ...JreNarita,
-    ...JreItou,
-    ...JreShinetsuhon,
-    ...JreShinonoi,
-];
-*/
+
 $('div.sp-menu__box').on('click', (evt) => {
     //$('div.sp-menu__box'    ).toggleClass('opened');
     //$('div.sp-menu__content').toggleClass('opened');

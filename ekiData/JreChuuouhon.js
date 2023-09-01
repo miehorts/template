@@ -1,5 +1,6 @@
 const JreChuuouhonCommon = {
     ...compNameJre,
+    lineName: '中央本線',
     lineName1: { lineName: '中央本線' },
     lineName2: { lineName: '中央東線' },
 };
