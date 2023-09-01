@@ -48,12 +48,13 @@ const lines = {
     JreShinonoi,
 };
 
-let ekiListAll = [];
+const ekiListAll = [];
 Object.keys(lines).forEach((key) => {
-    ekiListAll = ekiListAll.concat(lines[key]);
+    ekiListAll.push(...lines[key]);
+    //ekiListAll = ekiListAll.concat(lines[key]);
 });
 
-const ekiList = ekiListAll;
+const ekiList = [...ekiListAll];
 
 $('div.sp-menu__box').on('click', (evt) => {
     //$('div.sp-menu__box'    ).toggleClass('opened');
@@ -70,7 +71,12 @@ $('a.show-config-lines').on('click', (evt) => {
 });
 
 $('a.hide-config-lines').on('click', (evt) => {
-    $('div.config-lines').toggleClass('opened');
+    const $divConfigLines = $('div.config-lines');
+    ekiList.splice(0);
+    $divConfigLines.find('div.line-name > input')
+    .filter((idx, elm) => { return $(elm).prop('checked'); })
+    .each((idx, elm) => { ekiList.push(...lines[$(elm).data('line-id')]); });
+    $divConfigLines.toggleClass('opened');
 });
 
 $('#throw-dice').on('click', (evt) => {
