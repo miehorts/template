@@ -73,10 +73,10 @@ $('a.show-config-lines').on('click', (evt) => {
 $('a.hide-config-lines').on('click', (evt) => {
     const $divConfigLines = $('div.config-lines');
     ekiList.splice(0);
-    $divConfigLines.find('div.line-name > input')
+    $divConfigLines.find('div.line-name input')
     .filter((idx, elm) => { return $(elm).prop('checked'); })
     .each((idx, elm) => {
-        console.log($(elm).data('line-id'));
+        //console.log($(elm).data('line-id'));
         ekiList.push(...lines[$(elm).data('line-id')]);
     });
     $divConfigLines.toggleClass('opened');
