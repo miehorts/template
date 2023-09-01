@@ -124,7 +124,7 @@
     left: 0;
 }
 
-.config-lines.line-name {
+.config-lines .line-name {
     padding-left: 10px;    
 }
 
