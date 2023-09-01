@@ -48,7 +48,7 @@ const lines = {
     JreShinonoi,
 };
 
-const ekiListAll = [];
+let ekiListAll = [];
 
 Object.keys(lines).forEach((key) => {
     ekiListAll = ekiListAll.concat(lines[key]);
