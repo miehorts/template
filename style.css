@@ -119,3 +119,7 @@
     background-color: #ffffff;
     font-size: 24px;
 }
+
+.config-lines.opened {
+    left: 0;
+}

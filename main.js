@@ -57,6 +57,10 @@ $('a.go-to-main').on('click', (evt) => {
     $('div.sp-menu__content').toggleClass('opened');
 });
 
+$('a.go-to-config-lines').on('click', (evt) => {
+    $('div.config-lines').toggleClass('opened');
+});
+
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
