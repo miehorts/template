@@ -47,12 +47,12 @@ const lines = {
     JreShinetsuhon,
     JreShinonoi,
     JreUetsuhon,
+    JreHakushin,
 };
 
 const ekiListAll = [];
 Object.keys(lines).forEach((key) => {
     ekiListAll.push(...lines[key]);
-    //ekiListAll = ekiListAll.concat(lines[key]);
 });
 
 const ekiList = [...ekiListAll];
