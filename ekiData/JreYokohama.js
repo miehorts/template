@@ -141,7 +141,7 @@ const JreYokohama = [
         ekimeiKanj: '八王子',
         ekimeiKana: 'はちおうじ',
         ekimeiRoma: 'Hachiōji',
-        sttnAddr: '東京都八王子市旭町',
+        sttnAddr: '東京都八王子市旭町1-1',
         ...JreYokohamaCommon
     },
 ];
