@@ -3,7 +3,7 @@ const JreYamagataCommon = {
     lineName: '山形線',
 }
 
-const JreYamagata [
+const JreYamagata = [
     {
         ekimeiKanj: '福島',
         ekimeiKana: 'ふくしま',
