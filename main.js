@@ -58,6 +58,7 @@ const lines = {
     JreKarasuyama,
     JreNikkou,
     JreSuigun,
+    JreKashima,
 };
 
 const ekiListAll = [];
