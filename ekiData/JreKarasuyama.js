@@ -33,45 +33,45 @@ const JreKarasuyama = [
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '仁井田',
+        ekimeiKana: 'にいた',
+        ekimeiRoma: 'Niita',
+        sttnAddr: '栃木県塩谷郡高根沢町大字文挾28',
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '鴻野山',
+        ekimeiKana: 'こうのやま',
+        ekimeiRoma: 'Kōnoyama',
+        sttnAddr: '栃木県那須烏山市鴻野山192-4',
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '大金',
+        ekimeiKana: 'おおがね',
+        ekimeiRoma: 'Ōgane',
+        sttnAddr: '栃木県那須烏山市大金152',
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '小塙',
+        ekimeiKana: 'こばな',
+        ekimeiRoma: 'Kobana',
+        sttnAddr: '栃木県那須烏山市小塙272',
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '滝',
+        ekimeiKana: 'たき',
+        ekimeiRoma: 'Taki',
+        sttnAddr: '栃木県那須烏山市滝163',
         ...JreKarasuyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '烏山',
+        ekimeiKana: 'からすやま',
+        ekimeiRoma: 'Karasuyama',
+        sttnAddr: '栃木県那須烏山市南二丁目5-6',
         ...JreKarasuyamaCommon
     },
 ];
