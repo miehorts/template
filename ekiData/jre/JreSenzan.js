@@ -130,6 +130,7 @@ const JreSenzan = [
         sttnAddr: '山形県山形市長町二丁目5',
         ...JreSenzanCommon
     },
+    /*
     {
         ekimeiKanj: '北山形',
         ekimeiKana: 'きたやまがた',
@@ -144,4 +145,5 @@ const JreSenzan = [
         sttnAddr: '山形県山形市香澄町一丁目1-1',
         ...JreSenzanCommon
     },
+    */
 ];
