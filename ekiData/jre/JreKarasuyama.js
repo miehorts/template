@@ -4,6 +4,7 @@ const JreKarasuyamaCommon = {
 }
 
 const JreKarasuyama = [
+    /*
     {
         ekimeiKanj: '宇都宮',
         ekimeiKana: 'うつのみや',
@@ -18,6 +19,7 @@ const JreKarasuyama = [
         sttnAddr: '栃木県宇都宮市下岡本町1986',
         ...JreKarasuyamaCommon
     },
+    */
     {
         ekimeiKanj: '宝積寺',
         ekimeiKana: 'ほうしゃくじ',
