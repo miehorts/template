@@ -4,6 +4,7 @@ const JreShinonoiCommon = {
 }
 
 const JreShinonoi = [
+    /*
     {
         ekimeiKanj: '長野',
         ekimeiKana: 'ながの',
@@ -32,6 +33,7 @@ const JreShinonoi = [
         sttnAddr: '長野県長野市川中島町今井296-2',
         ...JreShinonoiCommon
     },
+    */
     {
         ekimeiKanj: '篠ノ井',
         ekimeiKana: 'しののい',
