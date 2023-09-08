@@ -67,6 +67,7 @@ const lines = {
     JreEchigo,
     JreYahiko,
     JreYonesaka,
+    JreTadami,
 };
 
 const ekiListAll = [];
