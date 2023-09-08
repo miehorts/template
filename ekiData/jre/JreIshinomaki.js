@@ -29,7 +29,7 @@ const JreIshinomaki = [
         ekimeiKanj: '前谷地',
         ekimeiKana: 'まえやち',
         ekimeiRoma: 'Maeyachi',
-        sttnAddr: '	宮城県石巻市前谷地字中埣136-4',
+        sttnAddr: '宮城県石巻市前谷地字中埣136-4',
         ...JreIshinomakiCommon
     },
     {
