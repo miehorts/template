@@ -167,6 +167,7 @@ const JreNarita = [
         sttnAddr: '千葉県銚子市長塚町五丁目1260-23',
         ...JreNaritaCommon
     },
+    /*
     {
         ekimeiKanj: '銚子',
         ekimeiKana: 'ちょうし',
@@ -174,6 +175,7 @@ const JreNarita = [
         sttnAddr: '千葉県銚子市西芝町1438',
         ...JreNaritaCommon
     },
+    */
     {
         ekimeiKanj: '我孫子',
         ekimeiKana: 'あびこ',
