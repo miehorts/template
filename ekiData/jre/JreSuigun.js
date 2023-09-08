@@ -284,6 +284,7 @@ const JreSuigun = [
         sttnAddr: '福島県郡山市笹川三丁目267',
         ...JreSuigunCommon
     },
+    /*
     {
         ekimeiKanj: '郡山',
         ekimeiKana: 'こおりやま',
@@ -291,6 +292,7 @@ const JreSuigun = [
         sttnAddr: '福島県郡山市字燧田195',
         ...JreSuigunCommon
     },
+    */
     {
         ekimeiKanj: '南酒出',
         ekimeiKana: 'みなみさかいで',
