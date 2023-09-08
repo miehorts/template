@@ -28,7 +28,6 @@ const JreSoutetsujrchokutsuu = [
         sttnAddr: '東京都渋谷区恵比寿南一丁目5-5',
         ...JreSoutetsujrchokutsuuCommon
     },
-    */
     {
         ekimeiKanj: '大崎',
         ekimeiKana: 'おおさき',
@@ -53,6 +52,7 @@ const JreSoutetsujrchokutsuu = [
         ...compNameJre,
         ...JreSoutetsujrchokutsuuCommon.lineName2,
     },
+    */
     {
         ekimeiKanj: '羽沢横浜国大',
         ekimeiKana: 'はざわ よこはまこくだい',

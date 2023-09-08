@@ -4,6 +4,7 @@ const JreIiyamaCommon = {
 }
 
 const JreIiyama = [
+    /*
     {
         ekimeiKanj: '長野',
         ekimeiKana: 'ながの',
@@ -25,6 +26,7 @@ const JreIiyama = [
         sttnAddr: '長野県長野市大字三才字念仏塚2207',
         ...JreIiyamaCommon
     },
+    */
     {
         ekimeiKanj: '豊野',
         ekimeiKana: 'とよの',
