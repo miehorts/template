@@ -165,6 +165,7 @@ const JreHachikou = [
         sttnAddr: '群馬県高崎市倉賀野町1797',
         ...JreHachikouCommon
     },
+    /*
     {
         ekimeiKanj: '高崎',
         ekimeiKana: 'たかさき',
@@ -172,4 +173,5 @@ const JreHachikou = [
         sttnAddr: '群馬県高崎市八島町222',
         ...JreHachikouCommon
     },
+    */
 ];
