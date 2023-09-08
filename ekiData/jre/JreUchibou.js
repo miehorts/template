@@ -4,6 +4,7 @@ const JreUchibouCommon = {
 }
 
 const JreUchibou = [
+    /*
     {
         ekimeiKanj: '千葉',
         ekimeiKana: 'ちば',
@@ -18,6 +19,7 @@ const JreUchibou = [
         sttnAddr: '千葉市中央区長洲一丁目30-1',
         ...JreUchibouCommon,
     },
+    */
     {
         ekimeiKanj: '蘇我',
         ekimeiKana: 'そが',
