@@ -4,6 +4,7 @@ const JreAgatsumaCommon = {
 }
 
 const JreAgatsuma = [
+    /*
     {
         ekimeiKanj: '高崎',
         ekimeiKana: 'たかさき',
@@ -46,6 +47,7 @@ const JreAgatsuma = [
         sttnAddr: '群馬県渋川市八木原1145',
         ...JreAgatsumaCommon
     },
+    */
     {
         ekimeiKanj: '渋川',
         ekimeiKana: 'しぶかわ',
