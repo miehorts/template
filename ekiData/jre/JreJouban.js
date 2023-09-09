@@ -8,6 +8,7 @@ const JreJoubanCommon = {
 }
 
 const JreJouban = [
+    /*
     {
         ekimeiKanj: '品川',
         ekimeiKana: 'しながわ',
@@ -29,6 +30,7 @@ const JreJouban = [
         sttnAddr: '東京都千代田区丸の内一丁目9-1',
         ...JreJoubanCommon
     },
+    */
     {
         ekimeiKanj: '上野',
         ekimeiKana: 'うえの',
