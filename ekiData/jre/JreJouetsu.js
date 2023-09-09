@@ -249,6 +249,7 @@ const JreJouetsu = [
         sttnAddr: '新潟県長岡市宮内三丁目4番1号',
         ...JreJouetsuCommon
     },
+    /*
     {
         ekimeiKanj: '長岡',
         ekimeiKana: 'ながおか',
@@ -256,4 +257,5 @@ const JreJouetsu = [
         sttnAddr: '新潟県長岡市城内町二丁目794-4',
         ...JreJouetsuCommon
     },
+    */
 ];
