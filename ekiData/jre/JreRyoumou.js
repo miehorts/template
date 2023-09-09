@@ -137,6 +137,7 @@ const JreRyoumou = [
         sttnAddr: '群馬県前橋市古市町471',
         ...JreRyoumouCommon
     },
+    /*
     {
         ekimeiKanj: '井野',
         ekimeiKana: 'いの',
@@ -158,4 +159,5 @@ const JreRyoumou = [
         sttnAddr: '群馬県高崎市八島町222',
         ...JreRyoumouCommon
     },
+    */
 ];
