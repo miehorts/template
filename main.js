@@ -72,6 +72,7 @@ const lines = {
     JreIshinomaki,
     JreKesennuma,
     JreOofunato,
+    JreRikuutou,
 };
 
 const ekiListAll = [];
