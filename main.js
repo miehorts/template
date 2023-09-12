@@ -78,6 +78,7 @@ const lines = {
     JreKamaishi,
     JreYamada,
     JreHanawa,
+    JreHachinohe,
 };
 
 const ekiListAll = [];
