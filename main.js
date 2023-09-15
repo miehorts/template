@@ -10,6 +10,7 @@ const lines = {
     JreTouhokushinkan,
     JreYamagatashinkan,
     JreAkitashinkan,
+    JreJouetsushinkan,
     JreYamanote,
     JreShounanshinjuku,
     JreSaikyou,
