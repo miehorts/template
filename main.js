@@ -7,6 +7,7 @@ information.style.height
 = (window.innerHeight - headerH - mainH - buttonH) + 'px';
 
 const lines = {
+    JreTouhokushinkan,
     JreYamanote,
     JreShounanshinjuku,
     JreSaikyou,
