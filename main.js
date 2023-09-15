@@ -8,6 +8,7 @@ information.style.height
 
 const lines = {
     JreTouhokushinkan,
+    JreYamagatashinkan,
     JreYamanote,
     JreShounanshinjuku,
     JreSaikyou,
