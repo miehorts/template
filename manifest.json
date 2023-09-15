@@ -1,0 +1,14 @@
+{
+    "name": "駅名サイコロ",
+    "short_name": "駅名サイコロ",
+    "display": "standalone",
+    "background_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
