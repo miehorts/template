@@ -2,9 +2,10 @@
     "name": "駅名サイコロ",
     "short_name": "駅名サイコロ",
     "start_url": ".",
-    "display": "standalone",
+    "theme_color": "#000000",
     "background_color": "#000000",
     "orientation": "portrait-primary",
+    "display": "standalone",
     "icons": [
         {
             "src": "android-chrome-256x256.png",
