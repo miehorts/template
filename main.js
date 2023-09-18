@@ -92,6 +92,7 @@ const lines = {
     JreGonou,
     TwrRinkai,
     TokyomonorailTokyomonorailhaneda,
+    HokuetsuexpressHokuhoku,
 };
 
 const ekiListAll = [];

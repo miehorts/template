@@ -7,3 +7,6 @@ const compNameTwr = {
 const compNameTokyomonorail = {
     compName: '東京モノレール'
 };
+const compNameHokuetsuexpress = {
+    compName: '北越急行'
+};
