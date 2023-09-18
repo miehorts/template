@@ -9,6 +9,7 @@ const JreSotobou = [
         ekimeiKana: 'ちば',
         ekimeiRoma: 'Chiba',
         sttnAddr: '千葉市中央区新千葉一丁目1-1',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -16,6 +17,7 @@ const JreSotobou = [
         ekimeiKana: 'ほんちば',
         ekimeiRoma: 'Hon-Chiba',
         sttnAddr: '千葉市中央区長洲一丁目30-1',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -23,6 +25,7 @@ const JreSotobou = [
         ekimeiKana: 'そが',
         ekimeiRoma: 'Soga',
         sttnAddr: '千葉市中央区今井二丁目50-2',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -30,6 +33,7 @@ const JreSotobou = [
         ekimeiKana: 'かまとり',
         ekimeiRoma: 'Kamatori',
         sttnAddr: '千葉市緑区鎌取町787-3',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -37,6 +41,7 @@ const JreSotobou = [
         ekimeiKana: 'ほんだ',
         ekimeiRoma: 'Honda',
         sttnAddr: '千葉市緑区誉田町二丁目24',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -44,6 +49,7 @@ const JreSotobou = [
         ekimeiKana: 'とけ',
         ekimeiRoma: 'Toke',
         sttnAddr: '千葉市緑区土気町1727-1',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -51,6 +57,7 @@ const JreSotobou = [
         ekimeiKana: 'おおあみ',
         ekimeiRoma: 'Ōami',
         sttnAddr: '千葉県大網白里市南玉21-7',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -58,6 +65,7 @@ const JreSotobou = [
         ekimeiKana: 'ながた',
         ekimeiRoma: 'Nagata',
         sttnAddr: '千葉県大網白里市永田1835',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -65,6 +73,7 @@ const JreSotobou = [
         ekimeiKana: 'ほんのう',
         ekimeiRoma: 'Honnō',
         sttnAddr: '千葉県茂原市本納1791',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -72,6 +81,7 @@ const JreSotobou = [
         ekimeiKana: 'しんもばら',
         ekimeiRoma: 'Shim-Mobara',
         sttnAddr: '千葉県茂原市長尾2667',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {
@@ -79,6 +89,7 @@ const JreSotobou = [
         ekimeiKana: 'もばら',
         ekimeiRoma: 'Mobara',
         sttnAddr: '千葉県茂原市町保1',
+        passArea: '["NHSP"]',
         ...JreSotobouCommon,
     },
     {

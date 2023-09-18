@@ -116,8 +116,14 @@ $('a.show-config-lines').on('click', (evt) => {
     $('div.config-lines').toggleClass('opened');
 });
 
+$('a.show-config-passes').on('click', (evt) => {
+    $('div.config-passes').toggleClass('opened');
+});
+
 $('a.hide-config-lines').on('click', (evt) => {
+    filter();
     const $divConfigLines = $('div.config-lines');
+    /*
     ekiList.splice(0);
     $divConfigLines.find('div.line-name input')
     .filter((idx, elm) => { return $(elm).prop('checked'); })
@@ -125,7 +131,13 @@ $('a.hide-config-lines').on('click', (evt) => {
         //console.log($(elm).data('line-id'));
         ekiList.push(...lines[$(elm).data('line-id')]);
     });
+    */
     $divConfigLines.toggleClass('opened');
+});
+
+$('a.hide-config-passes').on('click', (evt) => {
+    filter();
+    $('div.config-passes').toggleClass('opened');
 });
 
 $('#throw-dice').on('click', (evt) => {
@@ -144,6 +156,30 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts();                               }, 5000);
     setTimeout(() => { $(self).show();                            }, 5000);
 });
+
+function filter() {
+    let list = [];
+    const $divConfigLines = $('div.config-lines');
+    $divConfigLines.find('div.line-name input')
+    .filter((idx, elm) => { return $(elm).prop('checked'); })
+    .each((idx, elm) => {
+        //console.log($(elm).data('line-id'));
+        list.push(...lines[$(elm).data('line-id')]);
+        //ekiList.push(...lines[$(elm).data('line-id')]);
+    });
+    if ($('div.pass-enab input').prop('checked')) {
+        const passName = $('input[name="pass-name"]').val();
+        list = list.filter((eki) => {
+            if (eki.passArea) {
+                const passes = JSON.parse(eki.passArea);
+                return passes.includes(passName);
+            }
+            else { return false; }
+        });
+    }
+    ekiList.splice(0);
+    ekiList.push(...list);
+}
 
 function slideUp() {
     $('div.main-fore').each((idx, elm) => {

@@ -3,6 +3,7 @@ const JreChuuousoubukankouCommon = {
     lineName: '中央・総武緩行線',
     lineName1: { lineName: '総武線（各駅停車）' },
     lineName2: { lineName: '中央・総武線（各駅停車）' },
+    passArea: '["NHSP"]',
 };
 
 const JreChuuousoubukankou = [
@@ -13,6 +14,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県千葉市中央区新千葉一丁目',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '西千葉',
@@ -21,6 +23,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉市中央区春日二丁目24-2',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '稲毛',
@@ -29,6 +32,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉市稲毛区稲毛東三丁目19-11',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '新検見川',
@@ -37,6 +41,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉市花見川区南花園二丁目1-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '幕張',
@@ -45,6 +50,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉市花見川区幕張町五丁目121',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '幕張本郷',
@@ -53,6 +59,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉市花見川区幕張本郷一丁目1-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '津田沼',
@@ -61,6 +68,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県習志野市津田沼一丁目1-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '東船橋',
@@ -69,6 +77,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県船橋市東船橋二丁目10-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '船橋',
@@ -77,6 +86,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県船橋市本町七丁目1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '西船橋',
@@ -85,6 +95,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県船橋市西船四丁目27-7',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '下総中山',
@@ -93,6 +104,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県船橋市本中山二丁目17-37',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '本八幡',
@@ -101,6 +113,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県市川市八幡二丁目17-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '市川',
@@ -109,6 +122,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '千葉県市川市市川一丁目1-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '小岩',
@@ -117,6 +131,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都江戸川区南小岩七丁目24-15',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '新小岩',
@@ -125,6 +140,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都葛飾区新小岩一丁目45-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '平井',
@@ -133,6 +149,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都江戸川区平井三丁目30-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '亀戸',
@@ -141,6 +158,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都江東区亀戸五丁目1-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '錦糸町',
@@ -149,6 +167,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都墨田区江東橋三丁目14-5',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '両国',
@@ -157,6 +176,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都墨田区横網一丁目3-20',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '浅草橋',
@@ -165,6 +185,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都台東区浅草橋一丁目18番1号',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName1,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '秋葉原',
@@ -173,6 +194,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都千代田区外神田一丁目17-6',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '御茶ノ水',
@@ -181,6 +203,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都千代田区神田駿河台二丁目6-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '水道橋',
@@ -189,6 +212,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都千代田区神田三崎町二丁目22-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '飯田橋',
@@ -197,6 +221,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都千代田区飯田橋四丁目10-2',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '市ケ谷',
@@ -205,6 +230,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都千代田区五番町2-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '四ツ谷',
@@ -213,6 +239,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都新宿区四谷一丁目無番地',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '信濃町',
@@ -221,6 +248,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都新宿区信濃町34',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '千駄ケ谷',
@@ -229,6 +257,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都渋谷区千駄ヶ谷一丁目35-10',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '代々木',
@@ -237,6 +266,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都渋谷区代々木一丁目34-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '新宿',
@@ -245,6 +275,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都新宿区新宿三丁目38-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '大久保',
@@ -253,6 +284,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都新宿区百人町一丁目17-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '東中野',
@@ -261,6 +293,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都中野区東中野四丁目1-12',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '中野',
@@ -269,6 +302,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都中野区中野五丁目31-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '高円寺',
@@ -277,6 +311,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都杉並区高円寺南四丁目48-2',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '阿佐ケ谷',
@@ -285,6 +320,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都杉並区阿佐谷南三丁目36-2',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '荻窪',
@@ -293,6 +329,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都杉並区上荻一丁目7-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '西荻窪',
@@ -301,6 +338,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都杉並区西荻南三丁目25-1',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '吉祥寺',
@@ -309,6 +347,7 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都武蔵野市吉祥寺南町一丁目1番24号',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
     {
         ekimeiKanj: '三鷹',
@@ -317,5 +356,6 @@ const JreChuuousoubukankou = [
         sttnAddr: '東京都三鷹市下連雀三丁目46番1号',
         ...compNameJre,
         ...JreChuuousoubukankouCommon.lineName2,
+        ...JreChuuousoubukankouCommon.passArea,
     },
 ];

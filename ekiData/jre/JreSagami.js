@@ -1,6 +1,7 @@
 const JreSagamiCommon = {
     ...compNameJre,
     lineName: '相模線',
+    passArea: '["NHSP"]',
 };
 
 const JreSagami = [

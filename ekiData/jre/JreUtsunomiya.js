@@ -1,6 +1,7 @@
 const JreUtsunomiyaCommon = {
     ...compNameJre,
     lineName: '宇都宮線',
+    passArea: '["NHSP"]',
 }
 
 const JreUtsunomiya = [
@@ -156,6 +157,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'いしばし',
         ekimeiRoma: 'Ishibashi',
         sttnAddr: '栃木県下野市石橋240',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -163,6 +165,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'すずめのみや',
         ekimeiRoma: 'Suzumenomiya',
         sttnAddr: '栃木県宇都宮市雀の宮一丁目19',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -170,6 +173,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'うつのみや',
         ekimeiRoma: 'Utsunomiya',
         sttnAddr: '栃木県宇都宮市川向町1番23号',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -177,6 +181,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'おかもと',
         ekimeiRoma: 'Okamoto',
         sttnAddr: '栃木県宇都宮市下岡本町1986',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -184,6 +189,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'ほうしゃくじ',
         ekimeiRoma: 'Hōshakuji',
         sttnAddr: '栃木県塩谷郡高根沢町大字宝積寺2377',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -191,6 +197,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'うじいえ',
         ekimeiRoma: 'Ujiie',
         sttnAddr: '栃木県さくら市氏家2344',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -198,6 +205,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'かますさか',
         ekimeiRoma: 'Kamasusaka',
         sttnAddr: '栃木県さくら市蒲須坂698',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -205,6 +213,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'かたおか',
         ekimeiRoma: 'Kataoka',
         sttnAddr: '栃木県矢板市片岡2099',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -212,6 +221,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'やいた',
         ekimeiRoma: 'Yaita',
         sttnAddr: '栃木県矢板市扇町一丁目1-1',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -219,6 +229,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'のざき',
         ekimeiRoma: 'Nozaki',
         sttnAddr: '栃木県大田原市薄葉2233',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -226,6 +237,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'にしなすの',
         ekimeiRoma: 'Nishi-Nasuno',
         sttnAddr: '栃木県那須塩原市永田町1-1',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -233,6 +245,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'なすしおばら',
         ekimeiRoma: 'Nasushiobara',
         sttnAddr: '栃木県那須塩原市大原間561',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
     {
@@ -240,6 +253,7 @@ const JreUtsunomiya = [
         ekimeiKana: 'くろいそ',
         ekimeiRoma: 'Kuroiso',
         sttnAddr: '栃木県那須塩原市本町1-1',
+        passArea: '[]',
         ...JreUtsunomiyaCommon
     },
 ];

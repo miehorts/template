@@ -9,6 +9,7 @@ const JreRyoumou = [
         ekimeiKana: 'おやま',
         ekimeiRoma: 'Oyama',
         sttnAddr: '栃木県小山市城山町三丁目3-22',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -16,6 +17,7 @@ const JreRyoumou = [
         ekimeiKana: 'おもいがわ',
         ekimeiRoma: 'Omoigawa',
         sttnAddr: '栃木県小山市大字松沼965',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -23,6 +25,7 @@ const JreRyoumou = [
         ekimeiKana: 'とちぎ',
         ekimeiRoma: 'Tochigi',
         sttnAddr: '栃木県栃木市沼和田町1-1',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -30,6 +33,7 @@ const JreRyoumou = [
         ekimeiKana: 'おおひらした',
         ekimeiRoma: 'Ōhirashita',
         sttnAddr: '栃木県栃木市大平町富田',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -37,6 +41,7 @@ const JreRyoumou = [
         ekimeiKana: 'いわふね',
         ekimeiRoma: 'Iwafune',
         sttnAddr: '栃木県栃木市岩舟町静',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -44,6 +49,7 @@ const JreRyoumou = [
         ekimeiKana: 'さの',
         ekimeiRoma: 'Sano',
         sttnAddr: '栃木県佐野市若松町',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -51,6 +57,7 @@ const JreRyoumou = [
         ekimeiKana: 'とみた',
         ekimeiRoma: 'Tomita',
         sttnAddr: '栃木県足利市駒場町148',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -58,6 +65,7 @@ const JreRyoumou = [
         ekimeiKana: 'あしかがふらわーぱーく',
         ekimeiRoma: 'Ashikaga Flower Park',
         sttnAddr: '	栃木県足利市迫間町字本郷533番',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {
@@ -65,6 +73,7 @@ const JreRyoumou = [
         ekimeiKana: 'あしかが',
         ekimeiRoma: 'Ashikaga',
         sttnAddr: '栃木県足利市伊勢町一丁目118',
+        passArea: '["NHSP"]',
         ...JreRyoumouCommon
     },
     {

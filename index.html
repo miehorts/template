@@ -34,6 +34,9 @@
               <li class="sp-menu__item">
                 <a class="sp-menu__link show-config-lines" href="#">路線設定</a>
               </li>
+              <li class="sp-menu__item">
+                <a class="sp-menu__link show-config-passes" href="#">フリーパスのエリアで絞り込み</a>
+              </li>
             </ul>
         </div>
         <div class="config-lines">
@@ -134,6 +137,18 @@
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="TokyomonorailTokyomonorailhaneda">東京モノレール羽田空港線</label></div>
                 <div class="comp-name"><label>北越急行</label></div>
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="HokuetsuexpressHokuhoku"         >ほくほく線</label></div>
+            </div>
+        </div>
+        <div class="config-passes">
+            <div style="display:flex;align-items:center;padding-left:10px;border-bottom:1px solid;height:40px;"><span>路線設定</span></div>
+            <ul class="sp-menu__list" style="height:70px;">
+                <li class="sp-menu__item">
+                    <a class="sp-menu__link hide-config-passes" href="#">MENUに戻る</a>
+                </li>
+            </ul>
+            <div>
+                <div class="pass-enab"><label><input type="checkbox">のんびりホリデーSuicaパス</label></div>
+                <div class="pass-name"><label><input type="radio" name="pass-name" value="NHSP" checked>のんびりホリデーSuicaパス</label></div>
             </div>
         </div>
         <div class="main-back" style="padding:10px;position:relative;height:200px;min-height:200px;">

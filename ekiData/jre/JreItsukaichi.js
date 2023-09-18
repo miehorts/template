@@ -1,6 +1,7 @@
 const JreItsukaichiCommon = {
     ...compNameJre,
     lineName: '五日市線',
+    passArea: '["NHSP"]',
 };
 
 const JreItsukaichi = [

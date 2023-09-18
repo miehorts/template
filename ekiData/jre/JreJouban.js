@@ -38,12 +38,14 @@ const JreJouban = [
         sttnAddr: '東京都台東区上野七丁目1-1',
         ...compNameJre,
         ...JreJoubanCommon.lineName2,
+        passArea: '["NHSP"]',
     },
     {
         ekimeiKanj: '日暮里',
         ekimeiKana: 'にっぽり',
         ekimeiRoma: 'Nippori',
         sttnAddr: '東京都荒川区西日暮里二丁目19-1',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -51,6 +53,7 @@ const JreJouban = [
         ekimeiKana: 'みかわしま',
         ekimeiRoma: 'Mikawashima',
         sttnAddr: '東京都荒川区西日暮里一丁目6-10',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -58,6 +61,7 @@ const JreJouban = [
         ekimeiKana: 'みなみせんじゅ',
         ekimeiRoma: 'Minami-Senju',
         sttnAddr: '東京都荒川区南千住四丁目5-1',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -65,6 +69,7 @@ const JreJouban = [
         ekimeiKana: 'きたせんじゅ',
         ekimeiRoma: 'Kita-Senju',
         sttnAddr: '東京都足立区千住旭町42-2',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     /*
@@ -95,6 +100,7 @@ const JreJouban = [
         ekimeiKana: 'まつど',
         ekimeiRoma: 'Matsudo',
         sttnAddr: '千葉県松戸市松戸1181',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     /*
@@ -141,6 +147,7 @@ const JreJouban = [
         sttnAddr: '千葉県柏市柏一丁目1-1',
         ...compNameJre,
         ...JreJoubanCommon.lineName3,
+        passArea: '["NHSP"]',
     },
     /*
     {
@@ -156,6 +163,7 @@ const JreJouban = [
         ekimeiKana: 'あびこ',
         ekimeiRoma: 'Abiko',
         sttnAddr: '千葉県我孫子市本町二丁目1-1',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -163,6 +171,7 @@ const JreJouban = [
         ekimeiKana: 'てんのうだい',
         ekimeiRoma: 'Tennōdai',
         sttnAddr: '千葉県我孫子市柴崎台一丁目19-1',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -172,12 +181,14 @@ const JreJouban = [
         sttnAddr: '茨城県取手市中央町1-1',
         ...compNameJre,
         ...JreJoubanCommon.lineName4,
+        passArea: '["NHSP"]',
     },
     {
         ekimeiKanj: '藤代',
         ekimeiKana: 'ふじしろ',
         ekimeiRoma: 'Fujishiro',
         sttnAddr: '茨城県取手市宮和田1131',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -185,6 +196,7 @@ const JreJouban = [
         ekimeiKana: 'りゅうがさきし',
         ekimeiRoma: 'Ryūgasakishi',
         sttnAddr: '茨城県龍ケ崎市佐貫町647',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -192,6 +204,7 @@ const JreJouban = [
         ekimeiKana: 'うしく',
         ekimeiRoma: 'Ushiku',
         sttnAddr: '茨城県牛久市牛久町282',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -199,6 +212,7 @@ const JreJouban = [
         ekimeiKana: 'ひたちのうしく',
         ekimeiRoma: 'Hitachinoushiku',
         sttnAddr: '茨城県牛久市ひたち野西三丁目41-16',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -206,6 +220,7 @@ const JreJouban = [
         ekimeiKana: 'あらかわおき',
         ekimeiRoma: 'Arakawaoki',
         sttnAddr: '茨城県土浦市荒川沖東二丁目1-6',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {
@@ -213,6 +228,7 @@ const JreJouban = [
         ekimeiKana: 'つちうら',
         ekimeiRoma: 'Tsuchiura',
         sttnAddr: '茨城県土浦市有明町1-30',
+        passArea: '["NHSP"]',
         ...JreJoubanCommon
     },
     {

@@ -1,6 +1,7 @@
 const JreOumeCommon = {
     ...compNameJre,
     lineName: '青梅線',
+    passArea: '["NHSP"]',
 };
 
 const JreOume = [

@@ -9,6 +9,7 @@ const JreMito = [
         ekimeiKana: 'おやま',
         ekimeiRoma: 'Oyama',
         sttnAddr: '栃木県小山市城山町三丁目3-22',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -16,6 +17,7 @@ const JreMito = [
         ekimeiKana: 'おたばやし',
         ekimeiRoma: 'Otabayashi',
         sttnAddr: '茨城県結城市大字小田林2546',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -23,6 +25,7 @@ const JreMito = [
         ekimeiKana: 'ゆうき',
         ekimeiRoma: 'Yūki',
         sttnAddr: '茨城県結城市大字結城7490-2',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -30,6 +33,7 @@ const JreMito = [
         ekimeiKana: 'ひがしゆうき',
         ekimeiRoma: 'Higashi-Yūki',
         sttnAddr: '茨城県結城市大字結城3320',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -37,6 +41,7 @@ const JreMito = [
         ekimeiKana: 'かわしま',
         ekimeiRoma: 'Kawashima',
         sttnAddr: '茨城県筑西市伊佐山168-1',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -44,6 +49,7 @@ const JreMito = [
         ekimeiKana: 'たまど',
         ekimeiRoma: 'Tamado',
         sttnAddr: '茨城県筑西市玉戸1675-1',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {
@@ -51,6 +57,7 @@ const JreMito = [
         ekimeiKana: 'しもだて',
         ekimeiRoma: 'Shimodate',
         sttnAddr: '茨城県筑西市乙86',
+        passArea: '["NHSP"]',
         ...JreMitoCommon
     },
     {

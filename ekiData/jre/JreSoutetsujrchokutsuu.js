@@ -58,6 +58,7 @@ const JreSoutetsujrchokutsuu = [
         ekimeiKana: 'はざわ よこはまこくだい',
         ekimeiRoma: 'Hazawa yokohama-kokudai',
         sttnAddr: '横浜市神奈川区羽沢南二丁目471-3',
+        passArea: '["NHSP"]',
         ...compNameJre,
         ...JreSoutetsujrchokutsuuCommon.lineName1,
     },

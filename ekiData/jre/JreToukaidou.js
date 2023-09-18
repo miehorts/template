@@ -1,6 +1,7 @@
 const JreToukaidouCommon = {
     ...compNameJre,
     lineName: '東海道線',
+    passArea: '["NHSP"]',
 }
 
 const JreToukaidou = [
@@ -121,6 +122,7 @@ const JreToukaidou = [
         ekimeiKana: 'はやかわ',
         ekimeiRoma: 'Hayakawa',
         sttnAddr: '神奈川県小田原市早川一丁目16-1',
+        passArea: '[]',
         ...JreToukaidouCommon
     },
     {
@@ -128,6 +130,7 @@ const JreToukaidou = [
         ekimeiKana: 'ねぶかわ',
         ekimeiRoma: 'Nebukawa',
         sttnAddr: '神奈川県小田原市根府川109',
+        passArea: '[]',
         ...JreToukaidouCommon
     },
     {
@@ -135,6 +138,7 @@ const JreToukaidou = [
         ekimeiKana: 'まなづる',
         ekimeiRoma: 'Manazuru',
         sttnAddr: '神奈川県足柄下郡真鶴町真鶴1824',
+        passArea: '[]',
         ...JreToukaidouCommon
     },
     {
@@ -142,6 +146,7 @@ const JreToukaidou = [
         ekimeiKana: 'ゆがわら',
         ekimeiRoma: 'Yugawara',
         sttnAddr: '神奈川県足柄下郡湯河原町宮下670',
+        passArea: '[]',
         ...JreToukaidouCommon
     },
     {
@@ -149,6 +154,7 @@ const JreToukaidou = [
         ekimeiKana: 'あたみ',
         ekimeiRoma: 'Atami',
         sttnAddr: '静岡県熱海市田原本町11-1',
+        passArea: '[]',
         ...JreToukaidouCommon
     },
 ];

@@ -1,6 +1,7 @@
 const JreTouganeCommon = {
     ...compNameJre,
     lineName: '東金線',
+    passArea: '["NHSP"]',
 }
 
 const JreTougane = [

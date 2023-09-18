@@ -2,6 +2,7 @@ const JreJoubankankouCommon = {
     ...compNameJre,
     lineName: '常磐緩行線',
     lineName1: { lineName: '常磐線（各駅停車）'},
+    passArea: '["NHSP"]',
 }
 
 const JreJoubankankou = [
@@ -12,6 +13,7 @@ const JreJoubankankou = [
         sttnAddr: '東京都足立区綾瀬三丁目1-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '亀有',
@@ -20,6 +22,7 @@ const JreJoubankankou = [
         sttnAddr: '東京都葛飾区亀有三丁目25-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '金町',
@@ -28,6 +31,7 @@ const JreJoubankankou = [
         sttnAddr: '東京都葛飾区金町六丁目4-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '松戸',
@@ -36,6 +40,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県松戸市松戸1181',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '北松戸',
@@ -44,6 +49,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県松戸市上本郷905',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '馬橋',
@@ -52,6 +58,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県松戸市馬橋121',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '新松戸',
@@ -60,6 +67,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県松戸市幸谷571-3',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '北小金',
@@ -68,6 +76,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県松戸市小金8-3',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '南柏',
@@ -76,6 +85,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県柏市南柏一丁目1-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '柏',
@@ -84,6 +94,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県柏市柏一丁目1-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '北柏',
@@ -92,6 +103,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県柏市根戸字中馬場1901',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '我孫子',
@@ -100,6 +112,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県我孫子市本町二丁目1-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '天王台',
@@ -108,6 +121,7 @@ const JreJoubankankou = [
         sttnAddr: '千葉県我孫子市柴崎台一丁目19-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
     {
         ekimeiKanj: '取手',
@@ -116,5 +130,6 @@ const JreJoubankankou = [
         sttnAddr: '茨城県取手市中央町1-1',
         ...compNameJre,
         ...JreJoubankankouCommon.lineName1,
+        ...JreJoubankankouCommon.passArea,
     },
 ];

@@ -25,6 +25,7 @@ const JreUchibou = [
         ekimeiKana: 'そが',
         ekimeiRoma: 'Soga',
         sttnAddr: '千葉市中央区今井二丁目50-2',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -32,6 +33,7 @@ const JreUchibou = [
         ekimeiKana: 'はまの',
         ekimeiRoma: 'Hamano',
         sttnAddr: '千葉市中央区村田町700',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -39,6 +41,7 @@ const JreUchibou = [
         ekimeiKana: 'やわたじゅく',
         ekimeiRoma: 'Yawatajuku',
         sttnAddr: '千葉県市原市八幡930-3',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -46,6 +49,7 @@ const JreUchibou = [
         ekimeiKana: 'ごい',
         ekimeiRoma: 'Goi',
         sttnAddr: '千葉県市原市五井中央西二丁目1-11',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -53,6 +57,7 @@ const JreUchibou = [
         ekimeiKana: 'あねがさき',
         ekimeiRoma: 'Anegasaki',
         sttnAddr: '千葉県市原市姉崎東',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -60,6 +65,7 @@ const JreUchibou = [
         ekimeiKana: 'ながうら',
         ekimeiRoma: 'Nagaura',
         sttnAddr: '千葉県袖ケ浦市蔵波5',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -67,6 +73,7 @@ const JreUchibou = [
         ekimeiKana: 'そでがうら',
         ekimeiRoma: 'Sodegaura',
         sttnAddr: '千葉県袖ケ浦市奈良輪1198',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -74,6 +81,7 @@ const JreUchibou = [
         ekimeiKana: 'いわね',
         ekimeiRoma: 'Iwane',
         sttnAddr: '千葉県木更津市岩根三丁目5-1',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -81,6 +89,7 @@ const JreUchibou = [
         ekimeiKana: 'きさらづ',
         ekimeiRoma: 'Kisarazu',
         sttnAddr: '千葉県木更津市富士見一丁目1-1',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {
@@ -88,6 +97,7 @@ const JreUchibou = [
         ekimeiKana: 'きみつ',
         ekimeiRoma: 'Kimitsu',
         sttnAddr: '千葉県君津市東坂田一丁目1-1',
+        passArea: '["NHSP"]',
         ...JreUchibouCommon,
     },
     {

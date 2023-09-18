@@ -1,6 +1,7 @@
 const TokyomonorailTokyomonorailhanedaCommon = {
     ...compNameTokyomonorail,
     lineName: '東京モノレール羽田空港線',
+    passArea: '["NHSP"]',
 }
 
 const TokyomonorailTokyomonorailhaneda = [

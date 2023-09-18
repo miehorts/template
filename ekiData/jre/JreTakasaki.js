@@ -1,6 +1,7 @@
 const JreTakasakiCommon = {
     ...compNameJre,
     lineName: '高崎線',
+    passArea: '["NHSP"]',
 }
 
 const JreTakasaki = [
@@ -163,6 +164,7 @@ const JreTakasaki = [
         ekimeiKana: 'しんまち',
         ekimeiRoma: 'Shimmachi',
         sttnAddr: '群馬県高崎市新町2150',
+        passArea: '[]',
         ...JreTakasakiCommon
     },
     {
@@ -170,6 +172,7 @@ const JreTakasaki = [
         ekimeiKana: 'くらがの',
         ekimeiRoma: 'Kuragano',
         sttnAddr: '群馬県高崎市倉賀野町1797',
+        passArea: '[]',
         ...JreTakasakiCommon
     },
     {
@@ -177,6 +180,7 @@ const JreTakasaki = [
         ekimeiKana: 'たかさき',
         ekimeiRoma: 'Takasaki',
         sttnAddr: '群馬県高崎市八島町222',
+        passArea: '[]',
         ...JreTakasakiCommon
     },
 ];

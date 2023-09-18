@@ -132,3 +132,28 @@
     display: block;
     width: 100%;
 }
+
+.config-passes {
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 56px);
+    top: 56px;
+    left: 100%;
+    /*left: 0;*/
+    z-index: 90;
+    background-color: #ffffff;
+    font-size: 24px;
+}
+
+.config-passes.opened {
+    left: 0;
+}
+
+.config-passes .pass-name {
+    padding-left: 10px;    
+}
+
+.config-passes label {
+    display: block;
+    width: 100%;
+}

@@ -46,6 +46,7 @@ const JreNarita = [
         ekimeiKana: 'さくら',
         ekimeiRoma: 'Sakura',
         sttnAddr: '千葉県佐倉市六崎235-2',
+        passArea: '["NHSP"]',
         ...JreNaritaCommon
     },
     {
@@ -53,6 +54,7 @@ const JreNarita = [
         ekimeiKana: 'しすい',
         ekimeiRoma: 'Shisui',
         sttnAddr: '千葉県印旛郡酒々井町酒々井921',
+        passArea: '["NHSP"]',
         ...JreNaritaCommon
     },
     {
@@ -60,6 +62,7 @@ const JreNarita = [
         ekimeiKana: 'なりた',
         ekimeiRoma: 'Narita',
         sttnAddr: '千葉県成田市花崎町839',
+        passArea: '["NHSP"]',
         ...JreNaritaCommon
     },
     {
@@ -67,6 +70,7 @@ const JreNarita = [
         ekimeiKana: 'くうこうだいにびる',
         ekimeiRoma: 'Narita Airport Terminal 2･3',
         sttnAddr: '千葉県成田市古込1-1',
+        passArea: '["NHSP"]',
         ...JreNaritaCommon
     },
     {
@@ -74,6 +78,7 @@ const JreNarita = [
         ekimeiKana: 'なりたくうこう',
         ekimeiRoma: 'Narita Airport Terminal 1',
         sttnAddr: '千葉県成田市三里塚御料牧場1-1',
+        passArea: '["NHSP"]',
         ...JreNaritaCommon
     },
     {

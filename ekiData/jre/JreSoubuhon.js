@@ -9,6 +9,7 @@ const JreSoubuhon = [
         ekimeiKana: 'ちば',
         ekimeiRoma: 'Chiba',
         sttnAddr: '千葉市中央区新千葉一丁目1-1',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -16,6 +17,7 @@ const JreSoubuhon = [
         ekimeiKana: 'ひがしちば',
         ekimeiRoma: 'Higashi-Chiba',
         sttnAddr: '千葉市中央区要町1-10',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -23,6 +25,7 @@ const JreSoubuhon = [
         ekimeiKana: 'つが',
         ekimeiRoma: 'Tsuga',
         sttnAddr: '千葉市若葉区都賀三丁目3-1',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -30,6 +33,7 @@ const JreSoubuhon = [
         ekimeiKana: 'よつかいどう',
         ekimeiRoma: 'Yotsukaidō',
         sttnAddr: '千葉県四街道市四街道一丁目1-1',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -37,6 +41,7 @@ const JreSoubuhon = [
         ekimeiKana: 'ものい',
         ekimeiRoma: 'Monoi',
         sttnAddr: '千葉県四街道市物井428',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -44,6 +49,7 @@ const JreSoubuhon = [
         ekimeiKana: 'さくら',
         ekimeiRoma: 'Sakura',
         sttnAddr: '千葉県佐倉市六崎235-2',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -51,6 +57,7 @@ const JreSoubuhon = [
         ekimeiKana: 'みなみしすい',
         ekimeiRoma: 'Minami-Shisui',
         sttnAddr: '千葉県印旛郡酒々井町馬橋569',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -58,6 +65,7 @@ const JreSoubuhon = [
         ekimeiKana: 'えのきど',
         ekimeiRoma: 'Enokido',
         sttnAddr: '千葉県八街市榎戸924-2',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -65,6 +73,7 @@ const JreSoubuhon = [
         ekimeiKana: 'やちまた',
         ekimeiRoma: 'Yachimata',
         sttnAddr: '千葉県八街市八街ほ237',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -72,6 +81,7 @@ const JreSoubuhon = [
         ekimeiKana: 'ひゅうが',
         ekimeiRoma: 'Hyūga',
         sttnAddr: '千葉県山武市椎崎300',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
@@ -79,6 +89,7 @@ const JreSoubuhon = [
         ekimeiKana: 'なるとう',
         ekimeiRoma: 'Narutō',
         sttnAddr: '千葉県山武市津辺305',
+        passArea: '["NHSP"]',
         ...JreSoubuhonCommon
     },
     {
