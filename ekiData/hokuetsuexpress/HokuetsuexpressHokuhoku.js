@@ -1,6 +1,7 @@
 const HokuetsuexpressHokuhokuCommon = {
     ...compNameHokuetsuexpress,
     lineName: 'ほくほく線',
+    passArea: '["ShuP"]',
 }
 
 const HokuetsuexpressHokuhoku = [

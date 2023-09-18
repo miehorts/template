@@ -10,3 +10,6 @@ const compNameTokyomonorail = {
 const compNameHokuetsuexpress = {
     compName: '北越急行'
 };
+const compNameIzukyu = {
+    compName: '伊豆急'
+};
