@@ -1,5 +1,5 @@
 const IzukyuIzukyuukouCommon = {
-    ...compNameJre,
+    ...compNameIzukyu,
     lineName: '伊豆急行線',
     passArea: '["ShuP"]',
 }
