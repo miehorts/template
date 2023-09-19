@@ -91,7 +91,7 @@ const lines = {
     JreOga,
     JreGonou,
     TwrRinkai,
-    TokyomonorailTokyomonorailhaneda,
+    TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
     IzukyuIzukyuukou,
     AizurailwayAizu,
@@ -99,6 +99,7 @@ const lines = {
     EtrMyoukouhaneuma,
     FujikyurailwayFujikyuukou,
     KrtOoaraikashima,
+    HitachinakaseasiderailwayMinato,
 };
 
 const ekiListAll = [];

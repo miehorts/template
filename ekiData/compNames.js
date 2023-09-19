@@ -25,3 +25,6 @@ const compNameFujikyurailway = {
 const compNameKrt = {
     compName: '鹿島臨海鉄道'
 };
+const compNameHitachinakaseasiderailway = {
+    compName: 'ひたちなか海浜鉄道'
+};
