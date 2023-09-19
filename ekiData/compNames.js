@@ -19,3 +19,6 @@ const compNameEtr = {
 const compNameFujikyurailway = {
     compName: '富士山麓電気鉄道'
 };
+const compNameKrt = {
+    compName: '鹿島臨海鉄道'
+};
