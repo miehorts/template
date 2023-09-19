@@ -94,6 +94,7 @@ const lines = {
     TokyomonorailTokyomonorailhaneda,
     HokuetsuexpressHokuhoku,
     IzukyuIzukyuukou,
+    AizurailwayAizu,
 };
 
 const ekiListAll = [];
