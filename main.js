@@ -97,6 +97,7 @@ const lines = {
     AizurailwayAizu,
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
+    FujikyurailwayFujikyuukou,
 };
 
 const ekiListAll = [];
