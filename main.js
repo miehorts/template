@@ -95,6 +95,7 @@ const lines = {
     HokuetsuexpressHokuhoku,
     IzukyuIzukyuukou,
     AizurailwayAizu,
+    EtrNihonkaihisui,
 };
 
 const ekiListAll = [];

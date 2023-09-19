@@ -13,3 +13,6 @@ const compNameHokuetsuexpress = {
 const compNameIzukyu = {
     compName: '伊豆急'
 };
+const compNameEtr = {
+    compName: 'えちごトキめき鉄道'
+};
