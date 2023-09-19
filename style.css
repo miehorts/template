@@ -157,3 +157,27 @@
     display: block;
     width: 100%;
 }
+
+.main-fore .ekimeiKanj {
+    font-size: 24px;
+}
+
+.main-fore .ekimeiKana {
+    font-size: 14px;
+}
+
+.main-fore .ekimeiRoma {
+    font-size: 15px;
+}
+
+.main-fore .compName {
+    font-size: 18px;
+}
+
+.main-fore .lineName {
+    font-size: 18px;
+}
+
+.main-fore .sttnAddr {
+    font-size: 12px;
+}
