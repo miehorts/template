@@ -101,6 +101,7 @@ const lines = {
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
     FukushimatransportationIizaka,
+    AbukyuuAbukumakyuukou,
 };
 
 const ekiListAll = [];
