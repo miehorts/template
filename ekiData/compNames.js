@@ -40,3 +40,6 @@ const compNameYamagatarailway = {
 const compNameShinatetsu = {
     compName: 'しなの鉄道'
 };
+const compNameJouden = {
+    compName: '上田電鉄'
+};

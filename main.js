@@ -105,6 +105,7 @@ const lines = {
     YamagatarailwayFurawanagai,
     ShinatetsuShinanotetsudou,
     ShinatetsuKitashinano,
+    JoudenBessho,
 };
 
 const ekiListAll = [];
