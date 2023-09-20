@@ -37,3 +37,6 @@ const compNameAbukyuu = {
 const compNameYamagatarailway = {
     compName: '山形鉄道'
 };
+const compNameShinatetsu = {
+    compName: 'しなの鉄道'
+};

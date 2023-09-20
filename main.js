@@ -103,6 +103,7 @@ const lines = {
     FukushimatransportationIizaka,
     AbukyuuAbukumakyuukou,
     YamagatarailwayFurawanagai,
+    ShinatetsuShinanotetsudou,
 };
 
 const ekiListAll = [];
