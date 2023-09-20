@@ -102,6 +102,7 @@ const lines = {
     HitachinakaseasiderailwayMinato,
     FukushimatransportationIizaka,
     AbukyuuAbukumakyuukou,
+    YamagatarailwayFurawanagai,
 };
 
 const ekiListAll = [];
