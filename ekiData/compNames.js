@@ -43,3 +43,6 @@ const compNameShinatetsu = {
 const compNameJouden = {
     compName: '上田電鉄'
 };
+const compNameNer = {
+    compName: '長野電鉄'
+};
