@@ -100,6 +100,7 @@ const lines = {
     FujikyurailwayFujikyuukou,
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
+    FukushimatransportationIizaka,
 };
 
 const ekiListAll = [];

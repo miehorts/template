@@ -28,3 +28,6 @@ const compNameKrt = {
 const compNameHitachinakaseasiderailway = {
     compName: 'ひたちなか海浜鉄道'
 };
+const compNameFukushimatransportation = {
+    compName: '福島交通'
+};
