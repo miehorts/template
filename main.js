@@ -104,6 +104,7 @@ const lines = {
     AbukyuuAbukumakyuukou,
     YamagatarailwayFurawanagai,
     ShinatetsuShinanotetsudou,
+    ShinatetsuKitashinano,
 };
 
 const ekiListAll = [];
