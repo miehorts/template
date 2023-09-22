@@ -1,6 +1,7 @@
 const AizurailwayAizuCommon = {
     ...compNameAizurailway,
     lineName: '会津線',
+    passArea: '["ShuP"]',
 }
 
 const AizurailwayAizu = [

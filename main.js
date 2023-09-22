@@ -107,6 +107,7 @@ const lines = {
     ShinatetsuKitashinano,
     JoudenBessho,
     NerNagano,
+    AlpicoKamikouchi,
 };
 
 const ekiListAll = [];

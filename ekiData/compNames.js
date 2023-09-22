@@ -46,3 +46,6 @@ const compNameJouden = {
 const compNameNer = {
     compName: '長野電鉄'
 };
+const compNameAlpico = {
+    compName: 'アルピコ交通'
+};
