@@ -173,7 +173,7 @@ function filter() {
         list.push(...lines[$(elm).data('line-id')]);
     });
     if ($('div.pass-enab input').prop('checked')) {
-        const passName = $('input[name="pass-name"]').val();
+        const passName = $('input[name="pass-name"]:checked').val();
         list = list.filter((eki) => {
             if (eki.passArea) {
                 const passes = JSON.parse(eki.passArea);
