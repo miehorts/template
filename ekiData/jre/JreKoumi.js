@@ -1,6 +1,7 @@
 const JreKoumiCommon = {
     ...compNameJre,
     lineName: '小海線',
+    passArea: '["ShuP"]',
 };
 
 const JreKoumi = [

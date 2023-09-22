@@ -1,7 +1,7 @@
 const JreMusashinoCommon = {
     ...compNameJre,
     lineName: '武蔵野線',
-    passArea: '["NHSP"]',
+    passArea: '["Shup", "NHSP"]',
 };
 
 const JreMusashino = [

@@ -1,6 +1,7 @@
 const JreTadamiCommon = {
     ...compNameJre,
     lineName: '只見線',
+    passArea: '["Shup"]',
 }
 
 const JreTadami = [

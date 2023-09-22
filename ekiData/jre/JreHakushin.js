@@ -1,6 +1,7 @@
 const JreHakushinCommon = {
     ...compNameJre,
     lineName: '白新線',
+    passArea: '["ShuP"]',
 }
 
 const JreHakushin = [

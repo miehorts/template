@@ -1,6 +1,7 @@
 const JreRifuCommon = {
     ...compNameJre,
     lineName: '利府線',
+    passArea: '["ShuP"]',
 }
 
 const JreRifu = [

@@ -9,6 +9,7 @@ const JreAkitashinkan = [
         ekimeiKana: 'とうきょう',
         ekimeiRoma: 'Tōkyō',
         sttnAddr: '東京都千代田区丸の内一丁目9-1',
+        passArea: '["ShuP"]',
         ...JreAkitashinkanCommon
     },
     {
@@ -16,6 +17,7 @@ const JreAkitashinkan = [
         ekimeiKana: 'うえの',
         ekimeiRoma: 'Ueno',
         sttnAddr: '東京都台東区上野七丁目1-1',
+        passArea: '["ShuP"]',
         ...JreAkitashinkanCommon
     },
     {
@@ -23,6 +25,7 @@ const JreAkitashinkan = [
         ekimeiKana: 'おおみや',
         ekimeiRoma: 'Ōmiya',
         sttnAddr: '埼玉県さいたま市大宮区錦町630',
+        passArea: '["ShuP"]',
         ...JreAkitashinkanCommon
     },
     {
@@ -30,6 +33,7 @@ const JreAkitashinkan = [
         ekimeiKana: 'せんだい',
         ekimeiRoma: 'Sendai',
         sttnAddr: '仙台市青葉区中央一丁目1-1',
+        passArea: '["ShuP"]',
         ...JreAkitashinkanCommon
     },
     {

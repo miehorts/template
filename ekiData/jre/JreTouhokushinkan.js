@@ -1,7 +1,12 @@
 const JreTouhokushinkanCommon = {
     ...compNameJre,
     lineName: '東北新幹線',
-}
+};
+
+const JreTouhokushinkanCommon1 = {
+    ...JreTouhokushinkanCommon,
+    passArea: '["Shup"]',
+};
 
 const JreTouhokushinkan = [
     {
@@ -9,91 +14,91 @@ const JreTouhokushinkan = [
         ekimeiKana: 'とうきょう',
         ekimeiRoma: 'Tōkyō',
         sttnAddr: '東京都千代田区丸の内一丁目9-1',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '上野',
         ekimeiKana: 'うえの',
         ekimeiRoma: 'Ueno',
         sttnAddr: '東京都台東区上野七丁目1-1',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '大宮',
         ekimeiKana: 'おおみや',
         ekimeiRoma: 'Ōmiya',
         sttnAddr: '埼玉県さいたま市大宮区錦町630',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '小山',
         ekimeiKana: 'おやま',
         ekimeiRoma: 'Oyama',
         sttnAddr: '栃木県小山市城山町三丁目3-22',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '宇都宮',
         ekimeiKana: 'うつのみや',
         ekimeiRoma: 'Utsunomiya',
         sttnAddr: '栃木県宇都宮市川向町1番23号',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '那須塩原',
         ekimeiKana: 'なすしおばら',
         ekimeiRoma: 'Nasushiobara',
         sttnAddr: '栃木県那須塩原市大原間561',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '新白河',
         ekimeiKana: 'しんしらかわ',
         ekimeiRoma: 'Shin-Shirakawa',
         sttnAddr: '福島県西白河郡西郷村字道南東114',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '郡山',
         ekimeiKana: 'こおりやま',
         ekimeiRoma: 'Kōriyama',
         sttnAddr: '福島県郡山市字燧田195',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '福島',
         ekimeiKana: 'ふくしま',
         ekimeiRoma: 'Fukushima',
         sttnAddr: '福島県福島市栄町1番1号',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '白石蔵王',
         ekimeiKana: 'しろいしざおう',
         ekimeiRoma: 'Shiroishizaō',
         sttnAddr: '宮城県白石市大鷹沢三沢字桜田11-1',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '仙台',
         ekimeiKana: 'せんだい',
         ekimeiRoma: 'Sendai',
         sttnAddr: '仙台市青葉区中央一丁目1-1',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '古川',
         ekimeiKana: 'ふるかわ',
         ekimeiRoma: 'Furukawa',
         sttnAddr: '宮城県大崎市古川駅前大通一丁目7-35',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: 'くりこま高原',
         ekimeiKana: 'くりこまこうげん',
         ekimeiRoma: 'Kurikoma-Kōgen',
         sttnAddr: '宮城県栗原市志波姫新熊谷284',
-        ...JreTouhokushinkanCommon
+        ...JreTouhokushinkanCommon1
     },
     {
         ekimeiKanj: '一ノ関',

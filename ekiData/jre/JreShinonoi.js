@@ -1,6 +1,7 @@
 const JreShinonoiCommon = {
     ...compNameJre,
     lineName: '篠ノ井線',
+    passArea: '["ShuP"]',
 }
 
 const JreShinonoi = [

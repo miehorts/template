@@ -1,9 +1,15 @@
 const JreSoutetsujrchokutsuuCommon = {
     ...compNameJre,
     lineName: '相鉄・JR直通線',
-    lineName1: { lineName: '相鉄線直通' },
-    lineName2: { lineName: '相鉄線直通／埼京線直通' },
-}
+    //lineName1: { lineName: '相鉄線直通' },
+    //lineName2: { lineName: '相鉄線直通／埼京線直通' },
+    passArea: '["ShuP", "NHSP"]',
+};
+
+const JreSoutetsujrchokutsuuCommon1 = {
+    ...JreSoutetsujrchokutsuuCommon,
+    lineName: '相鉄線直通',
+};
 
 const JreSoutetsujrchokutsuu = [
     /*
@@ -58,8 +64,6 @@ const JreSoutetsujrchokutsuu = [
         ekimeiKana: 'はざわ よこはまこくだい',
         ekimeiRoma: 'Hazawa yokohama-kokudai',
         sttnAddr: '横浜市神奈川区羽沢南二丁目471-3',
-        passArea: '["NHSP"]',
-        ...compNameJre,
-        ...JreSoutetsujrchokutsuuCommon.lineName1,
+        ...JreSoutetsujrchokutsuuCommon1,
     },
 ];

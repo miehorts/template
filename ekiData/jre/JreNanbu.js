@@ -1,7 +1,7 @@
 const JreNanbuCommon = {
     ...compNameJre,
     lineName: '南武線',
-    passArea: '["NHSP"]',
+    passArea: '["Shup", "NHSP"]',
 };
 
 const JreNanbu = [

@@ -1,6 +1,7 @@
 const JreRikuusaiCommon = {
     ...compNameJre,
     lineName: '陸羽西線',
+    passArea: '["ShuP"]',
 }
 
 const JreRikuusai = [

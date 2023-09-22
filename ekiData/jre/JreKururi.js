@@ -1,6 +1,7 @@
 const JreKururiCommon = {
     ...compNameJre,
     lineName: '久留里線',
+    passArea: '["ShuP"]',
 }
 
 const JreKururi = [

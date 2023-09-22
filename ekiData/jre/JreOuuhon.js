@@ -1,7 +1,12 @@
 const JreOuuhonCommon = {
     ...compNameJre,
     lineName: '奥羽本線',
-}
+};
+
+const JreOuuhonCommon1 = {
+    ...JreOuuhonCommon,
+    passArea: '["ShuP"]',
+};
 
 const JreOuuhon = [
     {
@@ -9,84 +14,84 @@ const JreOuuhon = [
         ekimeiKana: 'しんじょう',
         ekimeiRoma: 'Shinjō',
         sttnAddr: '山形県新庄市多門町1-1',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '泉田',
         ekimeiKana: 'いずみた',
         ekimeiRoma: 'Izumita',
         sttnAddr: '山形県新庄市大字泉田2244',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '羽前豊里',
         ekimeiKana: 'うぜんとよさと',
         ekimeiRoma: 'Uzen-Toyosato',
         sttnAddr: '山形県最上郡鮭川村大字石名坂65',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '真室川',
         ekimeiKana: 'まむろがわ',
         ekimeiRoma: 'Mamurogawa',
         sttnAddr: '山形県最上郡真室川町大字新町',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '釜淵',
         ekimeiKana: 'かまぶち',
         ekimeiRoma: 'Kamabuchi',
         sttnAddr: '山形県最上郡真室川町大字釜淵',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '大滝',
         ekimeiKana: 'おおたき',
         ekimeiRoma: 'Ōtaki',
         sttnAddr: '山形県最上郡真室川町大字大滝',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '及位',
         ekimeiKana: 'のぞき',
         ekimeiRoma: 'Nozoki',
         sttnAddr: '山形県最上郡真室川町大字及位',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '院内',
         ekimeiKana: 'いんない',
         ekimeiRoma: 'Innai',
         sttnAddr: '秋田県湯沢市上院内字小沢115',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '横堀',
         ekimeiKana: 'よこぼり',
         ekimeiRoma: 'Yokobori',
         sttnAddr: '秋田県湯沢市小野字西堺127-2',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '三関',
         ekimeiKana: 'みつせき',
         ekimeiRoma: 'Mitsuseki',
         sttnAddr: '秋田県湯沢市上関字二ツ橋5',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '上湯沢',
         ekimeiKana: 'かみゆざわ',
         ekimeiRoma: 'Kami-Yuzawa',
         sttnAddr: '秋田県湯沢市関口字堀量88',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '湯沢',
         ekimeiKana: 'ゆざわ',
         ekimeiRoma: 'Yuzawa',
         sttnAddr: '秋田県湯沢市表町二丁目2-10',
-        ...JreOuuhonCommon
+        ...JreOuuhonCommon1
     },
     {
         ekimeiKanj: '下湯沢',

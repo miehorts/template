@@ -1,7 +1,7 @@
 const JreSaikyouCommon = {
     ...compNameJre,
     lineName: '埼京線',
-    passArea: '["NHSP"]',
+    passArea: '["Shup", "NHSP"]',
 }
 
 const JreSaikyou = [

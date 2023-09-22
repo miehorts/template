@@ -1,7 +1,13 @@
 const JreHachikouCommon = {
     ...compNameJre,
     lineName: '八高線',
-    passArea: '["NHSP"]',
+    passArea: '["Shup", "NHSP"]',
+}
+
+const JreHachikouCommon1 = {
+    ...compNameJre,
+    lineName: JreHachikouCommon.lineName,
+    passArea: '["Shup"]',
 }
 
 const JreHachikou = [
@@ -123,7 +129,7 @@ const JreHachikou = [
         ekimeiRoma: 'Yōdo',
         sttnAddr: '埼玉県大里郡寄居町大字用土1724',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '松久',
@@ -131,7 +137,7 @@ const JreHachikou = [
         ekimeiRoma: 'Matsuhisa',
         sttnAddr: '埼玉県児玉郡美里町大字甘粕140',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '児玉',
@@ -139,7 +145,7 @@ const JreHachikou = [
         ekimeiRoma: 'Kodama',
         sttnAddr: '	埼玉県本庄市児玉町児玉2482',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '丹荘',
@@ -147,7 +153,7 @@ const JreHachikou = [
         ekimeiRoma: 'Tanshō',
         sttnAddr: '埼玉県児玉郡神川町大字植竹783',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '群馬藤岡',
@@ -155,7 +161,7 @@ const JreHachikou = [
         ekimeiRoma: 'Gumma-Fujioka',
         sttnAddr: '群馬県藤岡市藤岡629-2',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '北藤岡',
@@ -163,7 +169,7 @@ const JreHachikou = [
         ekimeiRoma: 'Kita-Fujioka',
         sttnAddr: '群馬県藤岡市立石558-1',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     {
         ekimeiKanj: '倉賀野',
@@ -171,7 +177,7 @@ const JreHachikou = [
         ekimeiRoma: 'Kuragano',
         sttnAddr: '群馬県高崎市倉賀野町1797',
         passArea: '[]',
-        ...JreHachikouCommon
+        ...JreHachikouCommon1
     },
     /*
     {

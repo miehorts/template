@@ -1,6 +1,7 @@
 const JreSenzanCommon = {
     ...compNameJre,
     lineName: '仙山線',
+    passArea: '["ShuP"]',
 }
 
 const JreSenzan = [

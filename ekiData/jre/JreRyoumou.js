@@ -1,7 +1,17 @@
 const JreRyoumouCommon = {
     ...compNameJre,
     lineName: '両毛線',
-}
+};
+
+const JreRyoumouCommon1 = {
+    ...JreRyoumouCommon,
+    passArea: '["Shup", "NHSP"]',
+};
+
+const JreRyoumouCommon2 = {
+    ...JreRyoumouCommon,
+    passArea: '["Shup"]',
+};
 
 const JreRyoumou = [
     {
@@ -9,142 +19,133 @@ const JreRyoumou = [
         ekimeiKana: 'おやま',
         ekimeiRoma: 'Oyama',
         sttnAddr: '栃木県小山市城山町三丁目3-22',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '思川',
         ekimeiKana: 'おもいがわ',
         ekimeiRoma: 'Omoigawa',
         sttnAddr: '栃木県小山市大字松沼965',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '栃木',
         ekimeiKana: 'とちぎ',
         ekimeiRoma: 'Tochigi',
         sttnAddr: '栃木県栃木市沼和田町1-1',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '大平下',
         ekimeiKana: 'おおひらした',
         ekimeiRoma: 'Ōhirashita',
         sttnAddr: '栃木県栃木市大平町富田',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '岩舟',
         ekimeiKana: 'いわふね',
         ekimeiRoma: 'Iwafune',
         sttnAddr: '栃木県栃木市岩舟町静',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '佐野',
         ekimeiKana: 'さの',
         ekimeiRoma: 'Sano',
         sttnAddr: '栃木県佐野市若松町',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '富田',
         ekimeiKana: 'とみた',
         ekimeiRoma: 'Tomita',
         sttnAddr: '栃木県足利市駒場町148',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: 'あしかがフラワーパーク',
         ekimeiKana: 'あしかがふらわーぱーく',
         ekimeiRoma: 'Ashikaga Flower Park',
         sttnAddr: '	栃木県足利市迫間町字本郷533番',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '足利',
         ekimeiKana: 'あしかが',
         ekimeiRoma: 'Ashikaga',
         sttnAddr: '栃木県足利市伊勢町一丁目118',
-        passArea: '["NHSP"]',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon1
     },
     {
         ekimeiKanj: '山前',
         ekimeiKana: 'やままえ',
         ekimeiRoma: 'Yamamae',
         sttnAddr: '栃木県足利市鹿島町1102',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '小俣',
         ekimeiKana: 'おまた',
         ekimeiRoma: 'Omata',
         sttnAddr: '栃木県足利市小俣町682',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '桐生',
         ekimeiKana: 'きりゅう',
         ekimeiRoma: 'Kiryū',
         sttnAddr: '群馬県桐生市末広町11-1',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '岩宿',
         ekimeiKana: 'いわじゅく',
         ekimeiRoma: 'Iwajuku',
         sttnAddr: '群馬県みどり市笠懸町阿左美1500',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '国定',
         ekimeiKana: 'くにさだ',
         ekimeiRoma: 'Kunisada',
         sttnAddr: '群馬県伊勢崎市国定町二丁目1805',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '伊勢崎',
         ekimeiKana: 'いせさき',
         ekimeiRoma: 'Isesaki',
         sttnAddr: '群馬県伊勢崎市曲輪町3-1',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '駒形',
         ekimeiKana: 'こまがた',
         ekimeiRoma: 'Komagata',
         sttnAddr: '群馬県前橋市小屋原町852',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '前橋大島',
         ekimeiKana: 'まえばしおおしま',
         ekimeiRoma: 'Maebashiōshima',
         sttnAddr: '群馬県前橋市天川大島町1324',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '前橋',
         ekimeiKana: 'まえばし',
         ekimeiRoma: 'Maebashi',
         sttnAddr: '群馬県前橋市表町二丁目367-1',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     {
         ekimeiKanj: '新前橋',
         ekimeiKana: 'しんまえばし',
         ekimeiRoma: 'Shim-Maebashi',
         sttnAddr: '群馬県前橋市古市町471',
-        ...JreRyoumouCommon
+        ...JreRyoumouCommon2
     },
     /*
     {

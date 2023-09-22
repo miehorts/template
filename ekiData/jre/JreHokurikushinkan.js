@@ -1,6 +1,7 @@
 const JreHokurikushinkanCommon = {
     ...compNameJre,
     lineName: '北陸新幹線',
+    passArea: '["ShuP"]',
 }
 
 const JreHokurikushinkan = [

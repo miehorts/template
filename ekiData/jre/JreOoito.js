@@ -1,6 +1,7 @@
 const JreOoitoCommon = {
     ...compNameJre,
     lineName: '大糸線',
+    passArea: '["ShuP"]',
 }
 
 const JreOoito = [

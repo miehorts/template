@@ -1,7 +1,7 @@
 const JreTsurumiCommon = {
     ...compNameJre,
     lineName: '鶴見線',
-    passArea: '["NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 }
 
 const JreTsurumi = [

@@ -1,6 +1,7 @@
 const JreKarasuyamaCommon = {
     ...compNameJre,
     lineName: '烏山線',
+    passArea: '["ShuP"]',
 }
 
 const JreKarasuyama = [
