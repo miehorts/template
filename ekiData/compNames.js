@@ -1,7 +1,7 @@
 const compNameJre = {
     compName: 'JR東日本'
 };
-const compNameOre = {
+const compNameOer = {
     compName: '小田急電鉄'
 };
 const compNameTwr = {
