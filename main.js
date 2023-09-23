@@ -90,6 +90,7 @@ const lines = {
     JreTazawako,
     JreOga,
     JreGonou,
+    OerOdawara,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,

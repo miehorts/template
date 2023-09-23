@@ -2,7 +2,7 @@ const JreShounanshinjukuCommon = {
     ...compNameJre,
     lineName: '湘南新宿ライン',
     passArea: '["ShuP", "NHSP"]',
-}
+};
 
 const JreShounanshinjuku = [
     {
