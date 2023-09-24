@@ -4,6 +4,9 @@ const compNameJre = {
 const compNameOer = {
     compName: '小田急電鉄'
 };
+const compNameKeio = {
+    compName: '京王電鉄'
+};
 const compNameTwr = {
     compName: '東京臨海高速鉄道'
 };
