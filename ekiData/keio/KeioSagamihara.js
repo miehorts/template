@@ -1,0 +1,91 @@
+const KeioSagamiharaCommon = {
+    ...compNameKeio,
+    lineName: '相模原線',
+};
+
+const KeioSagamihara = [
+    {
+        ekimeiKanj: '調布',
+        ekimeiKana: 'ちょうふ',
+        ekimeiRoma: 'Chōfu',
+        sttnAddr: '東京都調布市布田四丁目32番地1',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王多摩川',
+        ekimeiKana: 'けいおうたまがわ',
+        ekimeiRoma: 'Keiō-tamagawa',
+        sttnAddr: '東京都調布市多摩川四丁目40番地1',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王稲田堤',
+        ekimeiKana: 'けいおういなだづつみ',
+        ekimeiRoma: 'Keiō-inadazutsumi',
+        sttnAddr: '川崎市多摩区菅四丁目1番1号',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王よみうりランド',
+        ekimeiKana: 'けいおう よみうりランド',
+        ekimeiRoma: 'Keiō-yomiuri-land',
+        sttnAddr: '東京都稲城市矢野口2200番地1',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '稲城',
+        ekimeiKana: 'いなぎ',
+        ekimeiRoma: 'Inagi',
+        sttnAddr: '東京都稲城市東長沼3108番地',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '若葉台',
+        ekimeiKana: 'わかばだい',
+        ekimeiRoma: 'Wakabadai',
+        sttnAddr: '川崎市麻生区黒川609番地',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王永山',
+        ekimeiKana: 'けいおうながやま',
+        ekimeiRoma: 'Keiō-nagayama',
+        sttnAddr: '東京都多摩市永山一丁目18番地1',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王多摩センター',
+        ekimeiKana: 'けいおうたまセンター',
+        ekimeiRoma: 'Keiō-tama-center',
+        sttnAddr: '東京都多摩市落合一丁目10番地2',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '京王堀之内',
+        ekimeiKana: 'けいおうほりのうち',
+        ekimeiRoma: 'Keiō-horinouchi',
+        sttnAddr: '東京都八王子市堀之内三丁目24番地4',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '南大沢',
+        ekimeiKana: 'みなみおおさわ',
+        ekimeiRoma: 'Minami-ōsawa',
+        sttnAddr: '東京都八王子市南大沢二丁目1番地6',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '多摩境',
+        ekimeiKana: 'たまさかい',
+        ekimeiRoma: 'Tamasakai',
+        sttnAddr: '東京都町田市小山ヶ丘三丁目23番地',
+        ...KeioSagamiharaCommon,
+    },
+    {
+        ekimeiKanj: '橋本',
+        ekimeiKana: 'はしもと',
+        ekimeiRoma: 'Hashimoto',
+        sttnAddr: '相模原市緑区橋本二丁目3番2号',
+        ...KeioSagamiharaCommon,
+    },
+];

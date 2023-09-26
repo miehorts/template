@@ -117,13 +117,6 @@ const KeioKeiou = [
         ...KeioKeiouCommon,
     },
     {
-        ekimeiKanj: '調布',
-        ekimeiKana: 'ちょうふ',
-        ekimeiRoma: 'Chōfu',
-        sttnAddr: '東京都調布市布田四丁目32番地1',
-        ...KeioKeiouCommon,
-    },
-    {
         ekimeiKanj: '西調布',
         ekimeiKana: 'にしちょうふ',
         ekimeiRoma: 'Nishi-chōfu',

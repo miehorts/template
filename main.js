@@ -95,6 +95,7 @@ const lines = {
     OerTama,
     KeioKeiou,
     KeioKeioushin,
+    KeioSagamihara,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
