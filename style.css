@@ -166,6 +166,7 @@
 
 .main-back {
     perspective: 1000px;
+    backface-visibility: hidden;
 }
 
 .dice-base {
