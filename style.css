@@ -164,6 +164,10 @@
     width: 100%;
 }
 
+.main-back {
+    perspective: 1000px;
+}
+
 .dice-base {
     transform-style: preserve-3d;
     transform-origin: 50% 90px -90px;
@@ -180,6 +184,22 @@
     width:  100%;
     height: 100%;
     padding: 10px;
+}
+
+.face-0 {
+    transform: translate3d(0,     0,      0) rotateX(     0);
+}
+
+.face-1 {
+    transform: translate3d(0,  90px,  -90px) rotateX(-90deg);
+}
+
+.face-2 {
+    transform: translate3d(0,     0, -180px) rotateX(180deg);
+}
+
+.face-3 {
+    transform: translate3d(0, -90px,  -90px) rotateX( 90deg);
 }
 
 span.ekimeiKanj {
