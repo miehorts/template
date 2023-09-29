@@ -166,7 +166,6 @@
 
 .main-back {
     perspective: 1000px;
-    backface-visibility: hidden;
 }
 
 .dice-base {
@@ -178,6 +177,7 @@
 }
 
 .dice-face {
+    backface-visibility: hidden;
     position: absolute;
     background-color: white;
     color:            black;
