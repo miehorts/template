@@ -100,6 +100,7 @@ const lines = {
     KeioDoubutsuen,
     KeioTakao,
     KeioInokashira,
+    KeiseiHon,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
