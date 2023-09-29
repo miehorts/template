@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ハンバーガーメニューのボタン */
 .sp-menu__box {
     position: fixed;  /* 位置を固定 */
@@ -158,26 +164,43 @@
     width: 100%;
 }
 
-.main-fore .ekimeiKanj {
+.dice-base {
+    transform-style: preserve-3d;
+    transform-origin: 50% 90px -90px;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 180px;
+}
+
+.dice-face {
+    position: absolute;
+    background-color: white;
+    color:            black;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    width:  100%;
+    height: 100%;
+}
+
+span.ekimeiKanj {
     font-size: 24px;
 }
 
-.main-fore .ekimeiKana {
+span.ekimeiKana {
     font-size: 14px;
 }
 
-.main-fore .ekimeiRoma {
+span.ekimeiRoma {
     font-size: 15px;
 }
 
-.main-fore .compName {
+span.compName {
     font-size: 18px;
 }
 
-.main-fore .lineName {
+span.lineName {
     font-size: 18px;
 }
 
-.main-fore .sttnAddr {
+span.sttnAddr {
     font-size: 12px;
 }
