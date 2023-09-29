@@ -167,6 +167,14 @@ $('#throw-dice').on('click', (evt) => {
         { transform: ['rotateX(720deg)'] },
         { fill: 'none', duration: 8000 }
     );
+    setTimeout(updateFace1,     );
+    setTimeout(updateFace2,     );
+    setTimeout(updateFace3, 1000);
+    setTimeout(updateFace0, 2000);
+    setTimeout(updateFace1, 3000);
+    setTimeout(updateFace2, 4000);
+    setTimeout(updateFace3, 5000);
+    setTimeout(updateFace0, 6000);
     /*
     setTimeout(() => {              slideUp(); updateMainPanel(); },     );
     setTimeout(() => { copyTexts(); slideUp();                    }, 1000);
@@ -176,7 +184,7 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
     */
-    setTimeout(() => { $(self).show();                            }, 5000);
+    setTimeout(() => { $(self).show();                            }, 8000);
 });
 
 function filter() {
@@ -200,6 +208,32 @@ function filter() {
     }
     ekiList.splice(0);
     ekiList.push(...list);
+}
+
+function updateFace0() {
+    updateFace($('div.face-0'));
+}
+
+function updateFace1() {
+    updateFace($('div.face-1'));
+}
+
+function updateFace2() {
+    updateFace($('div.face-2'));
+}
+
+function updateFace3() {
+    updateFace($('div.face-3'));
+}
+
+function updateFace($face) {
+    const next = randomEki();
+    $face.find('span.ekimeiKanj').text(next.ekimeiKanj);
+    $face.find('span.ekimeiKana').text(next.ekimeiKana);
+    $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
+    $face.find('span.compName'  ).text(next.compName  );
+    $face.find('span.lineName'  ).text(next.lineName  );
+    $face.find('span.sttnAddr'  ).text(next.sttnAddr  );
 }
 
 function slideUp() {
