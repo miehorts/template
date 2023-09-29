@@ -163,6 +163,11 @@ $('#throw-dice').on('click', (evt) => {
     }
     const self = evt.target;
     $(self).hide();
+    $('div.dice-base')[0].animate(
+        { transform: ['rotateX(720deg)'] },
+        { fill: 'none', duration: 8000 }
+    );
+    /*
     setTimeout(() => {              slideUp(); updateMainPanel(); },     );
     setTimeout(() => { copyTexts(); slideUp();                    }, 1000);
     setTimeout(() => {                         updateMainPanel(); }, 1100);
@@ -170,6 +175,7 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 3000);
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
+    */
     setTimeout(() => { $(self).show();                            }, 5000);
 });
 
