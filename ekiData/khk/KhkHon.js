@@ -330,7 +330,7 @@ const KhkHon = [
         ekimeiKanj: '堀ノ内',
         ekimeiKana: 'ほりのうち',
         ekimeiRoma: 'Horinouchi',
-        sttnAddr: '	神奈川県横須賀市三春町3-45',
+        sttnAddr: '神奈川県横須賀市三春町3-45',
         ...KhkHonCommon
     },
     {
@@ -351,7 +351,7 @@ const KhkHon = [
         ekimeiKanj: '浦賀',
         ekimeiKana: 'うらが',
         ekimeiRoma: 'Uraga',
-        sttnAddr: '	神奈川県横須賀市浦賀1-1-1',
+        sttnAddr: '神奈川県横須賀市浦賀1-1-1',
         ...KhkHonCommon
     },
 ];
