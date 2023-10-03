@@ -110,6 +110,7 @@ const lines = {
     KhkHon,
     KhkKuukou,
     KhkDaishi,
+    KhkZushi,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
