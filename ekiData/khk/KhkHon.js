@@ -1,7 +1,7 @@
 const KhkHonCommon = {
     ...compNameKhk,
     lineName: '本線',
-}
+};
 
 const KhkHon = [
     {
