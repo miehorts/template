@@ -4,6 +4,7 @@ const JreAkitashinkanCommon = {
 }
 
 const JreAkitashinkan = [
+    /*
     {
         ekimeiKanj: '東京',
         ekimeiKana: 'とうきょう',
@@ -36,6 +37,7 @@ const JreAkitashinkan = [
         passArea: '["ShuP"]',
         ...JreAkitashinkanCommon
     },
+    */
     {
         ekimeiKanj: '盛岡',
         ekimeiKana: 'もりおか',

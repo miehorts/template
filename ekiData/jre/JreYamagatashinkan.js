@@ -5,6 +5,7 @@ const JreYamagatashinkanCommon = {
 }
 
 const JreYamagatashinkan = [
+    /*
     {
         ekimeiKanj: '東京',
         ekimeiKana: 'とうきょう',
@@ -61,6 +62,7 @@ const JreYamagatashinkan = [
         sttnAddr: '福島県郡山市字燧田195',
         ...JreYamagatashinkanCommon
     },
+    */
     {
         ekimeiKanj: '福島',
         ekimeiKana: 'ふくしま',

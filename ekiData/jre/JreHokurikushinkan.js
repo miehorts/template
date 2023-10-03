@@ -5,6 +5,7 @@ const JreHokurikushinkanCommon = {
 }
 
 const JreHokurikushinkan = [
+    /*
     {
         ekimeiKanj: '東京',
         ekimeiKana: 'とうきょう',
@@ -40,6 +41,7 @@ const JreHokurikushinkan = [
         sttnAddr: '埼玉県本庄市早稲田の杜一丁目1-1',
         ...JreHokurikushinkanCommon
     },
+    */
     {
         ekimeiKanj: '高崎',
         ekimeiKana: 'たかさき',
