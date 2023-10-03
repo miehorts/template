@@ -106,7 +106,7 @@ const KhkHon = [
         ekimeiKanj: '京急川崎',
         ekimeiKana: 'けいきゅう かわさき',
         ekimeiRoma: 'Keikyū Kawasaki',
-        sttnAddr: '	川崎市川崎区砂子1丁目3番地1',
+        sttnAddr: '川崎市川崎区砂子1丁目3番地1',
         ...KhkHonCommon
     },
     {
