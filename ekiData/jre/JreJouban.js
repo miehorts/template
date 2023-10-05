@@ -11,7 +11,7 @@ const JreJoubanCommon = {
 
 const JreJoubanCommon1 = {
     ...compNameJre,
-    lineName: JreJoubanCommon.lineName1.lineName,
+    ...JreJoubanCommon.lineName1,
     ...JreJoubanCommon.passArea1,
 };
 
