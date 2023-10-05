@@ -119,6 +119,7 @@ const lines = {
     SeibuSeibuchichibu,
     SeibuSeibuyuurakuchou,
     SeibuToshima,
+    SeibuSayama,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
