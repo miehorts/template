@@ -181,7 +181,8 @@ $('#throw-dice').on('click', (evt) => {
     $('div.dice-base')[0].animate(
         { transform: ['rotateX(720deg)'] },
         { fill: 'none', duration: 8000 }
-    );
+    )
+    .finished.then(() => { $(self).show(); });
     setTimeout(updateFace1,     );
     setTimeout(updateFace2,     );
     setTimeout(updateFace3, 1000);
@@ -199,7 +200,7 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
     */
-    setTimeout(() => { $(self).show();                            }, 8000);
+    //setTimeout(() => { $(self).show();                            }, 8000);
 });
 
 function filter() {
