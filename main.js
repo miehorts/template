@@ -115,6 +115,7 @@ const lines = {
     SotetsuHon,
     SotetsuIzumino,
     SotetsuSotetsushinyokohama,
+    SeibuIkebukuro,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
@@ -199,8 +200,8 @@ $('#throw-dice').on('click', (evt) => {
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 3000);
     setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
     setTimeout(() => { copyTexts();                               }, 5000);
+    setTimeout(() => { $(self).show();                            }, 8000);
     */
-    //setTimeout(() => { $(self).show();                            }, 8000);
 });
 
 function filter() {
