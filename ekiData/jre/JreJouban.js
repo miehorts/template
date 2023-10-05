@@ -5,13 +5,13 @@ const JreJoubanCommon = {
     lineName2: { lineName: '常磐線（快速）／常磐線（特急）' },
     lineName3: { lineName: '常磐線（特急・快速）'           },
     lineName4: { lineName: '常磐線（快速）／常磐線'         },
-    passArea1: { passArea: '["Shup", "NHSP"]' },
-    passArea2: { passArea: '["Shup"]' },
+    passArea1: { passArea: '["ShuP", "NHSP"]' },
+    passArea2: { passArea: '["ShuP"]' },
 };
 
 const JreJoubanCommon1 = {
     ...compNameJre,
-    lineName: JreJoubanCommon.lineName1,
+    lineName: JreJoubanCommon.lineName1.lineName,
     ...JreJoubanCommon.passArea1,
 };
 
