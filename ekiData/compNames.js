@@ -19,6 +19,9 @@ const compNameSotetsu = {
 const compNameSeibu = {
     compName: '西武鉄道'
 };
+const compNameTokyu = {
+    compName: '東急電鉄'
+};
 const compNameTwr = {
     compName: '東京臨海高速鉄道'
 };
