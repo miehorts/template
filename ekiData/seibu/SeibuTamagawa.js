@@ -23,7 +23,7 @@ const SeibuTamagawa = [
         ekimeiKana: 'たま',
         ekimeiRoma: 'Tama',
         sttnAddr: '東京都府中市紅葉丘三丁目42-2',
-        ...SeibuTamakoCommon,
+        ...SeibuTamagawaCommon,
     },
     {
         ekimeiKanj: '白糸台',
