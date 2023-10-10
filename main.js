@@ -134,6 +134,7 @@ const lines = {
     TokyuOoimachi,
     TokyuIkegami,
     TokyuTokyutamagawa,
+    TokyuKodomonokuni,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
