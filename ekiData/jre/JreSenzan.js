@@ -97,7 +97,7 @@ const JreSenzan = [
         ...JreSenzanCommon
     },
     {
-        ekimeiKanj: '面白山高原駅',
+        ekimeiKanj: '面白山高原',
         ekimeiKana: 'おもしろやまこうげん',
         ekimeiRoma: 'Omoshiroyama-Kōgen',
         sttnAddr: '山形県山形市大字山寺字面白山8387',
