@@ -138,6 +138,7 @@ const lines = {
     TokyuSetagaya,
     TokyometroHibiya,
     TokyometroGinza,
+    TokyometroMarunouchi,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
