@@ -179,4 +179,25 @@ const TokyometroMarunouchi = [
         sttnAddr: '東京都豊島区南池袋三丁目28-1',
         ...TokyometroMarunouchiCommon,
     },
+    {
+        ekimeiKanj: '方南町',
+        ekimeiKana: 'ほうなんちょう',
+        ekimeiRoma: 'Honancho',
+        sttnAddr: '東京都杉並区堀ノ内一丁目1番1号',
+        ...TokyometroMarunouchiCommon,
+    },
+    {
+        ekimeiKanj: '中野富士見町',
+        ekimeiKana: 'なかのふじみちょう',
+        ekimeiRoma: 'Nakano-fujimicho',
+        sttnAddr: '東京都中野区弥生町五丁目24-4',
+        ...TokyometroMarunouchiCommon,
+    },
+    {
+        ekimeiKanj: '中野新橋',
+        ekimeiKana: 'なかのしんばし',
+        ekimeiRoma: 'Nakano-shimbashi',
+        sttnAddr: '東京都中野区弥生町二丁目26-8',
+        ...TokyometroMarunouchiCommon,
+    },
 ];
