@@ -281,6 +281,12 @@ function updateFace($face) {
     $face.find('span.compName'  ).text(next.compName  );
     $face.find('span.lineName'  ).text(next.lineName  );
     $face.find('span.sttnAddr'  ).text(next.sttnAddr  );
+    const $divPassName = $face.find('div.passName').empty();
+    if (next.passArea) {
+        const passes = JSON.parse(next.passArea);
+        if (passes.includes('ShuP')) { $divPassName.append($('<span>週末パス</span>'                )); }
+        if (passes.includes('NHSP')) { $divPassName.append($('<span>のんびりホリデーSuicaパス</span>')); }
+    }
 }
 
 function slideUp() {
