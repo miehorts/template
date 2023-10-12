@@ -5,12 +5,12 @@ const JreMitoCommon = {
 
 const JreMitoCommon1 = {
     ...JreMitoCommon,
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',//
 }
 
 const JreMitoCommon2 = {
     ...JreMitoCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 }
 
 const JreMito = [
