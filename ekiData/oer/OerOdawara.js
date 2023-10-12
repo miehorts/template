@@ -204,7 +204,7 @@ const OerOdawara = [
         ekimeiKanj: '小田急相模原',
         ekimeiKana: 'おだきゅうさがみはら',
         ekimeiRoma: 'Odakyu Sagamihara',
-        sttnAddr: '',
+        sttnAddr: '相模原市南区南台三丁目20番1号',
         ...OerOdawaraCommon
     },
     {
