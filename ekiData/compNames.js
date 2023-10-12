@@ -25,6 +25,9 @@ const compNameTokyu = {
 const compNameTokyometro = {
     compName: '東京メトロ'
 };
+const compNameTobu = {
+    compName: '東武鉄道'
+};
 const compNameTwr = {
     compName: '東京臨海高速鉄道'
 };
