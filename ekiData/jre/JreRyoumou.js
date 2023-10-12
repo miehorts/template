@@ -5,12 +5,12 @@ const JreRyoumouCommon = {
 
 const JreRyoumouCommon1 = {
     ...JreRyoumouCommon,
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreRyoumouCommon2 = {
     ...JreRyoumouCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 };
 
 const JreRyoumou = [
