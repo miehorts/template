@@ -284,7 +284,6 @@ function updateFace($face) {
     const $divPassName = $face.find('div.passName').empty();
     if (next.passArea) {
         const passes = JSON.parse(next.passArea);
-        console.log(passes);
         if (passes.includes('ShuP')) { $divPassName.append($('<span>週末パス</span>'                )); }
         if (passes.includes('NHSP')) { $divPassName.append($('<span>のんびりホリデーSuicaパス</span>')); }
     }
