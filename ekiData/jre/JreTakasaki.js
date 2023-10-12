@@ -5,12 +5,12 @@ const JreTakasakiCommon = {
 
 const JreTakasakiCommon1 = {
     ...JreTakasakiCommon,
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreTakasakiCommon2 = {
     ...JreTakasakiCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 };
 
 const JreTakasaki = [
@@ -175,7 +175,6 @@ const JreTakasaki = [
         ekimeiKana: 'しんまち',
         ekimeiRoma: 'Shimmachi',
         sttnAddr: '群馬県高崎市新町2150',
-        passArea: '[]',
         ...JreTakasakiCommon2
     },
     {
@@ -183,7 +182,6 @@ const JreTakasaki = [
         ekimeiKana: 'くらがの',
         ekimeiRoma: 'Kuragano',
         sttnAddr: '群馬県高崎市倉賀野町1797',
-        passArea: '[]',
         ...JreTakasakiCommon2
     },
     {
@@ -191,7 +189,6 @@ const JreTakasaki = [
         ekimeiKana: 'たかさき',
         ekimeiRoma: 'Takasaki',
         sttnAddr: '群馬県高崎市八島町222',
-        passArea: '[]',
         ...JreTakasakiCommon2
     },
 ];
