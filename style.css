@@ -160,6 +160,10 @@
     color: #777777;
 }
 
+.config-passes .pass-name.enabled {
+    color: #000000;
+}
+
 .config-passes label {
     display: block;
     width: 100%;

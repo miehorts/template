@@ -202,6 +202,13 @@ $('a.hide-config-passes').on('click', (evt) => {
     $('div.config-passes').toggleClass('opened');
 });
 
+$('div.pass-enab').on('click', (evt) => {
+    $('div.pass-name').toggleClass('enabled', $(evt.target).find('input').prop('checked'));
+    if ($(evt.target).find('input').prop('checked')) {
+
+    }
+});
+
 $('#throw-dice').on('click', (evt) => {
     if (!ekiList.length) {
         alert('対象となる駅が０件です。設定を確認してください。');
