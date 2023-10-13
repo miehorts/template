@@ -151,6 +151,7 @@ const lines = {
     TobuSano,
     TobuKiryuu,
     TobuKoizumi,
+    TobuNikkou,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
