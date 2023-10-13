@@ -156,7 +156,8 @@
 }
 
 .config-passes .pass-name {
-    padding-left: 10px;    
+    padding-left: 10px;
+    color: #777777;
 }
 
 .config-passes label {
