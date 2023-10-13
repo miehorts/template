@@ -146,6 +146,7 @@ const lines = {
     TokyometroHanzoumon,
     TokyometroFukutoshin,
     TobuIsesaki,
+    TobuKameido,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
