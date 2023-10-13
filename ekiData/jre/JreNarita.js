@@ -5,12 +5,12 @@ const JreNaritaCommon = {
 
 const JreNaritaCommon1 = {
     ...JreNaritaCommon,
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreNaritaCommon2 = {
     ...JreNaritaCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 };
 
 const JreNarita = [

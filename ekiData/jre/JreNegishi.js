@@ -1,7 +1,7 @@
 const JreNegishiCommon = {
     ...compNameJre,
     lineName: '根岸線',
-    passArea: '["NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreNegishi = [

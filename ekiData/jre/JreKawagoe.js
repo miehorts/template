@@ -1,7 +1,7 @@
 const JreKawagoeCommon = {
     ...compNameJre,
     lineName: '川越線',
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreKawagoe = [

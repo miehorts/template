@@ -1,13 +1,13 @@
 const JreHachikouCommon = {
     ...compNameJre,
     lineName: '八高線',
-    passArea: '["Shup", "NHSP"]',
+    passArea: '["ShuP", "NHSP"]',
 }
 
 const JreHachikouCommon1 = {
     ...compNameJre,
     lineName: JreHachikouCommon.lineName,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 }
 
 const JreHachikou = [
