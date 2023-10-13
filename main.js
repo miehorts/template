@@ -202,10 +202,14 @@ $('a.hide-config-passes').on('click', (evt) => {
     $('div.config-passes').toggleClass('opened');
 });
 
-$('div.pass-enab').on('click', (evt) => {
+$('div.pass-enab label').on('click', (evt) => {
     $('div.pass-name').toggleClass('enabled', $(evt.target).find('input').prop('checked'));
-    if ($(evt.target).find('input').prop('checked')) {
+});
 
+$('div.pass-name label').on('click', (evt) => {
+    const $divPassEnab = $('div.pass-enab');
+    if (!$divPassEnab.find('input').prop('checked')) {
+        $divPassEnab.find('label').trigger('click');
     }
 });
 
