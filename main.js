@@ -210,6 +210,7 @@ $('div.pass-name label').on('click', (evt) => {
     const $divPassEnab = $('div.pass-enab');
     if (!$divPassEnab.find('input').prop('checked')) {
         $divPassEnab.find('label').trigger('click');
+        $('div.pass-name').addClass('enabled');
     }
 });
 
