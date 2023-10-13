@@ -6,7 +6,7 @@ const JreYokosukasoubukaisokuCommon = {
     lineName3: { lineName: '横須賀線／総武線（快速）' },
     lineName4: { lineName: '総武線（快速）' },
     lineName5: { lineName: '総武線（特急・快速）' },
-    passArea: '["ShuP", "NHSP"]',
+    passArea: { passArea: '["ShuP", "NHSP"]' },
 }
 
 const JreYokosukasoubukaisoku = [
