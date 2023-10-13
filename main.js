@@ -149,6 +149,7 @@ const lines = {
     TobuKameido,
     TobuDaishi,
     TobuSano,
+    TobuKiryuu,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
