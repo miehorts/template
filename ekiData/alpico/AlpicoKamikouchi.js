@@ -97,7 +97,7 @@ const AlpicoKamikouchi = [
         ...AlpicoKamikouchiCommon
     },
     {
-        ekimeiKanj: '新島々駅',
+        ekimeiKanj: '新島々',
         ekimeiKana: 'しんしましま',
         ekimeiRoma: 'Shin-shimashima',
         sttnAddr: '長野県松本市波田赤松3050-1',
