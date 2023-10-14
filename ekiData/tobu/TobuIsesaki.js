@@ -15,7 +15,7 @@ const TobuIsesaki = [
         ekimeiKanj: 'とうきょうスカイツリー',
         ekimeiKana: 'とうきょうスカイツリー',
         ekimeiRoma: 'TOKYO SKYTREE',
-        sttnAddr: '',
+        sttnAddr: '東京都墨田区押上一丁目',
         ...TobuIsesakiCommon,
     },
     {
