@@ -5,7 +5,7 @@ const JreTouhokushinkanCommon = {
 
 const JreTouhokushinkanCommon1 = {
     ...JreTouhokushinkanCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 };
 
 const JreTouhokushinkan = [

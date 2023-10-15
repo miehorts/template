@@ -5,7 +5,7 @@ const JreTouhokuhonCommon = {
 
 const JreTouhokuhonCommon1 = {
     ...JreTouhokuhonCommon,
-    passArea: '["Shup"]',
+    passArea: '["ShuP"]',
 };
 
 const JreTouhokuhon = [
