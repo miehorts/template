@@ -5,7 +5,7 @@ const TokyuMeguroCommon = {
 
 const TokyuMeguro = [
     {
-        ekimeiKanj: '目黒駅',
+        ekimeiKanj: '目黒',
         ekimeiKana: 'めぐろ',
         ekimeiRoma: 'Meguro',
         sttnAddr: '東京都品川区上大崎四丁目2-1',
