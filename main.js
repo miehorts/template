@@ -155,6 +155,7 @@ const lines = {
     TobuUtsunomiya,
     TobuKinugawa,
     TobuNoda,
+    TobuToujouhon,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,

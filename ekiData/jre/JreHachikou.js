@@ -71,7 +71,7 @@ const JreHachikou = [
         ekimeiKanj: '高麗川',
         ekimeiKana: 'こまがわ',
         ekimeiRoma: 'Komagawa',
-        sttnAddr: '玉県日高市大字原宿',
+        sttnAddr: '埼玉県日高市大字原宿',
         ...JreHachikouCommon
     },
     {
