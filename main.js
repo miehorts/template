@@ -160,6 +160,7 @@ const lines = {
     ShinkeiseiShinkeisei,
     ToeikoutsuuAsakusa,
     ToeikoutsuuMita,
+    ToeikoutsuuShinjuku,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
