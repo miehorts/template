@@ -28,6 +28,9 @@ const compNameTokyometro = {
 const compNameTobu = {
     compName: '東武鉄道'
 };
+const compNameShinkeisei = {
+    compName: '新京成電鉄'
+};
 const compNameTwr = {
     compName: '東京臨海高速鉄道'
 };
