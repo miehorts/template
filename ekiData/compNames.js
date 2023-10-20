@@ -34,6 +34,9 @@ const compNameShinkeisei = {
 const compNameToeikoutsuu = {
     compName: '東京都交通局'
 };
+const compNameYokohamashikoutsuukyoku = {
+    compName: '横浜市交通局'
+};
 const compNameTwr = {
     compName: '東京臨海高速鉄道'
 };
