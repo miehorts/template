@@ -163,6 +163,7 @@ const lines = {
     ToeikoutsuuShinjuku,
     ToeikoutsuuOoedo,
     ToeikoutsuuArakawa,
+    ToeikoutsuuNipporitoneriraina,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
     HokuetsuexpressHokuhoku,
