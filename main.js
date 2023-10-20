@@ -309,7 +309,11 @@ function updateFace($face) {
     $face.find('span.ekimeiKanj').text(next.ekimeiKanj);
     $face.find('span.ekimeiKana').text(next.ekimeiKana);
     $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
+    const $spanCompName = 
     $face.find('span.compName'  ).text(next.compName  );
+    const $divCompName = $spanCompName.closest('div');
+    $divCompName.css({ backgroundColor: '', color: '' });
+    if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack, color: '#ffffff' }); }
     $face.find('span.lineName'  ).text(next.lineName  );
     $face.find('span.sttnAddr'  ).text(next.sttnAddr  );
     const $divPassName = $face.find('div.passName').empty();

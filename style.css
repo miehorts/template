@@ -190,7 +190,7 @@
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     width:  100%;
     height: 100%;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .face-0 {
@@ -210,30 +210,37 @@
 }
 
 span.ekimeiKanj {
+    padding: 0 10px;
     font-size: 24px;
 }
 
 span.ekimeiKana {
+    padding: 0 10px;
     font-size: 14px;
 }
 
 span.ekimeiRoma {
+    padding: 0 10px;
     font-size: 15px;
 }
 
 span.compName {
+    padding: 0 10px;
     font-size: 18px;
 }
 
 span.lineName {
+    padding: 0 10px;
     font-size: 18px;
 }
 
 span.sttnAddr {
+    padding: 0 10px;
     font-size: 12px;
 }
 
 div.passName {
+    padding: 0 10px;
     display: flex;
     gap: 10px;
     font-size: 12px;
