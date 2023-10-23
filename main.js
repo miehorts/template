@@ -168,6 +168,7 @@ const lines = {
     YokohamashikoutsuukyokuGurinrain,
     TwrRinkai,
     TokyomonorailTokyomonorailhanedakuukou,
+    EnodenEnoshimadentetsu,
     HokuetsuexpressHokuhoku,
     IzukyuIzukyuukou,
     AizurailwayAizu,

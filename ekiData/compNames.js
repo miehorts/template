@@ -58,6 +58,10 @@ const compNameTokyomonorail = {
     compName: '東京モノレール',
     compBack: '#1479cc',
 };
+const compNameEnoden = {
+    compName: '江ノ島電鉄',
+    compBack: '#008000',
+};
 const compNameHokuetsuexpress = {
     compName: '北越急行',
     compBack: '#e8204e',
