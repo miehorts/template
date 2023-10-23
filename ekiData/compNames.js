@@ -94,6 +94,10 @@ const compNameYokohamaminatomirairailway = {
     compName: '横浜高速鉄道',
     compBack: '#09357f',
 };
+const compNameYokohamaseasideline = {
+    compName: '横浜シーサイドライン',
+    compBack: '#f68B1e',
+};
 const compNameEtr = {
     compName: 'えちごトキめき鉄道',
     compBack: '#e75959',
