@@ -176,6 +176,7 @@ const lines = {
     TwrRinkai,
     EnodenEnoshimadentetsu,
     ShonanmonorailEnoshima,
+    YokohamaminatomirairailwayMinatomirai,
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,

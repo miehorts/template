@@ -90,6 +90,10 @@ const compNameShonanmonorail = {
     compName: '湘南モノレール',
     compBack: '#ff0000',
 };
+const compNameYokohamaminatomirairailway = {
+    compName: '横浜高速鉄道',
+    compBack: '#09357f',
+};
 const compNameEtr = {
     compName: 'えちごトキめき鉄道',
     compBack: '#e75959',
