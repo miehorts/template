@@ -50,37 +50,21 @@ const compNameYokohamashikoutsuukyoku = {
     compName: '横浜市交通局',
     compBack: '#0d6aad',
 };
-const compNameTwr = {
-    compName: '東京臨海高速鉄道',
-    compBack: '#00418e',
-};
-const compNameTokyomonorail = {
-    compName: '東京モノレール',
-    compBack: '#1479cc',
-};
-const compNameEnoden = {
-    compName: '江ノ島電鉄',
-    compBack: '#008000',
-};
-const compNameHokuetsuexpress = {
-    compName: '北越急行',
-    compBack: '#e8204e',
-};
-const compNameIzukyu = {
-    compName: '伊豆急',
-    compBack: 'deepskyblue',
+const compNameYamagatarailway = {
+    compName: '山形鉄道',
+    compBack: '#ff69b4',
 };
 const compNameAizurailway = {
     compName: '会津鉄道',
     compBack: '#ff9900',
 };
-const compNameEtr = {
-    compName: 'えちごトキめき鉄道',
-    compBack: '#e75959',
+const compNameAbukyuu = {
+    compName: '阿武隈急行',
+    compBack: 'deepskyblue',
 };
-const compNameFujikyurailway = {
-    compName: '富士山麓電気鉄道',
-    compBack: '#0040ff',
+const compNameFukushimatransportation = {
+    compName: '福島交通',
+    compBack: '#0066ff',
 };
 const compNameKrt = {
     compName: '鹿島臨海鉄道',
@@ -90,31 +74,51 @@ const compNameHitachinakaseasiderailway = {
     compName: 'ひたちなか海浜鉄道',
     compBack: 'orange',
 };
-const compNameFukushimatransportation = {
-    compName: '福島交通',
-    compBack: '#0066ff',
+const compNameTokyomonorail = {
+    compName: '東京モノレール',
+    compBack: '#1479cc',
 };
-const compNameAbukyuu = {
-    compName: '阿武隈急行',
-    compBack: 'deepskyblue',
+const compNameTwr = {
+    compName: '東京臨海高速鉄道',
+    compBack: '#00418e',
 };
-const compNameYamagatarailway = {
-    compName: '山形鉄道',
-    compBack: '#ff69b4',
+const compNameEnoden = {
+    compName: '江ノ島電鉄',
+    compBack: '#008000',
 };
-const compNameShinatetsu = {
-    compName: 'しなの鉄道',
-    compBack: '#cc0000',
+const compNameShonanmonorail = {
+    compName: '湘南モノレール',
+    compBack: '#ff0000',
+};
+const compNameEtr = {
+    compName: 'えちごトキめき鉄道',
+    compBack: '#e75959',
+};
+const compNameHokuetsuexpress = {
+    compName: '北越急行',
+    compBack: '#e8204e',
+};
+const compNameFujikyurailway = {
+    compName: '富士山麓電気鉄道',
+    compBack: '#0040ff',
+};
+const compNameAlpico = {
+    compName: 'アルピコ交通',
+    compBack: '#465daa',
 };
 const compNameJouden = {
     compName: '上田電鉄',
     compBack: 'navy',
 };
+const compNameShinatetsu = {
+    compName: 'しなの鉄道',
+    compBack: '#cc0000',
+};
 const compNameNer = {
     compName: '長野電鉄',
     compBack: '#e20004',
 };
-const compNameAlpico = {
-    compName: 'アルピコ交通',
-    compBack: '#465daa',
+const compNameIzukyu = {
+    compName: '伊豆急',
+    compBack: 'deepskyblue',
 };
