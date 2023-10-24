@@ -178,6 +178,7 @@ const lines = {
     ShonanmonorailEnoshima,
     YokohamaminatomirairailwayMinatomirai,
     YokohamaseasidelineKanazawaseasideline,
+    TozanHakonetozandensha,
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,

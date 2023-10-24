@@ -98,6 +98,10 @@ const compNameYokohamaseasideline = {
     compName: '横浜シーサイドライン',
     compBack: '#f68B1e',
 };
+const compNameTozan = {
+    compName: '箱根登山鉄道',
+    compBack: '#f04a00',
+};
 const compNameEtr = {
     compName: 'えちごトキめき鉄道',
     compBack: '#e75959',
