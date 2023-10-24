@@ -179,6 +179,7 @@ const lines = {
     YokohamaminatomirairailwayMinatomirai,
     YokohamaseasidelineKanazawaseasideline,
     TozanHakonetozandensha,
+    TozanHakonetozancablecar,
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,
