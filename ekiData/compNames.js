@@ -90,6 +90,10 @@ const compNameTwr = {
     compName: '東京臨海高速鉄道',
     compBack: '#00418e',
 };
+const compNameYurikamome = {
+    compName: 'ゆりかもめ',
+    compBack: '#27404e',
+};
 const compNameEnoden = {
     compName: '江ノ島電鉄',
     compBack: '#008000',

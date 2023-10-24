@@ -176,6 +176,7 @@ const lines = {
     TamamonorailTamatoshimonorail,
     TokyomonorailTokyomonorailhanedakuukou,
     TwrRinkai,
+    YurikamomeYurikamome,
     EnodenEnoshimadentetsu,
     ShonanmonorailEnoshima,
     YokohamaminatomirairailwayMinatomirai,
