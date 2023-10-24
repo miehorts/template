@@ -172,6 +172,7 @@ const lines = {
     FukushimatransportationIizaka,
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
+    MirTsukubaexpress,
     TokyomonorailTokyomonorailhanedakuukou,
     TwrRinkai,
     EnodenEnoshimadentetsu,
