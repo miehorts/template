@@ -180,6 +180,7 @@ const lines = {
     YokohamaseasidelineKanazawaseasideline,
     TozanHakonetozandensha,
     TozanHakonetozancablecar,
+    TozanHakoneropeway,
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,
