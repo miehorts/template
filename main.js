@@ -173,6 +173,7 @@ const lines = {
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
     MirTsukubaexpress,
+    TamamonorailTamatoshimonorail,
     TokyomonorailTokyomonorailhanedakuukou,
     TwrRinkai,
     EnodenEnoshimadentetsu,

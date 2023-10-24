@@ -78,6 +78,10 @@ const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',
 };
+const compNameTamamonorail = {
+    compName: '多摩都市モノレール',
+    compBack: '#ff6633',
+};
 const compNameTokyomonorail = {
     compName: '東京モノレール',
     compBack: '#1479cc',
