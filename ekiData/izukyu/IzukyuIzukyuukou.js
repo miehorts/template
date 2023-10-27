@@ -3,7 +3,7 @@ const IzukyuIzukyuukouCommon = {
     lineName: '伊豆急行線',
     lineBack1: 'deepskyblue',
     passArea: '["ShuP"]',
-}
+};
 
 const IzukyuIzukyuukou = [
     {
