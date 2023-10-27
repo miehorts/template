@@ -1,21 +1,18 @@
 const JreChuuoukaisokuCommon = {
     ...compNameJre,
     lineName: '中央快速線',
-    lineName1: { lineName: '中央線' },
-    lineName2: { lineName: '中央線（快速）' },
-    passArea1: { passArea: '["ShuP", "NHSP"]' },
+    lineBack1: '#f15a22',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreChuuoukaisokuCommon1 = {
-    ...compNameJre,
-    ...JreChuuoukaisokuCommon.lineName1,
-    ...JreChuuoukaisokuCommon.passArea1,
+    ...JreChuuoukaisokuCommon,
+    lineName: '中央線',
 };
 
 const JreChuuoukaisokuCommon2 = {
-    ...compNameJre,
-    ...JreChuuoukaisokuCommon.lineName2,
-    ...JreChuuoukaisokuCommon.passArea1,
+    ...JreChuuoukaisokuCommon,
+    lineName: '中央線（快速）',
 };
 
 const JreChuuoukaisoku = [

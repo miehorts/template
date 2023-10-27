@@ -1,6 +1,7 @@
 const KhkKurihamaCommon = {
     ...compNameKhk,
     lineName: '久里浜線',
+    lineBack1: 'deepskyblue',
 };
 
 const KhkKurihama = [

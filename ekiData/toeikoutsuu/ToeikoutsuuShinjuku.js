@@ -1,10 +1,11 @@
 const ToeikoutsuuShinjukuCommon = {
     ...compNameToeikoutsuu,
     lineName: '新宿線',
+    lineBack1: '#b0bf1e',
 };
 
 const ToeikoutsuuShinjukuCommon1 = {
-    ...compNameToeikoutsuu,
+    ...ToeikoutsuuShinjukuCommon,
     lineName: '都営新宿線',
 };
 

@@ -1,6 +1,7 @@
 const TobuOgoseCommon = {
     ...compNameTobu,
     lineName: '越生線',
+    lineBack1: '#004098',
 };
 
 const TobuOgose = [

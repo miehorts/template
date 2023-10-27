@@ -1,6 +1,7 @@
 const JreTazawakoCommon = {
     ...compNameJre,
     lineName: '田沢湖線',
+    lineBack1: '#9d72b0',
 }
 
 const JreTazawako = [

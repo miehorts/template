@@ -1,6 +1,7 @@
 const JreShinonoiCommon = {
     ...compNameJre,
     lineName: '篠ノ井線',
+    lineBack1: '#d56a29',
     passArea: '["ShuP"]',
 }
 

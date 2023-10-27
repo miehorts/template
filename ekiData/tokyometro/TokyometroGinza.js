@@ -1,6 +1,7 @@
 const TokyometroGinzaCommon = {
     ...compNameTokyometro,
     lineName: '銀座線',
+    lineBack1: '#ff9500',
 };
 
 const TokyometroGinza = [

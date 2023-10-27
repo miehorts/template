@@ -1,6 +1,7 @@
 const SeibuSeibuchichibuCommon = {
     ...compNameSeibu,
     lineName: '西武秩父線',
+    lineBack1: '#ef810f',
 };
 
 const SeibuSeibuchichibu = [

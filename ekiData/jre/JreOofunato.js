@@ -1,6 +1,7 @@
 const JreOofunatoCommon = {
     ...compNameJre,
     lineName: '大船渡線',
+    lineBack1: '#f18e44',
 }
 
 const JreOofunato = [

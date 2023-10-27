@@ -1,6 +1,7 @@
 const JreIshinomakiCommon = {
     ...compNameJre,
     lineName: '石巻線',
+    lineBack1: '#ed77a4',
     passArea: '["ShuP"]',
 }
 

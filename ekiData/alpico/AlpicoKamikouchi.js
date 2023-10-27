@@ -1,6 +1,7 @@
 const AlpicoKamikouchiCommon = {
     ...compNameAlpico,
     lineName: '上高地線',
+    lineBack1: '#465daa',
     passArea: '["ShuP"]',
 }
 

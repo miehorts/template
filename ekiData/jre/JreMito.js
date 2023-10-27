@@ -1,6 +1,7 @@
 const JreMitoCommon = {
     ...compNameJre,
     lineName: '水戸線',
+    lineBack1: '#3333ff',
 }
 
 const JreMitoCommon1 = {

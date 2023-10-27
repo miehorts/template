@@ -1,6 +1,7 @@
 const TobuNikkouCommon = {
     ...compNameTobu,
     lineName: '日光線',
+    lineBack1: 'orange',
 };
 
 const TobuNikkou = [

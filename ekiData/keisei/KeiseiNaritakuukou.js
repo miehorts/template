@@ -1,6 +1,7 @@
 const KeiseiNaritakuukouCommon = {
     ...compNameKeisei,
     lineName: '成田空港線',
+    lineBack1: '#ff8620',
 };
 
 const KeiseiNaritakuukou = [

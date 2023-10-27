@@ -1,6 +1,7 @@
 const YokohamashikoutsuukyokuGurinrainCommon = {
     ...compNameYokohamashikoutsuukyoku,
     lineName: 'グリーンライン',
+    lineBack1: '#048d58',
 };
 
 const YokohamashikoutsuukyokuGurinrain = [

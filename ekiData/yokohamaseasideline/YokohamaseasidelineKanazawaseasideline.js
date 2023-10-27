@@ -1,6 +1,7 @@
 const YokohamaseasidelineKanazawaseasidelineCommon = {
     ...compNameYokohamaseasideline,
     lineName: '金沢シーサイドライン',
+    lineBack1: '#f68b1e',
 };
 
 const YokohamaseasidelineKanazawaseasideline = [

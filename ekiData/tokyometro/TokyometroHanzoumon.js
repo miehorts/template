@@ -1,6 +1,7 @@
 const TokyometroHanzoumonCommon = {
     ...compNameTokyometro,
     lineName: '半蔵門線',
+    lineBack1: '#8f76d6',
 };
 
 const TokyometroHanzoumon = [

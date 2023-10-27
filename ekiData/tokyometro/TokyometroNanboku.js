@@ -1,6 +1,7 @@
 const TokyometroNanbokuCommon = {
     ...compNameTokyometro,
     lineName: '南北線',
+    lineBack1: '#00ac9b',
 };
 
 const TokyometroNanboku = [

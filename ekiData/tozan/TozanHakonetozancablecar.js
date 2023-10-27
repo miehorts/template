@@ -1,6 +1,7 @@
 const TozanHakonetozancablecarCommon = {
     ...compNameTozan,
     lineName: '箱根登山ケーブルカー',
+    lineBack1: '#f04a00',
 };
 
 const TozanHakonetozancablecar = [

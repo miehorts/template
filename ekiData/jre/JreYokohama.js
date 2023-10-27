@@ -1,6 +1,7 @@
 const JreYokohamaCommon = {
     ...compNameJre,
     lineName: '横浜線',
+    lineBack1: '#9acd32',
     passArea: '["ShuP", "NHSP"]',
 }
 

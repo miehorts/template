@@ -1,6 +1,7 @@
 const SotetsuIzuminoCommon = {
     ...compNameSotetsu,
     lineName: 'いずみ野線',
+    lineBack1: '#041452',
 };
 
 const SotetsuIzumino = [

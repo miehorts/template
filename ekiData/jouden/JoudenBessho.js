@@ -1,6 +1,7 @@
 const JoudenBesshoCommon = {
     ...compNameJouden,
     lineName: '別所線',
+    lineBack1: '#000080',
     passArea: '["ShuP"]',
 };
 

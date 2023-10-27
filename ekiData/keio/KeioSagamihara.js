@@ -1,6 +1,7 @@
 const KeioSagamiharaCommon = {
     ...compNameKeio,
     lineName: '相模原線',
+    lineBack1: '#dd0077',
 };
 
 const KeioSagamihara = [

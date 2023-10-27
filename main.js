@@ -36,7 +36,7 @@ const lines = {
     //JreUenotoukyou,
     JreTouhokuhon,
     JreUtsunomiya,
-    JreSendaikuukouakusesu,
+    //JreSendaikuukouakusesu,
     //JreSensekitouhoku,
     JreRifu,
     JreTakasaki,
@@ -323,8 +323,19 @@ function updateFace($face) {
     const $spanCompName = 
     $face.find('span.compName'  ).text(next.compName  );
     const $divCompName = $spanCompName.closest('div');
-    $divCompName.css({ backgroundColor: '', color: '' });
+    $divCompName.css({ backgroundColor: '' });
     if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack, color: '#ffffff' }); }
+    const $divLineBack1 = $face.find('div.lineBack1').css({ background: '' });
+    const $divLineBack2 = $face.find('div.lineBack2').css({ background: '' });
+    if (next.lineBack1) {
+        const css = { background: `linear-gradient(90deg, ${next.lineBack1}, #ffffff)` };
+        $divLineBack1.css(css);
+        $divLineBack2.css(css);
+    }
+    if (next.lineBack2) {
+        const css = { background: `linear-gradient(90deg, ${next.lineBack2}, #ffffff)` };
+        $divLineBack2.css(css);
+    }
     $face.find('span.lineName'  ).text(next.lineName  );
     $face.find('span.sttnAddr'  ).text(next.sttnAddr  );
     const $divPassName = $face.find('div.passName').empty();

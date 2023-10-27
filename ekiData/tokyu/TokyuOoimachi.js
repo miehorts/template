@@ -1,6 +1,7 @@
 const TokyuOoimachiCommon = {
     ...compNameTokyu,
     lineName: '大井町線',
+    lineBack1: '#f18c43',
 };
 
 const TokyuOoimachi = [

@@ -1,10 +1,11 @@
 const ToeikoutsuuMitaCommon = {
     ...compNameToeikoutsuu,
     lineName: '三田線',
+    lineBack1: '#0079c2',
 };
 
 const ToeikoutsuuMitaCommon1 = {
-    ...compNameToeikoutsuu,
+    ...ToeikoutsuuMitaCommon,
     lineName: '都営三田線',
 };
 

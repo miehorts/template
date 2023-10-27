@@ -1,6 +1,7 @@
 const JreYamanoteCommon = {
     ...compNameJre,
     lineName: '山手線',
+    lineBack1: '#9acd32',
     passArea: '["ShuP", "NHSP"]',
 }
 

@@ -1,6 +1,7 @@
 const TokyuMeguroCommon = {
     ...compNameTokyu,
     lineName: '目黒線',
+    lineBack1: '#009cd2',
 };
 
 const TokyuMeguro = [

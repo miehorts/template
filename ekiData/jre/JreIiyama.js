@@ -1,6 +1,7 @@
 const JreIiyamaCommon = {
     ...compNameJre,
     lineName: '飯山線',
+    lineBack1: '#7bc24b',
     passArea: '["ShuP"]',
 }
 

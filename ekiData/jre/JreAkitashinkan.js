@@ -1,6 +1,7 @@
 const JreAkitashinkanCommon = {
     ...compNameJre,
     lineName: '秋田新幹線',
+    lineBack1: '#ed4399',
 }
 
 const JreAkitashinkan = [

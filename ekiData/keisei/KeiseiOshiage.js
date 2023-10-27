@@ -1,6 +1,7 @@
 const KeiseiOshiageCommon = {
     ...compNameKeisei,
     lineName: '押上線',
+    lineBack1: '#005aaa',
 }
 
 const KeiseiOshiage = [

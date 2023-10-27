@@ -1,6 +1,7 @@
 const JreItsukaichiCommon = {
     ...compNameJre,
     lineName: '五日市線',
+    lineBack1: '#f15a22',
     passArea: '["ShuP", "NHSP"]',
 };
 

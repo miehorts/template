@@ -1,6 +1,7 @@
 const JreUetsuhonCommon = {
     ...compNameJre,
     lineName: '羽越本線',
+    lineBack1: '#16c0e9',
 };
 
 const JreUetsuhonCommon1 = {

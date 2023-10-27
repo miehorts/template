@@ -1,6 +1,7 @@
 const TokyometroYuurakuchouCommon = {
     ...compNameTokyometro,
     lineName: '有楽町線',
+    lineBack1: '#c1a470',
 };
 
 const TokyometroYuurakuchou = [

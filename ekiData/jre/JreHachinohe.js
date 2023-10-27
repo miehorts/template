@@ -1,6 +1,7 @@
 const JreHachinoheCommon = {
     ...compNameJre,
     lineName: '八戸線',
+    lineBack1: '#e93920',
 }
 
 const JreHachinohe = [

@@ -1,6 +1,7 @@
 const OerOdawaraCommon = {
     ...compNameOer,
     lineName: '小田原線',
+    lineBack1: '#2288CC',
 };
 
 const OerOdawara = [

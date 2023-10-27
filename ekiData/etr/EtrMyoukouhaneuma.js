@@ -1,6 +1,7 @@
 const EtrMyoukouhaneumaCommon = {
     ...compNameEtr,
     lineName: '妙高はねうまライン',
+    lineBack1: '#35c98e',
     passArea: '["ShuP"]',
 }
 

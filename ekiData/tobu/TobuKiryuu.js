@@ -1,6 +1,7 @@
 const TobuKiryuuCommon = {
     ...compNameTobu,
     lineName: '桐生線',
+    lineBack1: '#ed1a3d',
 };
 
 const TobuKiryuu = [

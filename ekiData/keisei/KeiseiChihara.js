@@ -1,6 +1,7 @@
 const KeiseiChiharaCommon = {
     ...compNameKeisei,
     lineName: '千原線',
+    lineBack1: '#005aaa',
 }
 
 const KeiseiChihara = [

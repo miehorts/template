@@ -1,6 +1,7 @@
 const JreSagamiCommon = {
     ...compNameJre,
     lineName: '相模線',
+    lineBack1: '#009793',
     passArea: '["ShuP", "NHSP"]',
 };
 

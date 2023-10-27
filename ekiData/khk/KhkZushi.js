@@ -1,6 +1,7 @@
 const KhkZushiCommon = {
     ...compNameKhk,
     lineName: '逗子線',
+    lineBack1: 'deepskyblue',
 };
 
 const KhkZushi = [

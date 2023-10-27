@@ -1,6 +1,7 @@
 const TokyometroMarunouchiCommon = {
     ...compNameTokyometro,
     lineName: '丸ノ内線',
+    lineBack1: '#f62e36',
 };
 
 const TokyometroMarunouchi = [

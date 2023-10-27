@@ -1,6 +1,7 @@
 const SeibuToshimaCommon = {
     ...compNameSeibu,
     lineName: '豊島線',
+    lineBack1: '#ef810f',
 };
 
 const SeibuToshima = [

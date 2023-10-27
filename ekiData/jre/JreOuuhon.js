@@ -1,6 +1,7 @@
 const JreOuuhonCommon = {
     ...compNameJre,
     lineName: '奥羽本線',
+    lineBack1: '#ee7b28',
 };
 
 const JreOuuhonCommon1 = {

@@ -1,6 +1,7 @@
 const YamagatarailwayFurawanagaiCommon = {
     ...compNameYamagatarailway,
     lineName: 'フラワー長井線',
+    lineBack1: '#ff69b4',
     passArea: '["ShuP"]',
 }
 

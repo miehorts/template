@@ -1,6 +1,7 @@
 const JreJouetsuCommon = {
     ...compNameJre,
     lineName: '上越線',
+    lineBack1: '#00b3e6',
     passArea: '["ShuP"]',
 }
 

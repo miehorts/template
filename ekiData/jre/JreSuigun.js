@@ -1,6 +1,7 @@
 const JreSuigunCommon = {
     ...compNameJre,
     lineName: '水郡線',
+    lineBack1: '#368c44',
     passArea: '["ShuP"]',
 }
 

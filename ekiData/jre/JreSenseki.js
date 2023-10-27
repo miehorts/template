@@ -1,6 +1,7 @@
 const JreSensekiCommon = {
     ...compNameJre,
     lineName: '仙石線',
+    lineBack1: '#00bfff',
     passArea: '["ShuP"]',
 }
 

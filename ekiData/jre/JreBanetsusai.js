@@ -1,6 +1,7 @@
 const JreBanetsusaiCommon = {
     ...compNameJre,
     lineName: '磐越西線',
+    lineBack1: '#cb7b35',
     passArea: '["ShuP"]',
 }
 

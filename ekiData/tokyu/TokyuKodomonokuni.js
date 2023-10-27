@@ -1,6 +1,7 @@
 const TokyuKodomonokuniCommon = {
     ...compNameTokyu,
     lineName: 'こどもの国線',
+    lineBack1: '#0068b7',
 };
 
 const TokyuKodomonokuni = [

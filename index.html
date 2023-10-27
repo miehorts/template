@@ -16,7 +16,7 @@
         <meta property="og:title" content="駅名サイコロ - スマホ用Webアプリ" />
         <meta property="og:description" content="サイコロまかせの鉄道旅はいかがですか？あなただけの楽しいルールを考えて　自由に遊んでみてください。" />
         <meta property="og:image" content="https://strosoft.skr.jp/ekidice/1200x630-20231023.png" />
-        <link rel="stylesheet" type="text/css" href="style.css?2023102021" />
+        <link rel="stylesheet" type="text/css" href="style.css?2023102027" />
         <script>
             screen.orientation.lock('portrait').then().catch(console.log);
         </script>
@@ -86,7 +86,7 @@
                 <!--<div class="line-name"><label><input type="checkbox" checked data-line-id="JreUenotoukyou"                        >上野東京ライン</label></div>-->
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreTouhokuhon"                         >東北本線</label></div>
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreUtsunomiya"                         >宇都宮線</label></div>
-                <div class="line-name"><label><input type="checkbox" checked data-line-id="JreSendaikuukouakusesu"                >仙台空港アクセス線</label></div>
+                <!--<div class="line-name"><label><input type="checkbox" checked data-line-id="JreSendaikuukouakusesu"                >仙台空港アクセス線</label></div>-->
                 <!--<div class="line-name"><label><input type="checkbox" checked data-line-id="JreSensekitouhoku"                     >仙石東北ライン</label></div>-->
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreRifu"                               >利府線</label></div>
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreTakasaki"                           >高崎線</label></div>
@@ -302,7 +302,11 @@
                     <div class="center-center"><span class="ekimeiKana">とうきょう</span></div>
                     <div class="center-center"><span class="ekimeiRoma">Tōkyō</span></div>
                     <div style="background-color:#008000;color:#ffffff;"><span class="compName">JR東日本</span></div>
-                    <div><span class="lineName">山手線</span></div>
+                    <div>
+                        <div class="lineBack1" style="background:linear-gradient(90deg,#9acd32,#ffffff);"></div>
+                        <div class="lineBack2" style="background:linear-gradient(90deg,#9acd32,#ffffff);"></div>
+                        <span class="lineName">山手線</span>
+                    </div>
                     <div><span class="sttnAddr">東京都千代田区丸の内一丁目</span></div>
                     <div class="passName"><span>週末パス</span><span>のんびりホリデーSuicaパス</span></div>
                 </div>
@@ -311,7 +315,7 @@
                     <div class="center-center"><span class="ekimeiKana"></span></div>
                     <div class="center-center"><span class="ekimeiRoma"></span></div>
                     <div><span class="compName"></span></div>
-                    <div><span class="lineName"></span></div>
+                    <div><div class="lineBack1"></div><div class="lineBack2"></div><span class="lineName"></span></div>
                     <div><span class="sttnAddr"></span></div>
                     <div class="passName"></div>
                 </div>
@@ -320,7 +324,7 @@
                     <div class="center-center"><span class="ekimeiKana"></span></div>
                     <div class="center-center"><span class="ekimeiRoma"></span></div>
                     <div><span class="compName"></span></div>
-                    <div><span class="lineName"></span></div>
+                    <div><div class="lineBack1"></div><div class="lineBack2"></div><span class="lineName"></span></div>
                     <div><span class="sttnAddr"></span></div>
                     <div class="passName"></div>
                 </div>
@@ -329,7 +333,7 @@
                     <div class="center-center"><span class="ekimeiKana"></span></div>
                     <div class="center-center"><span class="ekimeiRoma"></span></div>
                     <div><span class="compName"></span></div>
-                    <div><span class="lineName"></span></div>
+                    <div><div class="lineBack1"></div><div class="lineBack2"></div><span class="lineName"></span></div>
                     <div><span class="sttnAddr"></span></div>
                     <div class="passName"></div>
                 </div>
@@ -343,193 +347,193 @@
         </div>
         <script src="jquery-3.7.0.min.js"></script>
         <script src="ekiData/compNames.js?2023102024"></script>
-        <script src="ekiData/jre/JreTouhokushinkan.js?20231015"></script>
-        <script src="ekiData/jre/JreYamagatashinkan.js"></script>
-        <script src="ekiData/jre/JreAkitashinkan.js"></script>
-        <script src="ekiData/jre/JreJouetsushinkan.js"></script>
-        <script src="ekiData/jre/JreHokurikushinkan.js"></script>
-        <script src="ekiData/jre/JreYamanote.js"></script>
-        <script src="ekiData/jre/JreShounanshinjuku.js"></script>
-        <script src="ekiData/jre/JreSaikyou.js?20231014"></script>
-        <script src="ekiData/jre/JreSoutetsujrchokutsuu.js"></script>
-        <script src="ekiData/jre/JreNegishi.js?20231014"></script>
-        <script src="ekiData/jre/JreYokohama.js"></script>
-        <script src="ekiData/jre/JreNanbu.js?20231012"></script>
-        <script src="ekiData/jre/JreMusashino.js?20231012"></script>
-        <script src="ekiData/jre/JreKeiyou.js?20231012"></script>
-        <script src="ekiData/jre/JreKawagoe.js?20231014"></script>
-        <script src="ekiData/jre/JreChuuouhon.js"></script>
-        <script src="ekiData/jre/JreChuuoukaisoku.js"></script>
-        <script src="ekiData/jre/JreChuuousoubukankou.js"></script>
-        <script src="ekiData/jre/JreOume.js?20231014"></script>
-        <script src="ekiData/jre/JreItsukaichi.js"></script>
-        <script src="ekiData/jre/JreSoubuhon.js"></script>
-        <script src="ekiData/jre/JreYokosukasoubukaisoku.js?20231013"></script>
-        <script src="ekiData/jre/JreTsurumi.js"></script>
-        <script src="ekiData/jre/JreSagami.js?20231014"></script>
-        <script src="ekiData/jre/JreKeihintouhoku.js"></script>
-        <script src="ekiData/jre/JreToukaidou.js"></script>
-        <script src="ekiData/jre/JreUenotoukyou.js"></script>
-        <script src="ekiData/jre/JreTouhokuhon.js?20231015"></script>
-        <script src="ekiData/jre/JreUtsunomiya.js"></script>
-        <script src="ekiData/jre/JreSendaikuukouakusesu.js"></script>
-        <script src="ekiData/jre/JreSensekitouhoku.js"></script>
-        <script src="ekiData/jre/JreRifu.js"></script>
-        <script src="ekiData/jre/JreTakasaki.js"></script>
-        <script src="ekiData/jre/JreJouban.js"></script>
-        <script src="ekiData/jre/JreJoubankankou.js?20231014"></script>
-        <script src="ekiData/jre/JreJouetsu.js"></script>
-        <script src="ekiData/jre/JreRyoumou.js?2023101305"></script>
-        <script src="ekiData/jre/JreMito.js?20231012"></script>
-        <script src="ekiData/jre/JreSotobou.js"></script>
-        <script src="ekiData/jre/JreUchibou.js"></script>
-        <script src="ekiData/jre/JreNarita.js?20231014"></script>
-        <script src="ekiData/jre/JreItou.js"></script>
-        <script src="ekiData/jre/JreShinetsuhon.js"></script>
-        <script src="ekiData/jre/JreShinonoi.js"></script>
-        <script src="ekiData/jre/JreUetsuhon.js"></script>
-        <script src="ekiData/jre/JreHakushin.js"></script>
-        <script src="ekiData/jre/JreBanetsusai.js"></script>
-        <script src="ekiData/jre/JreSenzan.js"></script>
-        <script src="ekiData/jre/JreSenseki.js"></script>
-        <script src="ekiData/jre/JreOuuhon.js"></script>
-        <script src="ekiData/jre/JreYamagata.js"></script>
-        <script src="ekiData/jre/JreHachikou.js?20231014"></script>
-        <script src="ekiData/jre/JreAgatsuma.js"></script>
-        <script src="ekiData/jre/JreKarasuyama.js"></script>
-        <script src="ekiData/jre/JreNikkou.js"></script>
-        <script src="ekiData/jre/JreSuigun.js"></script>
-        <script src="ekiData/jre/JreKashima.js"></script>
-        <script src="ekiData/jre/JreKururi.js"></script>
-        <script src="ekiData/jre/JreTougane.js?20231015"></script>
-        <script src="ekiData/jre/JreKoumi.js"></script>
-        <script src="ekiData/jre/JreIiyama.js"></script>
-        <script src="ekiData/jre/JreOoito.js"></script>
-        <script src="ekiData/jre/JreEchigo.js"></script>
-        <script src="ekiData/jre/JreYahiko.js"></script>
-        <script src="ekiData/jre/JreYonesaka.js"></script>
-        <script src="ekiData/jre/JreTadami.js?20231013"></script>
-        <script src="ekiData/jre/JreBanetsutou.js"></script>
-        <script src="ekiData/jre/JreIshinomaki.js"></script>
-        <script src="ekiData/jre/JreKesennuma.js"></script>
-        <script src="ekiData/jre/JreOofunato.js"></script>
-        <script src="ekiData/jre/JreRikuutou.js"></script>
-        <script src="ekiData/jre/JreRikuusai.js"></script>
-        <script src="ekiData/jre/JreKitakami.js"></script>
-        <script src="ekiData/jre/JreKamaishi.js"></script>
-        <script src="ekiData/jre/JreYamada.js"></script>
-        <script src="ekiData/jre/JreHanawa.js"></script>
-        <script src="ekiData/jre/JreHachinohe.js"></script>
-        <script src="ekiData/jre/JreOominato.js"></script>
-        <script src="ekiData/jre/JreTsugaru.js"></script>
-        <script src="ekiData/jre/JreAterazawa.js"></script>
-        <script src="ekiData/jre/JreTazawako.js"></script>
-        <script src="ekiData/jre/JreOga.js"></script>
-        <script src="ekiData/jre/JreGonou.js"></script>
-        <script src="ekiData/oer/OerOdawara.js"></script>
-        <script src="ekiData/oer/OerEnoshima.js"></script>
-        <script src="ekiData/oer/OerTama.js"></script>
-        <script src="ekiData/keio/KeioKeiou.js"></script>
-        <script src="ekiData/keio/KeioKeioushin.js"></script>
-        <script src="ekiData/keio/KeioSagamihara.js"></script>
-        <script src="ekiData/keio/KeioKeibajou.js"></script>
-        <script src="ekiData/keio/KeioDoubutsuen.js"></script>
-        <script src="ekiData/keio/KeioTakao.js"></script>
-        <script src="ekiData/keio/KeioInokashira.js"></script>
-        <script src="ekiData/keisei/KeiseiHon.js"></script>
-        <script src="ekiData/keisei/KeiseiHigashinarita.js"></script>
-        <script src="ekiData/keisei/KeiseiOshiage.js"></script>
-        <script src="ekiData/keisei/KeiseiKanamachi.js"></script>
-        <script src="ekiData/keisei/KeiseiChiba.js"></script>
-        <script src="ekiData/keisei/KeiseiChihara.js"></script>
-        <script src="ekiData/keisei/KeiseiNaritakuukou.js"></script>
-        <script src="ekiData/khk/KhkHon.js"></script>
-        <script src="ekiData/khk/KhkKuukou.js"></script>
-        <script src="ekiData/khk/KhkDaishi.js"></script>
-        <script src="ekiData/khk/KhkZushi.js"></script>
-        <script src="ekiData/khk/KhkKurihama.js"></script>
-        <script src="ekiData/sotetsu/SotetsuHon.js"></script>
-        <script src="ekiData/sotetsu/SotetsuIzumino.js"></script>
-        <script src="ekiData/sotetsu/SotetuSotetsushinyokohama.js"></script>
-        <script src="ekiData/seibu/SeibuIkebukuro.js"></script>
-        <script src="ekiData/seibu/SeibuSeibuchichibu.js"></script>
-        <script src="ekiData/seibu/SeibuSeibuyuurakuchou.js"></script>
-        <script src="ekiData/seibu/SeibuToshima.js"></script>
-        <script src="ekiData/seibu/SeibuSayama.js"></script>
-        <script src="ekiData/seibu/SeibuShinjuku.js"></script>
-        <script src="ekiData/seibu/SeibuHaijima.js"></script>
-        <script src="ekiData/seibu/SeibuTamako.js"></script>
-        <script src="ekiData/seibu/SeibuKokubunji.js"></script>
-        <script src="ekiData/seibu/SeibuSeibuen.js"></script>
-        <script src="ekiData/seibu/SeibuTamagawa.js"></script>
-        <script src="ekiData/seibu/SeibuYamaguchi.js"></script>
-        <script src="ekiData/tokyu/TokyuTouyoko.js"></script>
-        <script src="ekiData/tokyu/TokyuMeguro.js?20231016"></script>
-        <script src="ekiData/tokyu/TokyuTokyushinyokohama.js"></script>
-        <script src="ekiData/tokyu/TokyuDenentoshi.js"></script>
-        <script src="ekiData/tokyu/TokyuOoimachi.js"></script>
-        <script src="ekiData/tokyu/TokyuIkegami.js"></script>
-        <script src="ekiData/tokyu/TokyuTokyutamagawa.js"></script>
-        <script src="ekiData/tokyu/TokyuKodomonokuni.js"></script>
-        <script src="ekiData/tokyu/TokyuSetagaya.js"></script>
-        <script src="ekiData/tokyometro/TokyometroHibiya.js"></script>
-        <script src="ekiData/tokyometro/TokyometroGinza.js"></script>
-        <script src="ekiData/tokyometro/TokyometroMarunouchi.js"></script>
-        <script src="ekiData/tokyometro/TokyometroTouzai.js"></script>
-        <script src="ekiData/tokyometro/TokyometroNanboku.js"></script>
-        <script src="ekiData/tokyometro/TokyometroYuurakuchou.js"></script>
-        <script src="ekiData/tokyometro/TokyometroChiyoda.js"></script>
-        <script src="ekiData/tokyometro/TokyometroHanzoumon.js"></script>
-        <script src="ekiData/tokyometro/TokyometroFukutoshin.js"></script>
-        <script src="ekiData/tobu/TobuIsesaki.js?20231014"></script>
-        <script src="ekiData/tobu/TobuKameido.js"></script>
-        <script src="ekiData/tobu/TobuDaishi.js"></script>
-        <script src="ekiData/tobu/TobuSano.js"></script>
-        <script src="ekiData/tobu/TobuKiryuu.js"></script>
-        <script src="ekiData/tobu/TobuKoizumi.js"></script>
-        <script src="ekiData/tobu/TobuNikkou.js"></script>
-        <script src="ekiData/tobu/TobuUtsunomiya.js"></script>
-        <script src="ekiData/tobu/TobuKinugawa.js"></script>
-        <script src="ekiData/tobu/TobuNoda.js"></script>
-        <script src="ekiData/tobu/TobuToujouhon.js"></script>
-        <script src="ekiData/tobu/TobuOgose.js"></script>
-        <script src="ekiData/shinkeisei/ShinkeiseiShinkeisei.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuAsakusa.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuMita.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuShinjuku.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuOoedo.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuArakawa.js"></script>
-        <script src="ekiData/toeikoutsuu/ToeikoutsuuNipporitoneriraina.js"></script>
-        <script src="ekiData/yokohamashikoutsuukyoku/YokohamashikoutsuukyokuBururain.js"></script>
-        <script src="ekiData/yokohamashikoutsuukyoku/YokohamashikoutsuukyokuGurinrain.js"></script>
-        <script src="ekiData/yamagatarailway/YamagatarailwayFurawanagai.js"></script>
-        <script src="ekiData/aizurailway/AizurailwayAizu.js"></script>
-        <script src="ekiData/abukyuu/AbukyuuAbukumakyuukou.js"></script>
-        <script src="ekiData/fukushimatransportation/FukushimatransportationIizaka.js"></script>
-        <script src="ekiData/krt/KrtOoaraikashima.js"></script>
-        <script src="ekiData/hitachinakaseasiderailway/HitachinakaseasiderailwayMinato.js"></script>
-        <script src="ekiData/mir/MirTsukubaexpress.js"></script>
-        <script src="ekiData/tamamonorail/TamamonorailTamatoshimonorail.js"></script>
-        <script src="ekiData/tokyomonorail/TokyomonorailTokyomonorailhanedakuukou.js"></script>
-        <script src="ekiData/twr/TwrRinkai.js"></script>
-        <script src="ekiData/yurikamome/YurikamomeYurikamome.js"></script>
-        <script src="ekiData/enoden/EnodenEnoshimadentetsu.js"></script>
-        <script src="ekiData/shonanmonorail/ShonanmonorailEnoshima.js"></script>
-        <script src="ekiData/yokohamaminatomirairailway/YokohamaminatomirairailwayMinatomirai.js"></script>
-        <script src="ekiData/yokohamaseasideline/YokohamaseasidelineKanazawaseasideline.js"></script>
-        <script src="ekiData/tozan/TozanHakonetozandensha.js"></script>
-        <script src="ekiData/tozan/TozanHakonetozancablecar.js"></script>
-        <script src="ekiData/tozan/TozanHakoneropeway.js"></script>
-        <script src="ekiData/etr/EtrNihonkaihisui.js"></script>
-        <script src="ekiData/etr/EtrMyoukouhaneuma.js"></script>
-        <script src="ekiData/hokuetsuexpress/HokuetsuexpressHokuhoku.js"></script>
-        <script src="ekiData/fujikyurailway/FujikyurailwayFujikyuukou.js"></script>
-        <script src="ekiData/alpico/AlpicoKamikouchi.js"></script>
-        <script src="ekiData/jouden/JoudenBessho.js"></script>
-        <script src="ekiData/shinatetsu/ShinatetsuShinanotetsudou.js"></script>
-        <script src="ekiData/shinatetsu/ShinatetsuKitashinano.js"></script>
-        <script src="ekiData/ner/NerNagano.js"></script>
-        <script src="ekiData/izukyu/IzukyuIzukyuukou.js"></script>
-        <script src="main.js?2023102024"></script>
+        <script src="ekiData/jre/JreTouhokushinkan.js?20231027"></script>
+        <script src="ekiData/jre/JreYamagatashinkan.js?20231027"></script>
+        <script src="ekiData/jre/JreAkitashinkan.js?20231027"></script>
+        <script src="ekiData/jre/JreJouetsushinkan.js?20231027"></script>
+        <script src="ekiData/jre/JreHokurikushinkan.js?20231027"></script>
+        <script src="ekiData/jre/JreYamanote.js?20231027"></script>
+        <script src="ekiData/jre/JreShounanshinjuku.js?20231027"></script>
+        <script src="ekiData/jre/JreSaikyou.js?20231027"></script>
+        <script src="ekiData/jre/JreSoutetsujrchokutsuu.js?20231027"></script>
+        <script src="ekiData/jre/JreNegishi.js?20231027"></script>
+        <script src="ekiData/jre/JreYokohama.js?20231027"></script>
+        <script src="ekiData/jre/JreNanbu.js?20231027"></script>
+        <script src="ekiData/jre/JreMusashino.js?20231027"></script>
+        <script src="ekiData/jre/JreKeiyou.js?20231027"></script>
+        <script src="ekiData/jre/JreKawagoe.js?20231027"></script>
+        <script src="ekiData/jre/JreChuuouhon.js?20231027"></script>
+        <script src="ekiData/jre/JreChuuoukaisoku.js?20231027"></script>
+        <script src="ekiData/jre/JreChuuousoubukankou.js?20231027"></script>
+        <script src="ekiData/jre/JreOume.js?20231027"></script>
+        <script src="ekiData/jre/JreItsukaichi.js?20231027"></script>
+        <script src="ekiData/jre/JreSoubuhon.js?20231027"></script>
+        <script src="ekiData/jre/JreYokosukasoubukaisoku.js?20231027"></script>
+        <script src="ekiData/jre/JreTsurumi.js?20231027"></script>
+        <script src="ekiData/jre/JreSagami.js?20231027"></script>
+        <script src="ekiData/jre/JreKeihintouhoku.js?20231027"></script>
+        <script src="ekiData/jre/JreToukaidou.js?20231027"></script>
+        <script src="ekiData/jre/JreUenotoukyou.js?20231027"></script>
+        <script src="ekiData/jre/JreTouhokuhon.js?20231027"></script>
+        <script src="ekiData/jre/JreUtsunomiya.js?20231027"></script>
+        <script src="ekiData/jre/JreSendaikuukouakusesu.js?20231027"></script>
+        <script src="ekiData/jre/JreSensekitouhoku.js?20231027"></script>
+        <script src="ekiData/jre/JreRifu.js?20231027"></script>
+        <script src="ekiData/jre/JreTakasaki.js?20231027"></script>
+        <script src="ekiData/jre/JreJouban.js?20231027"></script>
+        <script src="ekiData/jre/JreJoubankankou.js?20231027"></script>
+        <script src="ekiData/jre/JreJouetsu.js?20231027"></script>
+        <script src="ekiData/jre/JreRyoumou.js?20231027"></script>
+        <script src="ekiData/jre/JreMito.js?20231027"></script>
+        <script src="ekiData/jre/JreSotobou.js?20231027"></script>
+        <script src="ekiData/jre/JreUchibou.js?20231027"></script>
+        <script src="ekiData/jre/JreNarita.js?20231027"></script>
+        <script src="ekiData/jre/JreItou.js?20231027"></script>
+        <script src="ekiData/jre/JreShinetsuhon.js?20231027"></script>
+        <script src="ekiData/jre/JreShinonoi.js?20231027"></script>
+        <script src="ekiData/jre/JreUetsuhon.js?20231027"></script>
+        <script src="ekiData/jre/JreHakushin.js?20231027"></script>
+        <script src="ekiData/jre/JreBanetsusai.js?20231027"></script>
+        <script src="ekiData/jre/JreSenzan.js?20231027"></script>
+        <script src="ekiData/jre/JreSenseki.js?20231027"></script>
+        <script src="ekiData/jre/JreOuuhon.js?20231027"></script>
+        <script src="ekiData/jre/JreYamagata.js?20231027"></script>
+        <script src="ekiData/jre/JreHachikou.js?20231027"></script>
+        <script src="ekiData/jre/JreAgatsuma.js?20231027"></script>
+        <script src="ekiData/jre/JreKarasuyama.js?20231027"></script>
+        <script src="ekiData/jre/JreNikkou.js?20231027"></script>
+        <script src="ekiData/jre/JreSuigun.js?20231027"></script>
+        <script src="ekiData/jre/JreKashima.js?20231027"></script>
+        <script src="ekiData/jre/JreKururi.js?20231027"></script>
+        <script src="ekiData/jre/JreTougane.js?20231027"></script>
+        <script src="ekiData/jre/JreKoumi.js?20231027"></script>
+        <script src="ekiData/jre/JreIiyama.js?20231027"></script>
+        <script src="ekiData/jre/JreOoito.js?20231027"></script>
+        <script src="ekiData/jre/JreEchigo.js?20231027"></script>
+        <script src="ekiData/jre/JreYahiko.js?20231027"></script>
+        <script src="ekiData/jre/JreYonesaka.js?20231027"></script>
+        <script src="ekiData/jre/JreTadami.js?20231027"></script>
+        <script src="ekiData/jre/JreBanetsutou.js?20231027"></script>
+        <script src="ekiData/jre/JreIshinomaki.js?20231027"></script>
+        <script src="ekiData/jre/JreKesennuma.js?20231027"></script>
+        <script src="ekiData/jre/JreOofunato.js?20231027"></script>
+        <script src="ekiData/jre/JreRikuutou.js?20231027"></script>
+        <script src="ekiData/jre/JreRikuusai.js?20231027"></script>
+        <script src="ekiData/jre/JreKitakami.js?20231027"></script>
+        <script src="ekiData/jre/JreKamaishi.js?20231027"></script>
+        <script src="ekiData/jre/JreYamada.js?20231027"></script>
+        <script src="ekiData/jre/JreHanawa.js?20231027"></script>
+        <script src="ekiData/jre/JreHachinohe.js?20231027"></script>
+        <script src="ekiData/jre/JreOominato.js?20231027"></script>
+        <script src="ekiData/jre/JreTsugaru.js?20231027"></script>
+        <script src="ekiData/jre/JreAterazawa.js?20231027"></script>
+        <script src="ekiData/jre/JreTazawako.js?20231027"></script>
+        <script src="ekiData/jre/JreOga.js?20231027"></script>
+        <script src="ekiData/jre/JreGonou.js?20231027"></script>
+        <script src="ekiData/oer/OerOdawara.js?20231027"></script>
+        <script src="ekiData/oer/OerEnoshima.js?20231027"></script>
+        <script src="ekiData/oer/OerTama.js?20231027"></script>
+        <script src="ekiData/keio/KeioKeiou.js?20231027"></script>
+        <script src="ekiData/keio/KeioKeioushin.js?20231027"></script>
+        <script src="ekiData/keio/KeioSagamihara.js?20231027"></script>
+        <script src="ekiData/keio/KeioKeibajou.js?20231027"></script>
+        <script src="ekiData/keio/KeioDoubutsuen.js?20231027"></script>
+        <script src="ekiData/keio/KeioTakao.js?20231027"></script>
+        <script src="ekiData/keio/KeioInokashira.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiHon.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiHigashinarita.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiOshiage.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiKanamachi.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiChiba.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiChihara.js?20231027"></script>
+        <script src="ekiData/keisei/KeiseiNaritakuukou.js?20231027"></script>
+        <script src="ekiData/khk/KhkHon.js?20231027"></script>
+        <script src="ekiData/khk/KhkKuukou.js?20231027"></script>
+        <script src="ekiData/khk/KhkDaishi.js?20231027"></script>
+        <script src="ekiData/khk/KhkZushi.js?20231027"></script>
+        <script src="ekiData/khk/KhkKurihama.js?20231027"></script>
+        <script src="ekiData/sotetsu/SotetsuHon.js?20231027"></script>
+        <script src="ekiData/sotetsu/SotetsuIzumino.js?20231027"></script>
+        <script src="ekiData/sotetsu/SotetuSotetsushinyokohama.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuIkebukuro.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuSeibuchichibu.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuSeibuyuurakuchou.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuToshima.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuSayama.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuShinjuku.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuHaijima.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuTamako.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuKokubunji.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuSeibuen.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuTamagawa.js?20231027"></script>
+        <script src="ekiData/seibu/SeibuYamaguchi.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuTouyoko.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuMeguro.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuTokyushinyokohama.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuDenentoshi.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuOoimachi.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuIkegami.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuTokyutamagawa.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuKodomonokuni.js?20231027"></script>
+        <script src="ekiData/tokyu/TokyuSetagaya.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroHibiya.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroGinza.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroMarunouchi.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroTouzai.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroNanboku.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroYuurakuchou.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroChiyoda.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroHanzoumon.js?20231027"></script>
+        <script src="ekiData/tokyometro/TokyometroFukutoshin.js?20231027"></script>
+        <script src="ekiData/tobu/TobuIsesaki.js?20231027"></script>
+        <script src="ekiData/tobu/TobuKameido.js?20231027"></script>
+        <script src="ekiData/tobu/TobuDaishi.js?20231027"></script>
+        <script src="ekiData/tobu/TobuSano.js?20231027"></script>
+        <script src="ekiData/tobu/TobuKiryuu.js?20231027"></script>
+        <script src="ekiData/tobu/TobuKoizumi.js?20231027"></script>
+        <script src="ekiData/tobu/TobuNikkou.js?20231027"></script>
+        <script src="ekiData/tobu/TobuUtsunomiya.js?20231027"></script>
+        <script src="ekiData/tobu/TobuKinugawa.js?20231027"></script>
+        <script src="ekiData/tobu/TobuNoda.js?20231027"></script>
+        <script src="ekiData/tobu/TobuToujouhon.js?20231027"></script>
+        <script src="ekiData/tobu/TobuOgose.js?20231027"></script>
+        <script src="ekiData/shinkeisei/ShinkeiseiShinkeisei.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuAsakusa.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuMita.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuShinjuku.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuOoedo.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuArakawa.js?20231027"></script>
+        <script src="ekiData/toeikoutsuu/ToeikoutsuuNipporitoneriraina.js?20231027"></script>
+        <script src="ekiData/yokohamashikoutsuukyoku/YokohamashikoutsuukyokuBururain.js?20231027"></script>
+        <script src="ekiData/yokohamashikoutsuukyoku/YokohamashikoutsuukyokuGurinrain.js?20231027"></script>
+        <script src="ekiData/yamagatarailway/YamagatarailwayFurawanagai.js?20231027"></script>
+        <script src="ekiData/aizurailway/AizurailwayAizu.js?20231027"></script>
+        <script src="ekiData/abukyuu/AbukyuuAbukumakyuukou.js?20231027"></script>
+        <script src="ekiData/fukushimatransportation/FukushimatransportationIizaka.js?20231027"></script>
+        <script src="ekiData/krt/KrtOoaraikashima.js?20231027"></script>
+        <script src="ekiData/hitachinakaseasiderailway/HitachinakaseasiderailwayMinato.js?20231027"></script>
+        <script src="ekiData/mir/MirTsukubaexpress.js?20231027"></script>
+        <script src="ekiData/tamamonorail/TamamonorailTamatoshimonorail.js?20231027"></script>
+        <script src="ekiData/tokyomonorail/TokyomonorailTokyomonorailhanedakuukou.js?20231027"></script>
+        <script src="ekiData/twr/TwrRinkai.js?20231027"></script>
+        <script src="ekiData/yurikamome/YurikamomeYurikamome.js?20231027"></script>
+        <script src="ekiData/enoden/EnodenEnoshimadentetsu.js?20231027"></script>
+        <script src="ekiData/shonanmonorail/ShonanmonorailEnoshima.js?20231027"></script>
+        <script src="ekiData/yokohamaminatomirairailway/YokohamaminatomirairailwayMinatomirai.js?20231027"></script>
+        <script src="ekiData/yokohamaseasideline/YokohamaseasidelineKanazawaseasideline.js?20231027"></script>
+        <script src="ekiData/tozan/TozanHakonetozandensha.js?20231027"></script>
+        <script src="ekiData/tozan/TozanHakonetozancablecar.js?20231027"></script>
+        <script src="ekiData/tozan/TozanHakoneropeway.js?20231027"></script>
+        <script src="ekiData/etr/EtrNihonkaihisui.js?20231027"></script>
+        <script src="ekiData/etr/EtrMyoukouhaneuma.js?20231027"></script>
+        <script src="ekiData/hokuetsuexpress/HokuetsuexpressHokuhoku.js?20231027"></script>
+        <script src="ekiData/fujikyurailway/FujikyurailwayFujikyuukou.js?20231027"></script>
+        <script src="ekiData/alpico/AlpicoKamikouchi.js?20231027"></script>
+        <script src="ekiData/jouden/JoudenBessho.js?20231027"></script>
+        <script src="ekiData/shinatetsu/ShinatetsuShinanotetsudou.js?20231027"></script>
+        <script src="ekiData/shinatetsu/ShinatetsuKitashinano.js?20231027"></script>
+        <script src="ekiData/ner/NerNagano.js?20231027"></script>
+        <script src="ekiData/izukyu/IzukyuIzukyuukou.js?20231027"></script>
+        <script src="main.js?2023102027"></script>
     </body>
 </html>

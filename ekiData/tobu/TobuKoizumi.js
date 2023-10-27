@@ -1,6 +1,7 @@
 const TobuKoizumiCommon = {
     ...compNameTobu,
     lineName: '小泉線',
+    lineBack1: '#ed1a3d',
 };
 
 const TobuKoizumi = [

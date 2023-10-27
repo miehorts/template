@@ -1,6 +1,8 @@
 const ToeikoutsuuNipporitonerirainaCommon = {
     ...compNameToeikoutsuu,
     lineName: '日暮里・舎人ライナー',
+    lineBack1: '#d53a77',
+    lineBack2: '#69b444',
 };
 
 const ToeikoutsuuNipporitoneriraina = [

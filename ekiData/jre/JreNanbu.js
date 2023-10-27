@@ -1,6 +1,7 @@
 const JreNanbuCommon = {
     ...compNameJre,
     lineName: '南武線',
+    lineBack1: '#ffd400',
     passArea: '["ShuP", "NHSP"]',
 };
 

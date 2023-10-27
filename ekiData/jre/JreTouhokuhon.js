@@ -1,6 +1,7 @@
 const JreTouhokuhonCommon = {
     ...compNameJre,
     lineName: '東北本線',
+    lineBack1: 'mediumseagreen',
 };
 
 const JreTouhokuhonCommon1 = {

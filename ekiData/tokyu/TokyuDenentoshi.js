@@ -1,6 +1,7 @@
 const TokyuDenentoshiCommon = {
     ...compNameTokyu,
     lineName: '田園都市線',
+    lineBack1: '#20a288',
 };
 
 const TokyuDenentoshi = [

@@ -1,6 +1,7 @@
 const YokohamashikoutsuukyokuBururainCommon = {
     ...compNameYokohamashikoutsuukyoku,
     lineName: 'ブルーライン',
+    lineBack1: '#2f56a5',
 };
 
 const YokohamashikoutsuukyokuBururain = [

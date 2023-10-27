@@ -1,6 +1,7 @@
 const SeibuSayamaCommon = {
     ...compNameSeibu,
     lineName: '狭山線',
+    lineBack1: '#ef810f',
 };
 
 const SeibuSayama = [

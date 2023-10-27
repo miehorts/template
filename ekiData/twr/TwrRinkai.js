@@ -1,6 +1,7 @@
 const TwrRinkaiCommon = {
     ...compNameTwr,
     lineName: 'りんかい線',
+    lineBack1: '#00389e',
     passArea: '["NHSP"]',
 }
 

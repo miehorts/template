@@ -1,6 +1,7 @@
 const JreRikuutouCommon = {
     ...compNameJre,
     lineName: '陸羽東線',
+    lineBack1: '#999999',
     passArea: '["ShuP"]',
 }
 

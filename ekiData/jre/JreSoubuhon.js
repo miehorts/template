@@ -1,6 +1,7 @@
 const JreSoubuhonCommon = {
     ...compNameJre,
     lineName: '総武本線',
+    lineBack1: '#ffd400',
 }
 
 const JreSoubuhonCommon1 = {

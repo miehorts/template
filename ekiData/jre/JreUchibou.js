@@ -1,6 +1,7 @@
 const JreUchibouCommon = {
     ...compNameJre,
     lineName: '内房線',
+    lineBack1: '#00b2e5',
 };
 
 const JreUchibouCommon1 = {

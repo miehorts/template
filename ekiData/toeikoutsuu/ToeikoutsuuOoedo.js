@@ -1,10 +1,11 @@
 const ToeikoutsuuOoedoCommon = {
     ...compNameToeikoutsuu,
     lineName: '大江戸線',
+    lineBack1: '#b6007a',
 };
 
 const ToeikoutsuuOoedoCommon1 = {
-    ...compNameToeikoutsuu,
+    ...ToeikoutsuuOoedoCommon,
     lineName: '都営大江戸線',
 };
 

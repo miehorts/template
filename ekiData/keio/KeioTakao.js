@@ -1,6 +1,7 @@
 const KeioTakaoCommon = {
     ...compNameKeio,
     lineName: '高尾線',
+    lineBack1: '#dd0077',
 };
 
 const KeioTakao = [

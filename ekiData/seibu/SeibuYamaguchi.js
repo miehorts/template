@@ -1,6 +1,7 @@
 const SeibuYamaguchiCommon = {
     ...compNameSeibu,
     lineName: '山口線',
+    lineBack1: '#ff3333',
 };
 
 const SeibuYamaguchi = [

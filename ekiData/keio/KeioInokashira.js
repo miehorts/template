@@ -1,6 +1,7 @@
 const KeioInokashiraCommon = {
     ...compNameKeio,
     lineName: '井の頭線',
+    lineBack1: '#000088',
 };
 
 const KeioInokashira = [

@@ -1,6 +1,7 @@
 const FukushimatransportationIizakaCommon = {
     ...compNameFukushimatransportation,
     lineName: '飯坂線',
+    lineBack1: '#87ceeb',
     passArea: '["ShuP"]',
 }
 

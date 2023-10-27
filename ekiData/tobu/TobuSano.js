@@ -1,6 +1,7 @@
 const TobuSanoCommon = {
     ...compNameTobu,
     lineName: '佐野線',
+    lineBack1: '#ed1a3d',
 };
 
 const TobuSano = [

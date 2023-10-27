@@ -1,6 +1,7 @@
 const TokyuIkegamiCommon = {
     ...compNameTokyu,
     lineName: '池上線',
+    lineBack1: '#ee86a7',
 };
 
 const TokyuIkegami = [

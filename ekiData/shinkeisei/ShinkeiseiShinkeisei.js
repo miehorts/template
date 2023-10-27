@@ -1,6 +1,7 @@
 const ShinkeiseiShinkeiseiCommon = {
     ...compNameShinkeisei,
     lineName: '新京成線',
+    lineBack1: '#ef59a1',
 }
 
 const ShinkeiseiShinkeisei = [

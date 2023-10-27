@@ -1,6 +1,7 @@
 const KrtOoaraikashimaCommon = {
     ...compNameKrt,
     lineName: '大洗鹿島線',
+    lineBack1: '#ff0000',
     passArea: '["ShuP"]',
 }
 

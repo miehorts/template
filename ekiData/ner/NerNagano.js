@@ -1,6 +1,7 @@
 const NerNaganoCommon = {
     ...compNameNer,
     lineName: '長野線',
+    lineBack1: '#ff0000',
     passArea: '["ShuP"]',
 };
 

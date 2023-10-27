@@ -1,6 +1,7 @@
 const JreTsugaruCommon = {
     ...compNameJre,
     lineName: '津軽線',
+    lineBack1: '#15a2c4',
 }
 
 const JreTsugaru = [

@@ -5,11 +5,20 @@ const JreChuuouhonCommon = {
 
 const JreChuuouhonCommon1 = {
     ...JreChuuouhonCommon,
+    lineBack1: '#f15a22',
+    passArea: '["ShuP", "NHSP"]',
+};
+
+const JreChuuouhonCommon11 = {
+    ...JreChuuouhonCommon,
+    lineBack1: '#0074be',
+    lineBack2: '#f15a22',
     passArea: '["ShuP", "NHSP"]',
 };
 
 const JreChuuouhonCommon2 = {
     ...JreChuuouhonCommon,
+    lineBack1: '#0074be',
     passArea: '["ShuP"]',
 };
 
@@ -77,7 +86,7 @@ const JreChuuouhon = [
         ekimeiKana: 'おおつき',
         ekimeiRoma: 'Ōtsuki',
         sttnAddr: '山梨県大月市大月一丁目',
-        ...JreChuuouhonCommon1,
+        ...JreChuuouhonCommon11,
     },
     {
         ekimeiKanj: '初狩',

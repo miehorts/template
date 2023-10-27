@@ -1,6 +1,7 @@
 const SeibuShinjukuCommon = {
     ...compNameSeibu,
     lineName: '新宿線',
+    lineBack1: '#00a6bf',
 };
 
 const SeibuShinjuku = [

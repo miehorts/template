@@ -1,6 +1,7 @@
 const KeiseiHigashinaritaCommon = {
     ...compNameKeisei,
     lineName: '東成田線',
+    lineBack1: '#005aaa',
 }
 
 const KeiseiHigashinarita = [

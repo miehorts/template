@@ -1,6 +1,7 @@
 const JreSoutetsujrchokutsuuCommon = {
     ...compNameJre,
     lineName: '相鉄・JR直通線',
+    lineBack1: '#0066ff',
     //lineName1: { lineName: '相鉄線直通' },
     //lineName2: { lineName: '相鉄線直通／埼京線直通' },
     passArea: '["ShuP", "NHSP"]',

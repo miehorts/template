@@ -1,6 +1,7 @@
 const JreYonesakaCommon = {
     ...compNameJre,
     lineName: '米坂線',
+    lineBack1: '#9e7eb9',
     passArea: '["ShuP"]',
 }
 

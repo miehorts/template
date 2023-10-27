@@ -1,6 +1,7 @@
 const JreKitakamiCommon = {
     ...compNameJre,
     lineName: '北上線',
+    lineBack1: '#851a72',
 }
 
 const JreKitakami = [

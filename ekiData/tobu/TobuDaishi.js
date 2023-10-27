@@ -1,6 +1,7 @@
 const TobuDaishiCommon = {
     ...compNameTobu,
     lineName: '大師線',
+    lineBack1: '#0067c0',
 };
 
 const TobuDaishi = [

@@ -6,6 +6,7 @@ const JreJoubankankouCommon = {
 const JreJoubankankouCommon1 = {
     ...JreJoubankankouCommon,
     lineName: '常磐線（各駅停車）',
+    lineBack1: '#808080',
     passArea: '["ShuP", "NHSP"]',
 };
 

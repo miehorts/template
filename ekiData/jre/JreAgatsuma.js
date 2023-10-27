@@ -1,6 +1,7 @@
 const JreAgatsumaCommon = {
     ...compNameJre,
     lineName: '吾妻線',
+    lineBack1: '#0f5474',
     passArea: '["ShuP"]',
 }
 

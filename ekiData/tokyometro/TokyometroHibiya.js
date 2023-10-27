@@ -1,6 +1,7 @@
 const TokyometroHibiyaCommon = {
     ...compNameTokyometro,
     lineName: '日比谷線',
+    lineBack1: '#b5b5ac',
 };
 
 const TokyometroHibiya = [

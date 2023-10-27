@@ -1,6 +1,7 @@
 const JreToukaidouCommon = {
     ...compNameJre,
     lineName: '東海道線',
+    lineBack1: '#f68b1e',
     passArea: '["NHSP"]',
 };
 

@@ -1,10 +1,11 @@
 const ToeikoutsuuArakawaCommon = {
     ...compNameToeikoutsuu,
     lineName: '荒川線',
+    lineBack1: '#ee86a7',
 };
 
 const ToeikoutsuuArakawaCommon1 = {
-    ...compNameToeikoutsuu,
+    ...ToeikoutsuuArakawaCommon,
     lineName: '都電荒川線（東京さくらトラム）',
 };
 

@@ -1,6 +1,7 @@
 const EtrNihonkaihisuiCommon = {
     ...compNameEtr,
     lineName: '日本海ひすいライン',
+    lineBack1: '#3782bd',
 }
 
 const EtrNihonkaihisui = [

@@ -1,6 +1,7 @@
 const ShinatetsuShinanotetsudouCommon = {
     ...compNameShinatetsu,
     lineName: 'しなの鉄道線',
+    lineBack1: '#f0a401',
     passArea: '["ShuP"]',
 };
 

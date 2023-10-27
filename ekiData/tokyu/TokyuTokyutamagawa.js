@@ -1,6 +1,7 @@
 const TokyuTokyutamagawaCommon = {
     ...compNameTokyu,
     lineName: '東急多摩川線',
+    lineBack1: '#ae0378',
 };
 
 const TokyuTokyutamagawa = [

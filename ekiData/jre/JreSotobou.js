@@ -1,6 +1,7 @@
 const JreSotobouCommon = {
     ...compNameJre,
     lineName: '外房線',
+    lineBack1: '#db4028',
 };
 
 const JreSotobouCommon1 = {

@@ -1,6 +1,7 @@
 const KeioKeibajouCommon = {
     ...compNameKeio,
     lineName: '競馬場線',
+    lineBack1: '#dd0077',
 };
 
 const KeioKeibajou = [

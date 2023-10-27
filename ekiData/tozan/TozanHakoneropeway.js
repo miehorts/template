@@ -1,6 +1,7 @@
 const TozanHakoneropewayCommon = {
     ...compNameTozan,
     lineName: '箱根ロープウェイ',
+    lineBack1: '#f04a00',
 };
 
 const TozanHakoneropeway = [

@@ -229,9 +229,32 @@ span.compName {
     font-size: 18px;
 }
 
+div:has(> .lineName) {
+    position: relative;
+}
+
+.lineBack1 {
+    position: absolute;
+    top: 0;
+    width:  100%;
+    height: 50%;
+    z-index: -1;
+    /*background: linear-gradient(90deg, #0074be, #ffffff);*/
+}
+
+.lineBack2 {
+    position: absolute;
+    top: 50%;
+    width:  100%;
+    height: 50%;
+    z-index: -1;
+    /*background: linear-gradient(90deg, #f15a22, #ffffff);*/
+}
+
 span.lineName {
     padding: 0 10px;
     font-size: 18px;
+    text-shadow: #ffffff 0 0 2px;
 }
 
 span.sttnAddr {

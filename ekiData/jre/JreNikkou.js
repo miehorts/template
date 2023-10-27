@@ -1,6 +1,7 @@
 const JreNikkouCommon = {
     ...compNameJre,
     lineName: '日光線',
+    lineBack1: '#880022',
     passArea: '["ShuP"]',
 }
 

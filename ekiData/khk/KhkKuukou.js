@@ -1,6 +1,7 @@
 const KhkKuukouCommon = {
     ...compNameKhk,
     lineName: '空港線',
+    lineBack1: 'deepskyblue',
 };
 
 const KhkKuukou = [

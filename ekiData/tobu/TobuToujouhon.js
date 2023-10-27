@@ -1,10 +1,11 @@
 const TobuToujouhonCommon = {
     ...compNameTobu,
     lineName: '東上本線',
+    lineBack1: '#004098',
 };
 
 const TobuToujouhonCommon1 = {
-    ...compNameTobu,
+    ...TobuToujouhonCommon,
     lineName: '東上線',
 };
 

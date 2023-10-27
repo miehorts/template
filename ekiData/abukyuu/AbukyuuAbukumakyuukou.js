@@ -1,6 +1,7 @@
 const AbukyuuAbukumakyuukouCommon = {
     ...compNameAbukyuu,
     lineName: '阿武隈急行線',
+    lineBack1: 'deepskyblue',
     passArea: '["ShuP"]',
 }
 

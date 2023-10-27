@@ -1,6 +1,7 @@
 const JreNaritaCommon = {
     ...compNameJre,
     lineName: '成田線',
+    lineBack1: '#00b261',
 };
 
 const JreNaritaCommon1 = {

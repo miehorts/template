@@ -1,6 +1,7 @@
 const JreOominatoCommon = {
     ...compNameJre,
     lineName: '大湊線',
+    lineBack1: '#f1aa28',
 }
 
 const JreOominato = [

@@ -1,6 +1,7 @@
 const JreOgaCommon = {
     ...compNameJre,
     lineName: '男鹿線',
+    lineBack1: '#36823e',
 }
 
 const JreOga = [

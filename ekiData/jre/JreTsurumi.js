@@ -1,6 +1,7 @@
 const JreTsurumiCommon = {
     ...compNameJre,
     lineName: '鶴見線',
+    lineBack1: '#ffd400',
     passArea: '["ShuP", "NHSP"]',
 }
 

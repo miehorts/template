@@ -1,6 +1,7 @@
 const SotetsuHonCommon = {
     ...compNameSotetsu,
     lineName: '本線',
+    lineBack1: '#041452',
 };
 
 const SotetsuHon = [

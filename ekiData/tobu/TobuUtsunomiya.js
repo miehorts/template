@@ -1,6 +1,7 @@
 const TobuUtsunomiyaCommon = {
     ...compNameTobu,
     lineName: '宇都宮線',
+    lineBack1: 'orange',
 };
 
 const TobuUtsunomiya = [

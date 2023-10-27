@@ -1,6 +1,7 @@
 const JreYamadaCommon = {
     ...compNameJre,
     lineName: '山田線',
+    lineBack1: '#cd7a1e',
 }
 
 const JreYamada = [

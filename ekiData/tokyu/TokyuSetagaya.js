@@ -1,6 +1,7 @@
 const TokyuSetagayaCommon = {
     ...compNameTokyu,
     lineName: '世田谷線',
+    lineBack1: '#fcc70d',
 };
 
 const TokyuSetagaya = [

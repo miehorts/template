@@ -1,10 +1,11 @@
 const ToeikoutsuuAsakusaCommon = {
     ...compNameToeikoutsuu,
     lineName: '浅草線',
+    lineBack1: '#ec6e65',
 };
 
 const ToeikoutsuuAsakusaCommon1 = {
-    ...compNameToeikoutsuu,
+    ...ToeikoutsuuAsakusaCommon,
     lineName: '都営浅草線',
 };
 

@@ -1,10 +1,11 @@
 const TobuNodaCommon = {
     ...compNameTobu,
     lineName: '野田線',
+    lineBack1: '#00bfff',
 };
 
 const TobuNodaCommon1 = {
-    ...compNameTobu,
+    ...TobuNodaCommon,
     lineName: '東武アーバンパークライン',
 };
 

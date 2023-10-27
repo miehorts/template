@@ -1,6 +1,7 @@
 const ShinatetsuKitashinanoCommon = {
     ...compNameShinatetsu,
     lineName: '北しなの線',
+    lineBack1: '#999966',
     passArea: '["ShuP"]',
 };
 

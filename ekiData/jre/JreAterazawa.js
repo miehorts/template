@@ -1,6 +1,7 @@
 const JreAterazawaCommon = {
     ...compNameJre,
     lineName: '左沢線',
+    lineBack1: '#0073bf',
     passArea: '["ShuP"]',
 }
 

@@ -1,6 +1,7 @@
 const JreTakasakiCommon = {
     ...compNameJre,
     lineName: '高崎線',
+    lineBack1: '#f68b1e',
 };
 
 const JreTakasakiCommon1 = {

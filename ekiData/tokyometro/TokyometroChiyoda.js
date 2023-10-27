@@ -1,6 +1,7 @@
 const TokyometroChiyodaCommon = {
     ...compNameTokyometro,
     lineName: '千代田線',
+    lineBack1: '#00bb85',
 };
 
 const TokyometroChiyoda = [

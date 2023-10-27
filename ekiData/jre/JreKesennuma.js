@@ -1,6 +1,7 @@
 const JreKesennumaCommon = {
     ...compNameJre,
     lineName: '気仙沼線',
+    lineBack1: '#3b459b',
 }
 
 const JreKesennuma = [

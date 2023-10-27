@@ -1,6 +1,7 @@
 const JreYahikoCommon = {
     ...compNameJre,
     lineName: '弥彦線',
+    lineBack1: '#922790',
     passArea: '["ShuP"]',
 }
 

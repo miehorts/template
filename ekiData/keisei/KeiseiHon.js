@@ -1,6 +1,7 @@
 const KeiseiHonCommon = {
     ...compNameKeisei,
     lineName: '本線',
+    lineBack1: '#005aaa',
 }
 
 const KeiseiHonCommon1 = {

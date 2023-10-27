@@ -1,6 +1,7 @@
 const JreRyoumouCommon = {
     ...compNameJre,
     lineName: '両毛線',
+    lineBack1: '#ffd400',
 };
 
 const JreRyoumouCommon1 = {

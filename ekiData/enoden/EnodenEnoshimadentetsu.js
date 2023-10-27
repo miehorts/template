@@ -1,6 +1,7 @@
 const EnodenEnoshimadentetsuCommon = {
     ...compNameEnoden,
     lineName: '江ノ島電鉄線',
+    lineBack1: '#f6be18',
 }
 
 const EnodenEnoshimadentetsu = [

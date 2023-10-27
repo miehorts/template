@@ -1,6 +1,7 @@
 const SeibuTamagawaCommon = {
     ...compNameSeibu,
     lineName: '多摩川線',
+    lineBack1: '#ef810f',
 };
 
 const SeibuTamagawa = [

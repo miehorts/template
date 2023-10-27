@@ -1,6 +1,7 @@
 const MirTsukubaexpressCommon = {
     ...compNameMir,
     lineName: 'つくばエクスプレス',
+    lineBack1: '#000084',
 };
 
 const MirTsukubaexpress = [

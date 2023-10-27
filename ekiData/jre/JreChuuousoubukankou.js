@@ -1,21 +1,18 @@
 const JreChuuousoubukankouCommon = {
     ...compNameJre,
     lineName: '中央・総武緩行線',
-    lineName1: { lineName: '総武線（各駅停車）' },
-    lineName2: { lineName: '中央・総武線（各駅停車）' },
-    passArea1: { passArea: '["ShuP", "NHSP"]' },
+    lineBack1: '#ffd400',
+    passArea: '["ShuP", "NHSP"]',
 };
 
 const JreChuuousoubukankouCommon1 = {
-    ...compNameJre,
-    ...JreChuuousoubukankouCommon.lineName1,
-    ...JreChuuousoubukankouCommon.passArea1,
+    ...JreChuuousoubukankouCommon,
+    lineName: '総武線（各駅停車）',
 };
 
 const JreChuuousoubukankouCommon2 = {
-    ...compNameJre,
-    ...JreChuuousoubukankouCommon.lineName2,
-    ...JreChuuousoubukankouCommon.passArea1,
+    ...JreChuuousoubukankouCommon,
+    lineName: '中央・総武線（各駅停車）'
 };
 
 const JreChuuousoubukankou = [

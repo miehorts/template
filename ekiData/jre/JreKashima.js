@@ -1,6 +1,7 @@
 const JreKashimaCommon = {
     ...compNameJre,
     lineName: '鹿島線',
+    lineBack1: '#c56e2e',
     passArea: '["ShuP"]',
 }
 

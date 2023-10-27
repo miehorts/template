@@ -1,6 +1,7 @@
 const JreYamagataCommon = {
     ...compNameJre,
     lineName: '山形線',
+    lineBack1: '#ee7b28',
     passArea: '["ShuP"]',
 }
 

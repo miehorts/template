@@ -1,6 +1,7 @@
 const YokohamaminatomirairailwayMinatomiraiCommon = {
     ...compNameYokohamaminatomirairailway,
     lineName: 'みなとみらい線',
+    lineBack1: '#0067c0',
 };
 
 const YokohamaminatomirairailwayMinatomirai = [

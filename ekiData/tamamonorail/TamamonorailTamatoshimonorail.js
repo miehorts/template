@@ -1,6 +1,7 @@
 const TamamonorailTamatoshimonorailCommon = {
     ...compNameTamamonorail,
     lineName: '多摩都市モノレール線',
+    lineBack1: 'darkorange',
 }
 
 const TamamonorailTamatoshimonorail = [

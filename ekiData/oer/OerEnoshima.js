@@ -1,6 +1,7 @@
 const OerEnoshimaCommon = {
     ...compNameOer,
     lineName: '江ノ島線',
+    lineBack1: '#2288CC',
 };
 
 const OerEnoshima = [

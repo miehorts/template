@@ -1,6 +1,7 @@
 const TokyometroFukutoshinCommon = {
     ...compNameTokyometro,
     lineName: '副都心線',
+    lineBack1: '#9c5e31',
 };
 
 const TokyometroFukutoshin = [

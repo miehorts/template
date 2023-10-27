@@ -1,6 +1,7 @@
 const JreKeihintouhokuCommon = {
     ...compNameJre,
     lineName: '京浜東北線',
+    lineBack1: '#00b2e5',
     passArea: '["ShuP", "NHSP"]',
 };
 

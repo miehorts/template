@@ -1,6 +1,7 @@
 const JreHanawaCommon = {
     ...compNameJre,
     lineName: '花輪線',
+    lineBack1: '#aa1e30',
 }
 
 const JreHanawa = [

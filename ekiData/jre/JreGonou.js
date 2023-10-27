@@ -1,6 +1,7 @@
 const JreGonouCommon = {
     ...compNameJre,
     lineName: '五能線',
+    lineBack1: '#0c7aad',
 }
 
 const JreGonou = [

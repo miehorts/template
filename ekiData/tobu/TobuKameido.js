@@ -1,6 +1,7 @@
 const TobuKameidoCommon = {
     ...compNameTobu,
     lineName: '亀戸線',
+    lineBack1: '#0067c0',
 };
 
 const TobuKameido = [

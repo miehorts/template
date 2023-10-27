@@ -1,6 +1,7 @@
 const TokyometroTouzaiCommon = {
     ...compNameTokyometro,
     lineName: '東西線',
+    lineBack1: '#009bbf',
 };
 
 const TokyometroTouzai = [

@@ -1,6 +1,7 @@
 const KeioKeioushinCommon = {
     ...compNameKeio,
     lineName: '京王新線',
+    lineBack1: '#dd0077',
 };
 
 const KeioKeioushin = [

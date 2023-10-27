@@ -1,6 +1,7 @@
 const JreTadamiCommon = {
     ...compNameJre,
     lineName: '只見線',
+    lineBack1: '#008dd1',
     passArea: '["ShuP"]',
 }
 

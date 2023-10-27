@@ -1,6 +1,7 @@
 const JreRifuCommon = {
     ...compNameJre,
     lineName: '利府線',
+    lineBack1: 'mediumseagreen',
     passArea: '["ShuP"]',
 }
 

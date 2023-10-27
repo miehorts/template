@@ -1,6 +1,7 @@
 const KeioDoubutsuenCommon = {
     ...compNameKeio,
     lineName: '動物園線',
+    lineBack1: '#dd0077',
 };
 
 const KeioDoubutsuen = [

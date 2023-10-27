@@ -1,6 +1,7 @@
 const HitachinakaseasiderailwayMinatoCommon = {
     ...compNameHitachinakaseasiderailway,
     lineName: '湊線',
+    lineBack1: 'orange',
     passArea: '["ShuP"]',
 }
 

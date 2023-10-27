@@ -1,6 +1,7 @@
 const SotetsuSotetsushinyokohamaCommon = {
     ...compNameSotetsu,
     lineName: '相鉄新横浜線',
+    lineBack1: '#041452',
 };
 
 const SotetsuSotetsushinyokohama = [

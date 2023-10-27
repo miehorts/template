@@ -1,6 +1,7 @@
 const JreOumeCommon = {
     ...compNameJre,
     lineName: '青梅線',
+    lineBack1: '#f15a22',
     passArea: '["ShuP", "NHSP"]',
 };
 

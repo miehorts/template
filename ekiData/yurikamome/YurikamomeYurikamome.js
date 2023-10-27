@@ -1,6 +1,7 @@
 const YurikamomeYurikamomeCommon = {
     ...compNameYurikamome,
     lineName: 'ゆりかもめ',
+    lineBack1: '#0067c0',
 };
 
 const YurikamomeYurikamome = [

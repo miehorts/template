@@ -1,6 +1,7 @@
 const ShonanmonorailEnoshimaCommon = {
     ...compNameShonanmonorail,
     lineName: '江の島線',
+    lineBack1: '#ff0000',
 }
 
 const ShonanmonorailEnoshima = [

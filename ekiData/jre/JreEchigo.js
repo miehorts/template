@@ -1,6 +1,7 @@
 const JreEchigoCommon = {
     ...compNameJre,
     lineName: '越後線',
+    lineBack1: '#40934d',
     passArea: '["ShuP"]',
 }
 

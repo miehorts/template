@@ -1,6 +1,7 @@
 const JreTouhokushinkanCommon = {
     ...compNameJre,
     lineName: '東北新幹線',
+    lineBack1: '#008000',
 };
 
 const JreTouhokushinkanCommon1 = {

@@ -1,6 +1,7 @@
 const KhkDaishiCommon = {
     ...compNameKhk,
     lineName: '大師線',
+    lineBack1: 'deepskyblue',
 };
 
 const KhkDaishi = [

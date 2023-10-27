@@ -1,6 +1,7 @@
 const TobuKinugawaCommon = {
     ...compNameTobu,
     lineName: '鬼怒川線',
+    lineBack1: 'orange',
 };
 
 const TobuKinugawa = [
