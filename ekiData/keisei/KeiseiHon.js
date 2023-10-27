@@ -5,7 +5,7 @@ const KeiseiHonCommon = {
 }
 
 const KeiseiHonCommon1 = {
-    ...compNameKeisei,
+    ...KeiseiHonCommon,
     lineName: '京成本線',
 }
 
