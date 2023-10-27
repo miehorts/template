@@ -321,11 +321,9 @@ function updateFace($face) {
     if (11 < next.ekimeiKanj.length) {
         $spanEkimeiKanj.css({ fontSize: '24px' });
     }
-    //$face.find('span.ekimeiKanj').text(next.ekimeiKanj);
     $face.find('span.ekimeiKana').text(next.ekimeiKana);
     $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
-    const $spanCompName = 
-    $face.find('span.compName'  ).text(next.compName  );
+    const $spanCompName = $face.find('span.compName').text(next.compName);
     const $divCompName = $spanCompName.closest('div');
     $divCompName.css({ backgroundColor: '' });
     if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack, color: '#ffffff' }); }
