@@ -157,7 +157,10 @@ const lines = {
     TobuNoda,
     TobuToujouhon,
     TobuOgose,
+    //準大手私鉄
+    //関東地方
     ShinkeiseiShinkeisei,
+    //公営事業者
     ToeikoutsuuAsakusa,
     ToeikoutsuuMita,
     ToeikoutsuuShinjuku,
@@ -166,18 +169,26 @@ const lines = {
     ToeikoutsuuNipporitoneriraina,
     YokohamashikoutsuukyokuBururain,
     YokohamashikoutsuukyokuGurinrain,
+    //その他
+    //山形県
     YamagatarailwayFurawanagai,
+    //福島県
     AizurailwayAizu,
     AbukyuuAbukumakyuukou,
     FukushimatransportationIizaka,
+    //茨城県
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
+    //千葉県
     IsumirailwayIsumi,
+    KominatorailwayKominatotetsudou,
+    //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
     TokyomonorailTokyomonorailhanedakuukou,
     TwrRinkai,
     YurikamomeYurikamome,
+    //神奈川県
     EnodenEnoshimadentetsu,
     ShonanmonorailEnoshima,
     YokohamaminatomirairailwayMinatomirai,
@@ -185,6 +196,7 @@ const lines = {
     TozanHakonetozandensha,
     TozanHakonetozancablecar,
     TozanHakoneropeway,
+    //新潟県
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,

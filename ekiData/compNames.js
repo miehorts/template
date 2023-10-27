@@ -78,6 +78,10 @@ const compNameIsumirailway = {
     compName: 'いすみ鉄道',
     compBack: 'yellow',
 };
+const compNameKominatorailway = {
+    compName: '小湊鉄道',
+    compBack: 'tomato',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',
