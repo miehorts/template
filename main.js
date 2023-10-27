@@ -340,7 +340,7 @@ function updateFace($face) {
     const $spanCompName = $face.find('span.compName').text(next.compName);
     const $divCompName = $spanCompName.closest('div');
     $divCompName.css({ backgroundColor: '' });
-    if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack, color: '#ffffff' }); }
+    if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack }); }
     const $divLineBack1 = $face.find('div.lineBack1').css({ background: '' });
     const $divLineBack2 = $face.find('div.lineBack2').css({ background: '' });
     if (next.lineBack1) {

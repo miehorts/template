@@ -227,6 +227,8 @@ span.ekimeiRoma {
 span.compName {
     padding: 0 10px;
     font-size: 18px;
+    color: #ffffff;
+    text-shadow: #000000 0 0 2px;
 }
 
 div:has(> .lineName) {
