@@ -182,6 +182,7 @@ const lines = {
     //千葉県
     IsumirailwayIsumi,
     KominatorailwayKominatotetsudou,
+    SrShibayamatetsudou,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
