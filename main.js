@@ -317,7 +317,11 @@ function updateFace3() {
 
 function updateFace($face) {
     const next = randomEki();
-    $face.find('span.ekimeiKanj').text(next.ekimeiKanj);
+    const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimeiKanj).css({ fontSize: '' });
+    if (11 < next.ekimeiKanj.length) {
+        $spanEkimeiKanj.css({ fontSize: '24px' });
+    }
+    //$face.find('span.ekimeiKanj').text(next.ekimeiKanj);
     $face.find('span.ekimeiKana').text(next.ekimeiKana);
     $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
     const $spanCompName = 
