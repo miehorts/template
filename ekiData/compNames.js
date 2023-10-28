@@ -86,6 +86,10 @@ const compNameSr = {
     compName: '芝山鉄道',
     compBack: '#00a650',
 };
+const compNameChibamonorail = {
+    compName: '千葉都市モノレール',
+    compBack: '#2843ba',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',
