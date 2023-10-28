@@ -184,6 +184,7 @@ const lines = {
     KominatorailwayKominatotetsudou,
     SrShibayamatetsudou,
     Chibamonorail1gou,
+    Chibamonorail2gou,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
