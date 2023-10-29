@@ -90,6 +90,10 @@ const compNameChibamonorail = {
     compName: '千葉都市モノレール',
     compBack: '#2843ba',
 };
+const compNameCdk = {
+    compName: '銚子電気鉄道',
+    compBack: 'brown',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',

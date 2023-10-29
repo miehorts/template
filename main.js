@@ -185,6 +185,7 @@ const lines = {
     SrShibayamatetsudou,
     Chibamonorail1gou,
     Chibamonorail2gou,
+    CdkChoushidenkitetsudou,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
