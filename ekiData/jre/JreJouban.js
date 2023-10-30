@@ -1,20 +1,21 @@
 const JreJoubanCommon = {
     ...compNameJre,
     lineName: '常磐線',
+    lineBack1: '#3333ff',
 };
 
 const JreJoubanCommon1 = {
-    ...compNameJre,
-    lineBack1: '#00b261',
-    lineBack2: '#3333ff',
+    ...JreJoubanCommon,
+    //lineBack1: '#00b261',
+    //lineBack2: '#3333ff',
     passArea: '["ShuP", "NHSP"]',
 };
 
 const JreJoubanCommon11 = {
     ...JreJoubanCommon1,
-    lineName: '常磐線（快速）／常磐線（特急）',
+    lineName: '常磐線（特急）',
 };
-
+/*
 const JreJoubanCommon12 = {
     ...JreJoubanCommon1,
     lineName: '常磐線（快速）',
@@ -36,12 +37,12 @@ const JreJoubanCommon2 = {
 };
 
 const JreJoubanCommon21 = {
-    ...JreJoubanCommon2,
+    ...JreJoubanCommon,
     passArea: '["ShuP", "NHSP"]',
 };
-
+*/
 const JreJoubanCommon22 = {
-    ...JreJoubanCommon2,
+    ...JreJoubanCommon,
     passArea: '["ShuP"]',
 };
 
@@ -81,28 +82,28 @@ const JreJouban = [
         ekimeiKana: 'にっぽり',
         ekimeiRoma: 'Nippori',
         sttnAddr: '東京都荒川区西日暮里二丁目19-1',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '三河島',
         ekimeiKana: 'みかわしま',
         ekimeiRoma: 'Mikawashima',
         sttnAddr: '東京都荒川区西日暮里一丁目6-10',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '南千住',
         ekimeiKana: 'みなみせんじゅ',
         ekimeiRoma: 'Minami-Senju',
         sttnAddr: '東京都荒川区南千住四丁目5-1',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '北千住',
         ekimeiKana: 'きたせんじゅ',
         ekimeiRoma: 'Kita-Senju',
         sttnAddr: '東京都足立区千住旭町42-2',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     /*
     {
@@ -132,7 +133,7 @@ const JreJouban = [
         ekimeiKana: 'まつど',
         ekimeiRoma: 'Matsudo',
         sttnAddr: '千葉県松戸市松戸1181',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     /*
     {
@@ -176,7 +177,7 @@ const JreJouban = [
         ekimeiKana: 'かしわ',
         ekimeiRoma: 'Kashiwa',
         sttnAddr: '千葉県柏市柏一丁目1-1',
-        ...JreJoubanCommon13,
+        ...JreJoubanCommon11,
     },
     /*
     {
@@ -192,63 +193,63 @@ const JreJouban = [
         ekimeiKana: 'あびこ',
         ekimeiRoma: 'Abiko',
         sttnAddr: '千葉県我孫子市本町二丁目1-1',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '天王台',
         ekimeiKana: 'てんのうだい',
         ekimeiRoma: 'Tennōdai',
         sttnAddr: '千葉県我孫子市柴崎台一丁目19-1',
-        ...JreJoubanCommon12,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '取手',
         ekimeiKana: 'とりで',
         ekimeiRoma: 'Toride',
         sttnAddr: '茨城県取手市中央町1-1',
-        ...JreJoubanCommon14,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '藤代',
         ekimeiKana: 'ふじしろ',
         ekimeiRoma: 'Fujishiro',
         sttnAddr: '茨城県取手市宮和田1131',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '龍ケ崎市',
         ekimeiKana: 'りゅうがさきし',
         ekimeiRoma: 'Ryūgasakishi',
         sttnAddr: '茨城県龍ケ崎市佐貫町647',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '牛久',
         ekimeiKana: 'うしく',
         ekimeiRoma: 'Ushiku',
         sttnAddr: '茨城県牛久市牛久町282',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: 'ひたち野うしく',
         ekimeiKana: 'ひたちのうしく',
         ekimeiRoma: 'Hitachinoushiku',
         sttnAddr: '茨城県牛久市ひたち野西三丁目41-16',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '荒川沖',
         ekimeiKana: 'あらかわおき',
         ekimeiRoma: 'Arakawaoki',
         sttnAddr: '茨城県土浦市荒川沖東二丁目1-6',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '土浦',
         ekimeiKana: 'つちうら',
         ekimeiRoma: 'Tsuchiura',
         sttnAddr: '茨城県土浦市有明町1-30',
-        ...JreJoubanCommon21,
+        ...JreJoubanCommon1,
     },
     {
         ekimeiKanj: '神立',

@@ -41,6 +41,7 @@ const lines = {
     JreRifu,
     JreTakasaki,
     JreJouban,
+    JreJoubankaisoku,
     JreJoubankankou,
     JreJouetsu,
     JreRyoumou,
