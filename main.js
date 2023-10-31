@@ -188,6 +188,7 @@ const lines = {
     Chibamonorail2gou,
     CdkChoushidenkitetsudou,
     ToyorapidrailwayToyokousoku,
+    HokusoHokuso,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,

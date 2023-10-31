@@ -2,12 +2,12 @@ const KeiseiHonCommon = {
     ...compNameKeisei,
     lineName: '本線',
     lineBack1: '#005aaa',
-}
+};
 
 const KeiseiHonCommon1 = {
     ...KeiseiHonCommon,
     lineName: '京成本線',
-}
+};
 
 const KeiseiHon = [
     {

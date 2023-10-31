@@ -98,6 +98,10 @@ const compNameToyorapidrailway = {
     compName: '東葉高速鉄道',
     compBack: '#3fb036',
 };
+const compNameHokuso = {
+    compName: '北総鉄道',
+    compBack: '#1111cc',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',
