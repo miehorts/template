@@ -106,6 +106,10 @@ const compNameMaihamaresortline = {
     compName: '舞浜リゾートライン',
     compBack: '#000088',
 };
+const compNameYamaman = {
+    compName: '山万',
+    compBack: '#2f9d66',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',

@@ -190,6 +190,7 @@ const lines = {
     ToyorapidrailwayToyokousoku,
     MaihamaresortlineDisneyresort,
     HokusoHokuso,
+    YamamanYukarigaoka,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
