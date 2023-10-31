@@ -78,6 +78,14 @@ const compNameSaitamarailway = {
     compName: '埼玉高速鉄道',
     compBack: '#345caa',
 };
+const compNameSsk = {
+    compName: '埼玉新都市交通',
+    compBack: '#339999',
+};
+const compNameCtk = {
+    compName: '秩父鉄道',
+    compBack: '#0000ff',
+};
 const compNameIsumirailway = {
     compName: 'いすみ鉄道',
     compBack: 'yellow',

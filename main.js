@@ -182,6 +182,7 @@ const lines = {
     HitachinakaseasiderailwayMinato,
     //埼玉県
     SaitamarailwaySaitamakousokutetsudou,
+    SskIna,
     //千葉県
     IsumirailwayIsumi,
     KominatorailwayKominatotetsudou,
