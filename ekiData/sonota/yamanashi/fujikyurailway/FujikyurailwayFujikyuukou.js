@@ -1,7 +1,7 @@
 const FujikyurailwayFujikyuukouCommon = {
     ...compNameFujikyurailway,
     lineName: '富士急行線',
-    lineBack1: '#0033dd',
+    lineBack1: '#0000ff',
     passArea: '["ShuP"]',
 };
 

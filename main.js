@@ -191,6 +191,7 @@ const lines = {
     MaihamaresortlineDisneyresort,
     HokusoHokuso,
     YamamanYukarigaoka,
+    RyutetsuNagareyama,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,

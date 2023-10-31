@@ -110,6 +110,10 @@ const compNameYamaman = {
     compName: '山万',
     compBack: '#2f9d66',
 };
+const compNameRyutetsu = {
+    compName: '流鉄',
+    compBack: 'yellowgreen',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',
@@ -160,7 +164,7 @@ const compNameHokuetsuexpress = {
 };
 const compNameFujikyurailway = {
     compName: '富士山麓電気鉄道',
-    compBack: '#0040ff',
+    compBack: '#0000ff',
 };
 const compNameAlpico = {
     compName: 'アルピコ交通',
