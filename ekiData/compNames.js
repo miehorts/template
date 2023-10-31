@@ -102,6 +102,10 @@ const compNameHokuso = {
     compName: '北総鉄道',
     compBack: '#1111cc',
 };
+const compNameMaihamaresortline = {
+    compName: '舞浜リゾートライン',
+    compBack: '#000088',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',

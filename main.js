@@ -188,6 +188,7 @@ const lines = {
     Chibamonorail2gou,
     CdkChoushidenkitetsudou,
     ToyorapidrailwayToyokousoku,
+    MaihamaresortlineDisneyresort,
     HokusoHokuso,
     //東京都
     MirTsukubaexpress,
@@ -342,7 +343,8 @@ function updateFace($face) {
     const next = randomEki();
     const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimeiKanj).css({ fontSize: '' });
     if (11 < next.ekimeiKanj.length) {
-        $spanEkimeiKanj.css({ fontSize: '24px' });
+        const fs = 35 - next.ekimeiKanj.length;
+        $spanEkimeiKanj.css({ fontSize: fs + 'px' });
     }
     $face.find('span.ekimeiKana').text(next.ekimeiKana);
     $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
