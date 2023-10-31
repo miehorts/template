@@ -180,6 +180,8 @@ const lines = {
     //茨城県
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
+    //埼玉県
+    SaitamarailwaySaitamakousokutetsudou,
     //千葉県
     IsumirailwayIsumi,
     KominatorailwayKominatotetsudou,
