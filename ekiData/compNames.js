@@ -94,6 +94,10 @@ const compNameCdk = {
     compName: '銚子電気鉄道',
     compBack: 'brown',
 };
+const compNameToyorapidrailway = {
+    compName: '東葉高速鉄道',
+    compBack: '#3fb036',
+};
 const compNameMir = {
     compName: '首都圏新都市鉄道',
     compBack: '#ff0000',

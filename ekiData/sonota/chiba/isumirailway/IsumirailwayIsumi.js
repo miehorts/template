@@ -1,7 +1,7 @@
 const IsumirailwayIsumiCommon = {
     ...compNameIsumirailway,
     lineName: 'いすみ線',
-    lineBack1: '#ffd400',
+    lineBack1: 'yellow',
 };
 
 const IsumirailwayIsumi = [

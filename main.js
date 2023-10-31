@@ -187,6 +187,7 @@ const lines = {
     Chibamonorail1gou,
     Chibamonorail2gou,
     CdkChoushidenkitetsudou,
+    ToyorapidrailwayToyokousoku,
     //東京都
     MirTsukubaexpress,
     TamamonorailTamatoshimonorail,
@@ -205,12 +206,15 @@ const lines = {
     EtrNihonkaihisui,
     EtrMyoukouhaneuma,
     HokuetsuexpressHokuhoku,
+    //山梨県
     FujikyurailwayFujikyuukou,
+    //長野県
     AlpicoKamikouchi,
     JoudenBessho,
     ShinatetsuShinanotetsudou,
     ShinatetsuKitashinano,
     NerNagano,
+    //静岡県
     IzukyuIzukyuukou,
 };
 
