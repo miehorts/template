@@ -82,6 +82,10 @@ const compNameJomo = {
     compName: '上毛電気鉄道',
     compBack: 'turquoise',
 };
+const compNameWatetsu = {
+    compName: 'わたらせ渓谷鐵道',
+    compBack: 'brown',
+};
 const compNameSaitamarailway = {
     compName: '埼玉高速鉄道',
     compBack: '#345caa',

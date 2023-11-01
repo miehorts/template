@@ -183,6 +183,7 @@ const lines = {
     //群馬県
     JoshinJoshin,
     JomoJomo,
+    WatetsuWatarasekeikoku,
     //埼玉県
     SaitamarailwaySaitamakousokutetsudou,
     SskIna,
