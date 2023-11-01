@@ -182,6 +182,7 @@ const lines = {
     HitachinakaseasiderailwayMinato,
     //群馬県
     JoshinJoshin,
+    JomoJomo,
     //埼玉県
     SaitamarailwaySaitamakousokutetsudou,
     SskIna,
