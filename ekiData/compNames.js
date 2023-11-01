@@ -74,6 +74,10 @@ const compNameHitachinakaseasiderailway = {
     compName: 'ひたちなか海浜鉄道',
     compBack: 'orange',
 };
+const compNameJoshin = {
+    compName: '上信電鉄',
+    compBack: '#ff0000',
+};
 const compNameSaitamarailway = {
     compName: '埼玉高速鉄道',
     compBack: '#345caa',
