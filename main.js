@@ -183,6 +183,7 @@ const lines = {
     //埼玉県
     SaitamarailwaySaitamakousokutetsudou,
     SskIna,
+    CtkChichibuhon,
     //千葉県
     IsumirailwayIsumi,
     KominatorailwayKominatotetsudou,
