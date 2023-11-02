@@ -182,6 +182,8 @@ const lines = {
     HitachinakaseasiderailwayMinato,
     //栃木県
     UtsunomiyalightrailUtsunomiyahagalightrail,
+    MokarailwayMoka,
+    YagantetsudorailwayAizukinugawa,
     //群馬県
     JoshinJoshin,
     JomoJomo,

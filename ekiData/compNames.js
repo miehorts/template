@@ -78,6 +78,14 @@ const compNameUtsunomiyalightrail = {
     compName: '宇都宮ライトレール',
     compBack: '#ffd700',
 };
+const compNameMokarailway = {
+    compName: '真岡鐵道',
+    compBack: '#0463ff',
+};
+const compNameYagantetsudorailway = {
+    compName: '野岩鉄道',
+    compBack: '#009933',
+};
 const compNameJoshin = {
     compName: '上信電鉄',
     compBack: '#ff0000',
