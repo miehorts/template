@@ -180,6 +180,8 @@ const lines = {
     //茨城県
     KrtOoaraikashima,
     HitachinakaseasiderailwayMinato,
+    //栃木県
+    UtsunomiyalightrailUtsunomiyahagalightrail,
     //群馬県
     JoshinJoshin,
     JomoJomo,
