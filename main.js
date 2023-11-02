@@ -179,6 +179,7 @@ const lines = {
     FukushimatransportationIizaka,
     //茨城県
     KrtOoaraikashima,
+    KantetsuJousou,
     HitachinakaseasiderailwayMinato,
     //栃木県
     UtsunomiyalightrailUtsunomiyahagalightrail,

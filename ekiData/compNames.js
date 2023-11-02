@@ -70,6 +70,10 @@ const compNameKrt = {
     compName: '鹿島臨海鉄道',
     compBack: '#ff0000',
 };
+const compNameKantetsu = {
+    compName: '関東鉄道',
+    compBack: '#0033ff',
+};
 const compNameHitachinakaseasiderailway = {
     compName: 'ひたちなか海浜鉄道',
     compBack: 'orange',
