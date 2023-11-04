@@ -171,6 +171,8 @@ const lines = {
     YokohamashikoutsuukyokuBururain,
     YokohamashikoutsuukyokuGurinrain,
     //その他
+    //秋田県
+    AkitanairikujukantetsudorailwayAkitanairiku,
     //山形県
     YamagatarailwayFurawanagai,
     //福島県

@@ -50,6 +50,10 @@ const compNameYokohamashikoutsuukyoku = {
     compName: '横浜市交通局',
     compBack: '#0d6aad',
 };
+const compNameAkitanairikujukantetsudorailway = {
+    compName: '秋田内陸縦貫鉄道',
+    compBack: '#ff0000',
+};
 const compNameYamagatarailway = {
     compName: '山形鉄道',
     compBack: '#ff69b4',
