@@ -163,6 +163,7 @@ const lines = {
     ShinkeiseiShinkeisei,
     //公営事業者
     SendaishichikatetsuNanboku,
+    SendaishichikatetsuTouzai,
     ToeikoutsuuAsakusa,
     ToeikoutsuuMita,
     ToeikoutsuuShinjuku,
