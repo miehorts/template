@@ -42,6 +42,10 @@ const compNameShinkeisei = {
     compName: '新京成電鉄',
     compBack: '#ef59a1',
 };
+const compNameSendaishichikatetsu = {
+    compName: '仙台市交通局',
+    compBack: '#233b6c',
+};
 const compNameToeikoutsuu = {
     compName: '東京都交通局',
     compBack: '#009f40',

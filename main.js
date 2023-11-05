@@ -162,6 +162,7 @@ const lines = {
     //関東地方
     ShinkeiseiShinkeisei,
     //公営事業者
+    SendaishichikatetsuNanboku,
     ToeikoutsuuAsakusa,
     ToeikoutsuuMita,
     ToeikoutsuuShinjuku,
