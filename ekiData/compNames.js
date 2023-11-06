@@ -54,9 +54,17 @@ const compNameYokohamashikoutsuukyoku = {
     compName: '横浜市交通局',
     compBack: '#0d6aad',
 };
+const compNameAotetsu = {
+    compName: '青い森鉄道',
+    compBack: 'skyblue',
+};
 const compNameIgr = {
     compName: 'IGRいわて銀河鉄道',
     compBack: '#03459a',
+};
+const compNameSantetsu = {
+    compName: '三陸鉄道',
+    compBack: '#ff0000',
 };
 const compNameSat = {
     compName: '仙台空港鉄道',

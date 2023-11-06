@@ -175,6 +175,7 @@ const lines = {
     //その他
     //岩手県
     IgrIwategalaxyrailway,
+    SantetsuRiasu,
     //宮城県
     SatSendaikuukou,
     //秋田県
