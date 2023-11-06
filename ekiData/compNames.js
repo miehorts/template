@@ -54,6 +54,10 @@ const compNameYokohamashikoutsuukyoku = {
     compName: '横浜市交通局',
     compBack: '#0d6aad',
 };
+const compNameSat = {
+    compName: '仙台空港鉄道',
+    compBack: '#2a5caa',
+};
 const compNameAkitanairikujukantetsudorailway = {
     compName: '秋田内陸縦貫鉄道',
     compBack: '#ff0000',
