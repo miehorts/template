@@ -175,6 +175,7 @@ const lines = {
     //その他
     //秋田県
     AkitanairikujukantetsudorailwayAkitanairiku,
+    YuritetsuChoukaisanroku,
     //山形県
     YamagatarailwayFurawanagai,
     //福島県

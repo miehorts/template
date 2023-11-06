@@ -58,6 +58,10 @@ const compNameAkitanairikujukantetsudorailway = {
     compName: '秋田内陸縦貫鉄道',
     compBack: '#ff0000',
 };
+const compNameYuritetsu = {
+    compName: '由利高原鉄道',
+    compBack: '#ff0000',
+};
 const compNameYamagatarailway = {
     compName: '山形鉄道',
     compBack: '#ff69b4',
