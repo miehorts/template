@@ -173,6 +173,8 @@ const lines = {
     YokohamashikoutsuukyokuBururain,
     YokohamashikoutsuukyokuGurinrain,
     //その他
+    //岩手県
+    IgrIwategalaxyrailway,
     //宮城県
     SatSendaikuukou,
     //秋田県
