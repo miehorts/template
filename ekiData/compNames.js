@@ -58,6 +58,10 @@ const compNameAotetsu = {
     compName: '青い森鉄道',
     compBack: 'skyblue',
 };
+const compNameKonanrailway = {
+    compName: '弘南鉄道',
+    compBack: 'orange',
+};
 const compNameIgr = {
     compName: 'IGRいわて銀河鉄道',
     compBack: '#03459a',
