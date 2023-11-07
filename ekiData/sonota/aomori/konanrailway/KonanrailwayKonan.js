@@ -76,45 +76,24 @@ const KonanrailwayKonan = [
         ...KonanrailwayKonanCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '田舎館',
+        ekimeiKana: 'いなかだて',
+        ekimeiRoma: 'INAKADATE',
+        sttnAddr: '青森県南津軽郡田舎館村大字高樋字深山林10-7',
         ...KonanrailwayKonanCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '境松',
+        ekimeiKana: 'さかいまつ',
+        ekimeiRoma: 'SAKAIMATSU',
+        sttnAddr: '青森県黒石市境松2-46',
         ...KonanrailwayKonanCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
-        ...KonanrailwayKonanCommon
-    },
-    {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
-        ...KonanrailwayKonanCommon
-    },
-    {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
-        ...KonanrailwayKonanCommon
-    },
-    {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '黒石',
+        ekimeiKana: 'くろいし',
+        ekimeiRoma: 'KUROISHI',
+        sttnAddr: '青森県黒石市緑町1-162',
         ...KonanrailwayKonanCommon
     },
 ];
