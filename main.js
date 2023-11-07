@@ -176,6 +176,7 @@ const lines = {
     //青森県
     AotetsuAoimorirailway,
     KonanrailwayKonan,
+    KonanrailwayOwani,
     //岩手県
     IgrIwategalaxyrailway,
     SantetsuRiasu,
