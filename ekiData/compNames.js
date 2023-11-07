@@ -2,6 +2,10 @@ const compNameJre = {
     compName: 'JR東日本',
     compBack: '#008000',
 };
+const compNameJrc = {
+    compName: 'JR東海',
+    compBack: '#f77321',
+};
 const compNameOer = {
     compName: '小田急電鉄',
     compBack: '#2288CC',

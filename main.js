@@ -7,6 +7,8 @@ information.style.height
 = (window.innerHeight - headerH - mainH - buttonH) + 'px';
 
 const lines = {
+    //JRグループ
+    //JR東日本
     JreTouhokushinkan,
     JreYamagatashinkan,
     JreAkitashinkan,
@@ -91,6 +93,10 @@ const lines = {
     JreTazawako,
     JreOga,
     JreGonou,
+    //JR東海
+    JrcToukaidoushinkan,
+    //大手私鉄
+    //関東地方
     OerOdawara,
     OerEnoshima,
     OerTama,
