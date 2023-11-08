@@ -5,6 +5,7 @@ const mainH = document.querySelector('div.main-back').offsetHeight;
 const buttonH = document.querySelector('div.button-area').offsetHeight;
 information.style.height
 = (window.innerHeight - headerH - mainH - buttonH) + 'px';
+$('#throw-dice').show();
 
 const lines = {
     //JRグループ
@@ -95,6 +96,7 @@ const lines = {
     JreGonou,
     //JR東海
     JrcToukaidoushinkan,
+    JrcToukaidou,
     //大手私鉄
     //関東地方
     OerOdawara,
