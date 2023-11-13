@@ -1,0 +1,132 @@
+const JrcKansaiCommon = {
+    ...compNameJrc,
+    lineName: '関西線',
+    lineBack1: '#3dbc87',
+};
+
+const JrcKansaiCommon1 = {
+    ...JrcKansaiCommon,
+    lineName: '関西本線',
+}
+
+const JrcKansai = [
+    {
+        ekimeiKanj: '名古屋',
+        ekimeiKana: 'なごや',
+        ekimeiRoma: 'Nagoya',
+        sttnAddr: '名古屋市中村区名駅一丁目1-4',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '八田',
+        ekimeiKana: 'はった',
+        ekimeiRoma: 'Hatta',
+        sttnAddr: '名古屋市中村区八田町字長田',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '蟹江',
+        ekimeiKana: 'かにえ',
+        ekimeiRoma: 'Kanie',
+        sttnAddr: '愛知県海部郡蟹江町大字今字上六反田12',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '永和',
+        ekimeiKana: 'えいわ',
+        ekimeiRoma: 'Eiwa',
+        sttnAddr: '愛知県愛西市大野町郷西316-1',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '弥富',
+        ekimeiKana: 'やとみ',
+        ekimeiRoma: 'Yatomi',
+        sttnAddr: '愛知県弥富市鯏浦町中六178',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '長島',
+        ekimeiKana: 'ながしま',
+        ekimeiRoma: 'Nagashima',
+        sttnAddr: '三重県桑名市長島町西外面1447',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '桑名',
+        ekimeiKana: 'くわな',
+        ekimeiRoma: 'Kuwana',
+        sttnAddr: '三重県桑名市大字東方135',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '朝日',
+        ekimeiKana: 'あさひ',
+        ekimeiRoma: 'Asahi',
+        sttnAddr: '三重県三重郡朝日町大字柿2081',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '富田',
+        ekimeiKana: 'とみだ',
+        ekimeiRoma: 'Tomida',
+        sttnAddr: '三重県四日市市富田三丁目22-12',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '富田浜',
+        ekimeiKana: 'とみだはま',
+        ekimeiRoma: 'Tomidahama',
+        sttnAddr: '三重県四日市市富田浜町20-18',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '四日市',
+        ekimeiKana: 'よっかいち',
+        ekimeiRoma: 'Yokkaichi',
+        sttnAddr: '三重県四日市市本町3-85',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '南四日市',
+        ekimeiKana: 'みなみよっかいち',
+        ekimeiRoma: 'Minami-Yokkaichi',
+        sttnAddr: '三重県四日市市日永東三丁目15',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '河原田',
+        ekimeiKana: 'かわらだ',
+        ekimeiRoma: 'Kawarada',
+        sttnAddr: '三重県四日市市河原田町2179',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '河曲',
+        ekimeiKana: 'かわの',
+        ekimeiRoma: 'Kawano',
+        sttnAddr: '三重県鈴鹿市木田町718',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '加佐登',
+        ekimeiKana: 'かさど',
+        ekimeiRoma: 'Kasado',
+        sttnAddr: '三重県鈴鹿市加佐登一丁目1-1',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '井田川',
+        ekimeiKana: 'いだがわ',
+        ekimeiRoma: 'Idagawa',
+        sttnAddr: '三重県亀山市井田川町364',
+        ...JrcKansaiCommon1,
+    },
+    {
+        ekimeiKanj: '亀山',
+        ekimeiKana: 'かめやま',
+        ekimeiRoma: 'Kameyama',
+        sttnAddr: '三重県亀山市御幸町198',
+        ...JrcKansaiCommon1,
+    },
+];
