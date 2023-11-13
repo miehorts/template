@@ -101,6 +101,7 @@ const lines = {
     JrcGotemba,
     JrcChuuouhon,
     JrcKansai,
+    JrcKiseihon,
     //大手私鉄
     //関東地方
     OerOdawara,
