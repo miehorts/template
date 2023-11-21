@@ -103,6 +103,7 @@ const lines = {
     JrcKansai,
     JrcKiseihon,
     JrcMinobu,
+    JrcIida,
     //大手私鉄
     //関東地方
     OerOdawara,
