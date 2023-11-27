@@ -105,6 +105,7 @@ const lines = {
     JrcMinobu,
     JrcIida,
     JrcTaketoyo,
+    JrcTakayamahon,
     //大手私鉄
     //関東地方
     OerOdawara,
