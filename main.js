@@ -178,6 +178,8 @@ const lines = {
     TobuNoda,
     TobuToujouhon,
     TobuOgose,
+    //中部地方
+    MeitetsuNagoyahon,
     //準大手私鉄
     //関東地方
     ShinkeiseiShinkeisei,

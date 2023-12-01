@@ -42,6 +42,10 @@ const compNameTobu = {
     compName: '東武鉄道',
     compBack: '#0f6cc3',
 };
+const compNameMeitetsu = {
+    compName: '名古屋鉄道',
+    compBack: '#ff3333',
+};
 const compNameShinkeisei = {
     compName: '新京成電鉄',
     compBack: '#ef59a1',
