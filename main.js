@@ -181,6 +181,7 @@ const lines = {
     //中部地方
     MeitetsuNagoyahon,
     MeitetsuToyokawa,
+    MeitetsuNishio,
     //準大手私鉄
     //関東地方
     ShinkeiseiShinkeisei,
