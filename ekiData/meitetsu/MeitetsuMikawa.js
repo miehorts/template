@@ -13,7 +13,7 @@ const MeitetsuMikawaCommon2 = {
     ...MeitetsuMikawaCommon,
     lineName: '三河線（山線）／三河線（海線）',
     lineBack1: '#9eb03a',
-    lineBack1: '#654e9e',
+    lineBack2: '#654e9e',
 };
 
 const MeitetsuMikawaCommon3 = {
