@@ -185,6 +185,7 @@ const lines = {
     MeitetsuGamagoori,
     MeitetsuMikawa,
     MeitetsuToyota,
+    MeitetsuTokoname,
     //準大手私鉄
     //関東地方
     ShinkeiseiShinkeisei,
