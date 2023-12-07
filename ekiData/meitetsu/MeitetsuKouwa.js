@@ -97,24 +97,45 @@ const MeitetsuKouwa = [
         ...MeitetsuKouwaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '青山',
+        ekimeiKana: 'あおやま',
+        ekimeiRoma: 'AOYAMA',
+        sttnAddr: '愛知県半田市青山一丁目13-2',
         ...MeitetsuKouwaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '上ゲ',
+        ekimeiKana: 'あげ',
+        ekimeiRoma: 'AGE',
+        sttnAddr: '愛知県知多郡武豊町下門23-5',
         ...MeitetsuKouwaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '知多武豊',
+        ekimeiKana: 'ちたたけとよ',
+        ekimeiRoma: 'CHITA TAKETOYO',
+        sttnAddr: '愛知県知多郡武豊町道崎43-8',
+        ...MeitetsuKouwaCommon
+    },
+    {
+        ekimeiKanj: '富貴',
+        ekimeiKana: 'ふき',
+        ekimeiRoma: 'FUKI',
+        sttnAddr: '愛知県知多郡武豊町富貴外前田5-5',
+        ...MeitetsuKouwaCommon
+    },
+    {
+        ekimeiKanj: '河和口',
+        ekimeiKana: 'こうわぐち',
+        ekimeiRoma: 'KŌWAGUCHI',
+        sttnAddr: '愛知県知多郡美浜町布土中平井33-1',
+        ...MeitetsuKouwaCommon
+    },
+    {
+        ekimeiKanj: '河和',
+        ekimeiKana: 'こうわ',
+        ekimeiRoma: 'KŌWA',
+        sttnAddr: '愛知県知多郡美浜町河和北田面5-1',
         ...MeitetsuKouwaCommon
     },
 ];

@@ -188,6 +188,7 @@ const lines = {
     MeitetsuTokoname,
     MeitetsuKuukou,
     MeitetsuChikkou,
+    MeitetsuKouwa,
     //準大手私鉄
     //関東地方
     ShinkeiseiShinkeisei,
