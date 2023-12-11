@@ -193,6 +193,7 @@ const lines = {
     MeitetsuSeto,
     MeitetsuTsushima,
     MeitetsuBisai,
+    MeitetsuInuyama,
     //準大手私鉄
     //関東地方
     ShinkeiseiShinkeisei,
