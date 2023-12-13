@@ -62,6 +62,10 @@ const compNameYokohamashikoutsuukyoku = {
     compName: '横浜市交通局',
     compBack: '#0d6aad',
 };
+const compNameMeishikou = {
+    compName: '名古屋市交通局',
+    compBack: '#1E569B',
+};
 const compNameAotetsu = {
     compName: '青い森鉄道',
     compBack: 'skyblue',
