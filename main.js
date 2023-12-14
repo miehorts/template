@@ -213,6 +213,7 @@ const lines = {
     ToeikoutsuuNipporitoneriraina,
     YokohamashikoutsuukyokuBururain,
     YokohamashikoutsuukyokuGurinrain,
+    MeishikouHigashiyama,
     //その他
     //青森県
     AotetsuAoimorirailway,

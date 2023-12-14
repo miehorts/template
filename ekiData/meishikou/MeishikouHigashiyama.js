@@ -76,45 +76,80 @@ const MeishikouHigashiyama = [
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '新栄町',
+        ekimeiKana: 'しんさかえまち',
+        ekimeiRoma: 'Shinsakae-machi',
+        sttnAddr: '名古屋市東区葵一丁目19-23',
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '千種',
+        ekimeiKana: 'ちくさ',
+        ekimeiRoma: 'Chikusa',
+        sttnAddr: '名古屋市東区葵三丁目15-21',
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '今池',
+        ekimeiKana: 'いまいけ',
+        ekimeiRoma: 'Imaike',
+        sttnAddr: '名古屋市千種区今池五丁目1',
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '池下',
+        ekimeiKana: 'いけした',
+        ekimeiRoma: 'Ikeshita',
+        sttnAddr: '名古屋市千種区覚王山通七丁目11',
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '本山',
+        ekimeiKana: 'もとやま',
+        ekimeiRoma: 'Motoyama',
+        sttnAddr: '名古屋市千種区四谷通一丁目18-1',
         ...MeishikouHigashiyamaCommon
     },
     {
-        ekimeiKanj: '',
-        ekimeiKana: '',
-        ekimeiRoma: '',
-        sttnAddr: '',
+        ekimeiKanj: '東山公園',
+        ekimeiKana: 'ひがしやまこうえん',
+        ekimeiRoma: 'Higashiyama Koen',
+        sttnAddr: '名古屋市千種区東山通五丁目1',
+        ...MeishikouHigashiyamaCommon
+    },
+    {
+        ekimeiKanj: '星ヶ丘',
+        ekimeiKana: 'ほしがおか',
+        ekimeiRoma: 'Hoshigaoka',
+        sttnAddr: '	名古屋市千種区井上町85-1',
+        ...MeishikouHigashiyamaCommon
+    },
+    {
+        ekimeiKanj: '一社',
+        ekimeiKana: 'いっしゃ',
+        ekimeiRoma: 'Issha',
+        sttnAddr: '	名古屋市名東区一社二丁目1',
+        ...MeishikouHigashiyamaCommon
+    },
+    {
+        ekimeiKanj: '上社',
+        ekimeiKana: 'かみやしろ',
+        ekimeiRoma: 'Kamiyashiro',
+        sttnAddr: '名古屋市名東区上社一丁目803',
+        ...MeishikouHigashiyamaCommon
+    },
+    {
+        ekimeiKanj: '本郷',
+        ekimeiKana: 'ほんごう',
+        ekimeiRoma: 'Hongo',
+        sttnAddr: '名古屋市名東区本郷二丁目153',
+        ...MeishikouHigashiyamaCommon
+    },
+    {
+        ekimeiKanj: '藤が丘',
+        ekimeiKana: 'ふじがおか',
+        ekimeiRoma: 'Fujigaoka',
+        sttnAddr: '名古屋市名東区藤が丘163',
         ...MeishikouHigashiyamaCommon
     },
 ];
