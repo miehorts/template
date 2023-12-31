@@ -180,7 +180,7 @@ const JreSotobou = [
         ekimeiKanj: '行川アイランド',
         ekimeiKana: 'なめがわあいらんど',
         ekimeiRoma: 'Namegawa-Island',
-        sttnAddr: '	千葉県勝浦市浜行川',
+        sttnAddr: '千葉県勝浦市浜行川',
         ...JreSotobouCommon2,
     },
     {

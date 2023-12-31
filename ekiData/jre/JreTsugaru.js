@@ -30,7 +30,7 @@ const JreTsugaru = [
         ekimeiKanj: '奥内',
         ekimeiKana: 'おくない',
         ekimeiRoma: 'Okunai',
-        sttnAddr: '青森県青森市大字清水字浜元[1]',
+        sttnAddr: '青森県青森市大字清水字浜元',
         ...JreTsugaruCommon
     },
     {
@@ -86,7 +86,7 @@ const JreTsugaru = [
         ekimeiKanj: '中小国',
         ekimeiKana: 'なかおぐに',
         ekimeiRoma: 'Naka-Oguni',
-        sttnAddr: '青森県東津軽郡外ヶ浜町字蟹田[1]小国南田',
+        sttnAddr: '青森県東津軽郡外ヶ浜町字蟹田小国南田',
         ...JreTsugaruCommon
     },
     {

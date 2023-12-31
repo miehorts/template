@@ -100,7 +100,7 @@ const JreBanetsutou = [
     {
         ekimeiKanj: '三春',
         ekimeiKana: 'みはる',
-        ekimeiRoma: 'みはる',
+        ekimeiRoma: 'Miharu',
         sttnAddr: '福島県田村郡三春町大字平沢字担橋163',
         ...JreBanetsutouCommon
     },

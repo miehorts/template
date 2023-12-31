@@ -1,7 +1,7 @@
 const JreKamaishiCommon = {
     ...compNameJre,
-    lineBack1: '#0073bf',
     lineName: '釜石線',
+    lineBack1: '#0073bf',
 }
 
 const JreKamaishi = [

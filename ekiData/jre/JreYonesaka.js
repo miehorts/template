@@ -143,7 +143,7 @@ const JreYonesaka = [
         ekimeiKanj: '坂町',
         ekimeiKana: 'さかまち',
         ekimeiRoma: 'Sakamachi',
-        sttnAddr: '潟県村上市坂町',
+        sttnAddr: '新潟県村上市坂町',
         ...JreYonesakaCommon
     },
 ];

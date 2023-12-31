@@ -7,6 +7,13 @@ information.style.height
 = (window.innerHeight - headerH - mainH - buttonH) + 'px';
 $('#throw-dice').show();
 
+const passNames = [];
+const lineIds = [];
+$('div.config-lines div.line-name input').each((idx, elm) => {
+    //console.log($(elm).data('line-id'));
+    lineIds.push($(elm).data('line-id'));
+});
+/*
 const lines = {
     //JRグループ
     //JR東日本
@@ -298,7 +305,7 @@ Object.keys(lines).forEach((key) => {
 });
 
 const ekiList = [...ekiListAll];
-
+*/
 $('div.sp-menu__box').on('click', (evt) => {
     //$('div.sp-menu__box'    ).toggleClass('opened');
     //$('div.sp-menu__content').toggleClass('opened');
@@ -318,13 +325,15 @@ $('a.show-config-passes').on('click', (evt) => {
 });
 
 $('a.hide-config-lines').on('click', (evt) => {
-    filter();
+    selectConf();
+    //filter();
     const $divConfigLines = $('div.config-lines');
     $divConfigLines.toggleClass('opened');
 });
 
 $('a.hide-config-passes').on('click', (evt) => {
-    filter();
+    selectConf();
+    //filter();
     $('div.config-passes').toggleClass('opened');
 });
 
@@ -341,36 +350,58 @@ $('div.pass-name label').on('click', (evt) => {
 });
 
 $('#throw-dice').on('click', (evt) => {
-    if (!ekiList.length) {
-        alert('対象となる駅が０件です。設定を確認してください。');
-        return;
-    }
     const self = evt.target;
     $(self).hide();
-    $('div.dice-base')[0].animate(
-        { transform: ['rotateX(720deg)'] },
-        { fill: 'none', duration: 8000 }
-    )
-    .finished.then(() => { $(self).show(); });
-    setTimeout(updateFace1,     );
-    setTimeout(updateFace2,     );
-    setTimeout(updateFace3, 1000);
-    setTimeout(updateFace0, 2000);
-    setTimeout(updateFace1, 3000);
-    setTimeout(updateFace2, 4000);
-    setTimeout(updateFace3, 5000);
-    setTimeout(updateFace0, 6000);
-    /*
-    setTimeout(() => {              slideUp(); updateMainPanel(); },     );
-    setTimeout(() => { copyTexts(); slideUp();                    }, 1000);
-    setTimeout(() => {                         updateMainPanel(); }, 1100);
-    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 2000);
-    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 3000);
-    setTimeout(() => { copyTexts(); slideUp(); updateMainPanel(); }, 4000);
-    setTimeout(() => { copyTexts();                               }, 5000);
-    setTimeout(() => { $(self).show();                            }, 8000);
-    */
+    fetchGet().then((data) => {
+        console.log(data);
+        if (!data.length) {
+            alert('対象となる駅が０件です。設定を確認してください。');
+            $(self).show();
+            return;
+        }
+        $('div.dice-base')[0].animate(
+            { transform: ['rotateX(720deg)'] },
+            { fill: 'none', duration: 8000 }
+        )
+        .finished.then(() => { $(self).show(); });
+        setTimeout(() => { updateFace1(data[0]); },     );
+        setTimeout(() => { updateFace2(data[1]); },     );
+        setTimeout(() => { updateFace3(data[2]); }, 1000);
+        setTimeout(() => { updateFace0(data[3]); }, 2000);
+        setTimeout(() => { updateFace1(data[4]); }, 3000);
+        setTimeout(() => { updateFace2(data[5]); }, 4000);
+        setTimeout(() => { updateFace3(data[6]); }, 5000);
+        setTimeout(() => { updateFace0(data[7]); }, 6000);
+    })
+    .catch(error => {
+        console.log(error);
+        $(self).show();
+    });
 });
+
+function selectConf() {
+    selectLines();
+    selectPassNames();    
+}
+
+function selectLines() {
+    lineIds.splice(0);
+    const $divConfigLines = $('div.config-lines');
+    $divConfigLines.find('div.line-name input')
+    .filter((idx, elm) => { return $(elm).prop('checked'); })
+    .each((idx, elm) => {
+        //console.log($(elm).data('line-id'));
+        lineIds.push($(elm).data('line-id'));
+    });
+}
+
+function selectPassNames() {
+    passNames.splice(0);
+    if ($('div.pass-enab input').prop('checked')) {
+        const passName = $('input[name="pass-name"]:checked').val();
+        passNames.push(passName);
+    }
+}
 
 function filter() {
     let list = [];
@@ -395,51 +426,94 @@ function filter() {
     ekiList.push(...list);
 }
 
-function updateFace0() {
-    updateFace($('div.face-0'));
+function fetchPost() {
+    const data = {};
+    const url = 'https://strosoft.skr.jp/api/eki/';
+    const options = {
+        method: 'POST',  // HTTPメソッドを指定
+        headers: {  // リクエストヘッダを追加
+            //'Access-Control-Allow-Headers': 'Content-Type',
+          'Content-Type': 'application/json',  // リクエストデータをJSON形式と指定
+          'Accept': 'application/json'  // レスポンスデータをJSON形式と指定
+        },
+        mode: 'cors',
+        credentials: 'include',
+        body: JSON.stringify(data) // リクエストボディ（送信データ）を指定
+    }
+    return fetch(url, options)  // サーバにリクエストを送信
+    .then(response => response.json());  // レスポンスデータをJSON形式に
+    //.then(data => console.log(data))  // 取得したデータをコンソール画面に表示
 }
 
-function updateFace1() {
-    updateFace($('div.face-1'));
+function fetchGet() {
+    //const params = { lineIds: "'JreTouhokushinkan'" }
+    const params = { lineIds: "'" + lineIds.join("','") + "'" }
+    if (passNames.length) { params.passName = `"${passNames[0]}"`; }
+    const usp = new URLSearchParams(params);
+    //console.log(usp.toString());
+    const url = 'https://strosoft.skr.jp/api/eki/?' + usp;
+    const options = {
+        method: 'GET',  // HTTPメソッドを指定
+        headers: {  // リクエストヘッダを追加
+            //'Access-Control-Allow-Headers': 'Content-Type',
+          //'Content-Type': 'application/json',  // リクエストデータをJSON形式と指定
+          'Accept': 'application/json'  // レスポンスデータをJSON形式と指定
+        },
+        //mode: 'cors',
+        credentials: 'include',
+    }
+    return fetch(url, options)  // サーバにリクエストを送信
+    .then(response => response.json());  // レスポンスデータをJSON形式に
+    //.then(data => console.log(data))  // 取得したデータをコンソール画面に表示
 }
 
-function updateFace2() {
-    updateFace($('div.face-2'));
+function updateFace0(eki) {
+    updateFace($('div.face-0'), eki);
 }
 
-function updateFace3() {
-    updateFace($('div.face-3'));
+function updateFace1(eki) {
+    updateFace($('div.face-1'), eki);
 }
 
-function updateFace($face) {
-    const next = randomEki();
-    const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimeiKanj).css({ fontSize: '' });
-    if (11 < next.ekimeiKanj.length) {
-        const fs = 35 - next.ekimeiKanj.length;
+function updateFace2(eki) {
+    updateFace($('div.face-2'), eki);
+}
+
+function updateFace3(eki) {
+    updateFace($('div.face-3'), eki);
+}
+
+function updateFace($face, eki) {
+    const next = eki;
+    //const next = randomEki();
+    const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimei_kanj).css({ fontSize: '' });
+    if (11 < next.ekimei_kanj.length) {
+        const fs = 35 - next.ekimei_kanj.length;
         $spanEkimeiKanj.css({ fontSize: fs + 'px' });
     }
-    $face.find('span.ekimeiKana').text(next.ekimeiKana);
-    $face.find('span.ekimeiRoma').text(next.ekimeiRoma);
-    const $spanCompName = $face.find('span.compName').text(next.compName);
+    $face.find('span.ekimeiKana').text(next.ekimei_kana);
+    $face.find('span.ekimeiRoma').text(next.ekimei_roma);
+    const $spanCompName = $face.find('span.compName').text(next.comp_name);
     const $divCompName = $spanCompName.closest('div');
     $divCompName.css({ backgroundColor: '' });
-    if (next.compBack) { $divCompName.css({ backgroundColor: next.compBack }); }
+    const compBack = compNameBack[next.comp_name];
+    if (compBack) { $divCompName.css({ backgroundColor: compBack }); }
     const $divLineBack1 = $face.find('div.lineBack1').css({ background: '' });
     const $divLineBack2 = $face.find('div.lineBack2').css({ background: '' });
-    if (next.lineBack1) {
-        const css = { background: `linear-gradient(90deg, ${next.lineBack1}, #ffffff)` };
+    if (next.line_back1) {
+        const css = { background: `linear-gradient(90deg, ${next.line_back1}, #ffffff)` };
         $divLineBack1.css(css);
         $divLineBack2.css(css);
     }
-    if (next.lineBack2) {
-        const css = { background: `linear-gradient(90deg, ${next.lineBack2}, #ffffff)` };
+    if (next.line_back2) {
+        const css = { background: `linear-gradient(90deg, ${next.line_back2}, #ffffff)` };
         $divLineBack2.css(css);
     }
-    $face.find('span.lineName'  ).text(next.lineName  );
-    $face.find('span.sttnAddr'  ).text(next.sttnAddr  );
+    $face.find('span.lineName'  ).text(next.line_name  );
+    $face.find('span.sttnAddr'  ).text(next.sttn_addr  );
     const $divPassName = $face.find('div.passName').empty();
-    if (next.passArea) {
-        const passes = JSON.parse(next.passArea);
+    if (next.pass_area) {
+        const passes = JSON.parse(next.pass_area);
         if (passes.includes('ShuP')) { $divPassName.append($('<span>週末パス</span>'                )); }
         if (passes.includes('NHSP')) { $divPassName.append($('<span>のんびりホリデーSuicaパス</span>')); }
     }

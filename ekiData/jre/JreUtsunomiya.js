@@ -2,7 +2,6 @@ const JreUtsunomiyaCommon = {
     ...compNameJre,
     lineName: '宇都宮線',
     lineBack1: '#f68b1e',
-    passArea: '["NHSP"]',
 };
 
 const JreUtsunomiyaCommon1 = {

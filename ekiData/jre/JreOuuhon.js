@@ -420,7 +420,7 @@ const JreOuuhon = [
         ekimeiKanj: '撫牛子',
         ekimeiKana: 'ないじょうし',
         ekimeiRoma: 'Naijōshi',
-        sttnAddr: '青森県弘前市大字撫牛子[1]一丁目12-13',
+        sttnAddr: '青森県弘前市大字撫牛子一丁目12-13',
         ...JreOuuhonCommon
     },
     {

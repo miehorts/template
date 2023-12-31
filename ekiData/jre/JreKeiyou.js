@@ -10,7 +10,7 @@ const JreKeiyou = [
         ekimeiKanj: '東京',
         ekimeiKana: 'とうきょう',
         ekimeiRoma: 'Tōkyō',
-        sttnAddr: '東京都千代田区丸の内一丁目',
+        sttnAddr: '東京都千代田区丸の内一丁目9-1',
         ...JreKeiyouCommon
     },
     {

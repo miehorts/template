@@ -192,7 +192,7 @@ const JreEchigo = [
         ekimeiKanj: '寺尾',
         ekimeiKana: 'てらお',
         ekimeiRoma: 'Terao',
-        sttnAddr: '新潟市西区寺尾[1]上二丁目1-1',
+        sttnAddr: '新潟市西区寺尾上二丁目1-1',
         ...JreEchigoCommon
     },
     {

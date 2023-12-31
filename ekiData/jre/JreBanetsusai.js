@@ -80,7 +80,7 @@ const JreBanetsusai = [
         ekimeiKanj: '翁島',
         ekimeiKana: 'おきなしま',
         ekimeiRoma: 'Okinashima',
-        sttnAddr: '島県耶麻郡猪苗代町大字磐根中2477',
+        sttnAddr: '福島県耶麻郡猪苗代町大字磐根中2477',
         ...JreBanetsusaiCommon
     },
     {
@@ -220,7 +220,7 @@ const JreBanetsusai = [
         ekimeiKanj: '津川',
         ekimeiKana: 'つがわ',
         ekimeiRoma: 'Tsugawa',
-        sttnAddr: '新潟県東蒲原郡阿賀町角島[1]127',
+        sttnAddr: '新潟県東蒲原郡阿賀町角島127',
         ...JreBanetsusaiCommon
     },
     {

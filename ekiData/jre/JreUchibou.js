@@ -214,13 +214,6 @@ const JreUchibou = [
         ...JreUchibouCommon2,
     },
     {
-        ekimeiKanj: '南三原',
-        ekimeiKana: 'みなみはら',
-        ekimeiRoma: 'Minamihara',
-        sttnAddr: '千葉県南房総市和田町松田148',
-        ...JreUchibouCommon2,
-    },
-    {
         ekimeiKanj: '和田浦',
         ekimeiKana: 'わだうら',
         ekimeiRoma: 'Wadaura',
