@@ -1,7 +1,7 @@
 const OerEnoshimaCommon = {
     ...compNameOer,
     lineName: '江ノ島線',
-    lineBack1: '#2288CC',
+    lineBack1: '#2288cc',
 };
 
 const OerEnoshima = [
@@ -86,7 +86,7 @@ const OerEnoshima = [
         ekimeiKanj: '善行',
         ekimeiKana: 'ぜんぎょう',
         ekimeiRoma: 'Zengyo',
-        sttnAddr: 'Zengyo',
+        sttnAddr: '神奈川県藤沢市善行一丁目27番地',
         ...OerEnoshimaCommon,
     },
     {
