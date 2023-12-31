@@ -8,7 +8,7 @@ const compNameJrc = {
 };
 const compNameOer = {
     compName: '小田急電鉄',
-    compBack: '#2288CC',
+    compBack: '#2288cc',
 };
 const compNameKeio = {
     compName: '京王電鉄',
