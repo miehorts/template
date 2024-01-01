@@ -111,13 +111,6 @@ const SeibuShinjuku = [
         ...SeibuShinjukuCommon,
     },
     {
-        ekimeiKanj: '東伏見',
-        ekimeiKana: 'ひがしふしみ',
-        ekimeiRoma: 'Higashi-Fushimi',
-        sttnAddr: '東京都西東京市東伏見二丁目5-1',
-        ...SeibuShinjukuCommon,
-    },
-    {
         ekimeiKanj: '西武柳沢',
         ekimeiKana: 'せいぶやぎさわ',
         ekimeiRoma: 'Seibu-Yagisawa',
