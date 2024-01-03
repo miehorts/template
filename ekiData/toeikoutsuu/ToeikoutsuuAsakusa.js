@@ -21,7 +21,7 @@ const ToeikoutsuuAsakusa = [
         ekimeiKanj: '馬込',
         ekimeiKana: 'まごめ',
         ekimeiRoma: 'Magome',
-        sttnAddr: '京都大田区北馬込二丁目31-9',
+        sttnAddr: '東京都大田区北馬込二丁目31-9',
         ...ToeikoutsuuAsakusaCommon1
     },
     {
