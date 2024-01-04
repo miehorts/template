@@ -97,13 +97,6 @@ const JrcKiseihon = [
         ...JrcKiseihonCommon,
     },
     {
-        ekimeiKanj: '栃原',
-        ekimeiKana: 'とちはら',
-        ekimeiRoma: 'Tochihara',
-        sttnAddr: '三重県多気郡大台町栃原1247',
-        ...JrcKiseihonCommon,
-    },
-    {
         ekimeiKanj: '川添',
         ekimeiKana: 'かわぞえ',
         ekimeiRoma: 'Kawazoe',

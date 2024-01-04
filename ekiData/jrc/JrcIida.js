@@ -478,7 +478,7 @@ const JrcIida = [
         ekimeiKanj: '伊那大島',
         ekimeiKana: 'いなおおしま',
         ekimeiRoma: 'Ina-ōshima',
-        sttnAddr: '長野県下伊那郡松川町元大島[1]1415-3',
+        sttnAddr: '長野県下伊那郡松川町元大島1415-3',
         ...JrcIidaCommon
     },
     {
