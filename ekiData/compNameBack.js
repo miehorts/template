@@ -68,4 +68,5 @@ const compNameBack = {
     'しなの鉄道': '#cc0000',
     '長野電鉄': '#e20004',
     '伊豆急': 'deepskyblue',
+    '伊豆箱根鉄道': 'blue',
 };
