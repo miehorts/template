@@ -70,4 +70,5 @@ const compNameBack = {
     '伊豆急': 'deepskyblue',
     '伊豆箱根鉄道': 'blue',
     '遠州鉄道': 'red',
+    '大井川鐵道': 'red',
 };
