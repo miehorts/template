@@ -256,7 +256,8 @@ div:has(> .lineName) {
 span.lineName {
     padding: 0 10px;
     font-size: 18px;
-    text-shadow: #ffffff -2px 0 2px, #ffffff 2px 0 2px, #ffffff 0 -2px 2px, #ffffff 0 2px 2px;
+    color: #ffffff;
+    text-shadow: #000000 -2px 0 2px, #000000 2px 0 2px, #000000 0 -2px 2px, #000000 0 2px 2px;
 }
 
 span.sttnAddr {
