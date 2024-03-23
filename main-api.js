@@ -209,13 +209,15 @@ function updateFace($face, eki) {
     const $divLineBack1 = $face.find('div.lineBack1').css({ background: '' });
     const $divLineBack2 = $face.find('div.lineBack2').css({ background: '' });
     if (next.line_back1) {
-        const css = { background: `linear-gradient(90deg, ${next.line_back1}, #ffffff)` };
-        $divLineBack1.css(css);
-        $divLineBack2.css(css);
+        $divLineBack2.css({ backgroundColor: next.line_back1 });
+        //const css = { background: `linear-gradient(90deg, ${next.line_back1}, #ffffff)` };
+        //$divLineBack1.css(css);
+        //$divLineBack2.css(css);
     }
     if (next.line_back2) {
-        const css = { background: `linear-gradient(90deg, ${next.line_back2}, #ffffff)` };
-        $divLineBack2.css(css);
+        $divLineBack1.css({ backgroundColor: next.line_back2 });
+        //const css = { background: `linear-gradient(90deg, ${next.line_back2}, #ffffff)` };
+        //$divLineBack2.css(css);
     }
     $face.find('span.lineName'  ).text(next.line_name  );
     $face.find('span.sttnAddr'  ).text(next.sttn_addr  );
