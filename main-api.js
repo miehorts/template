@@ -171,7 +171,8 @@ function fetchGet() {
         credentials: 'include',
     }
     return fetch(url, options)  // サーバにリクエストを送信
-    .then(response => response.json());  // レスポンスデータをJSON形式に
+    .then(response => response.json())  // レスポンスデータをJSON形式に
+    .catch((error) => { console.error(error); });
     //.then(data => console.log(data))  // 取得したデータをコンソール画面に表示
 }
 
