@@ -224,15 +224,26 @@ span.ekimeiRoma {
     font-size: 14px;
 }
 
-span.compName {
-    padding: 0 10px;
+div:has(> .compName) {
+    position: relative;
+    height: 28px;
+}
+
+.compName {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 0.5px;
+    height: 100%;
     font-size: 18px;
     color: #ffffff;
-    text-shadow: #000000 -2px 0 2px, #000000 2px 0 2px, #000000 0 -2px 2px, #000000 0 2px 2px;
+    background-color: transparent;
+    /*text-shadow: #000000 -2px 0 2px, #000000 2px 0 2px, #000000 0 -2px 2px, #000000 0 2px 2px;*/
 }
 
 div:has(> .lineName) {
     position: relative;
+    height: 28px;
 }
 
 .lineBack1 {
@@ -253,11 +264,15 @@ div:has(> .lineName) {
     /*background: linear-gradient(90deg, #f15a22, #ffffff);*/
 }
 
-span.lineName {
-    padding: 0 10px;
+.lineName {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 0.5px;
+    height: 100%;
     font-size: 18px;
     color: #ffffff;
-    text-shadow: #000000 -2px 0 2px, #000000 2px 0 2px, #000000 0 -2px 2px, #000000 0 2px 2px;
+    /*text-shadow: #000000 -2px 0 2px, #000000 2px 0 2px, #000000 0 -2px 2px, #000000 0 2px 2px;*/
 }
 
 span.sttnAddr {
@@ -270,4 +285,24 @@ div.passName {
     display: flex;
     gap: 10px;
     font-size: 12px;
+}
+
+.shadow {
+    color: #000000;
+}
+
+.shadow.topl {
+    transform: translateX(-1px) translateY(-1px);
+}
+
+.shadow.topr {
+    transform: translateX( 1px) translateY(-1px);
+}
+
+.shadow.botl {
+    transform: translateX(-1px) translateY( 1px);
+}
+
+.shadow.botr {
+    transform: translateX( 1px) translateY( 1px);
 }
