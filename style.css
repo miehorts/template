@@ -292,17 +292,17 @@ div.passName {
 }
 
 .shadow.topl {
-    transform: translateX(-1px) translateY(-1px);
+    transform: translate(-1px, -1px);
 }
 
 .shadow.topr {
-    transform: translateX( 1px) translateY(-1px);
+    transform: translate( 1px, -1px);
 }
 
 .shadow.botl {
-    transform: translateX(-1px) translateY( 1px);
+    transform: translate(-1px,  1px);
 }
 
 .shadow.botr {
-    transform: translateX( 1px) translateY( 1px);
+    transform: translate( 1px,  1px);
 }
