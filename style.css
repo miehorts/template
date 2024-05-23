@@ -139,6 +139,10 @@
     width: 100%;
 }
 
+.line-list > div {
+    scroll-snap-align: start;
+}
+
 .config-passes {
     position: fixed;
     width: 100%;

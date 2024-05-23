@@ -18,7 +18,7 @@
         <meta property="og:title" content="駅名サイコロ 駅サイ - スマホ用Webアプリ" />
         <meta property="og:description" content="サイコロまかせの鉄道旅はいかがですか？あなただけの楽しいルールを考えて自由に遊んでみてください。" />
         <meta property="og:image" content="https://strosoft.skr.jp/ekidice/1200x630-20231028.png" />
-        <link rel="stylesheet" type="text/css" href="style.css?20240515" />
+        <link rel="stylesheet" type="text/css" href="style.css?20240523" />
         <script>
             screen.orientation.lock('portrait').then().catch(console.log);
         </script>
@@ -57,7 +57,7 @@
                     <a class="sp-menu__link hide-config-lines" href="#">MENUに戻る</a>
                 </li>
             </ul>
-            <div style="padding-left:10px;overflow-y:scroll;height:calc(100% - 40px - 70px);">
+            <div class="line-list" style="padding-left:10px;overflow-y:scroll;height:calc(100% - 40px - 70px);scroll-snap-type: y mandatory;">
                 <div class="comp-name"><label>JR東日本</label></div>
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreTouhokushinkan"                          >東北新幹線</label></div>
                 <div class="line-name"><label><input type="checkbox" checked data-line-id="JreYamagatashinkan"                         >山形新幹線</label></div>
@@ -594,7 +594,16 @@
                 </div>
             </div>
         </div>
-        <div class="information" style="height:100px;color:#999999;background-color:#333333;border:10px solid black; position:relative;z-index:1;">
+        <div class="welcome" style="display:flex;flex-direction:column;align-items:center;gap:0.5em;padding:10px;overflow-y:auto;color:#333333;background-color:whitesmoke;border:10px solid black; position:relative;z-index:1;">
+            <span>駅名サイコロへようこそ！</span>
+            <span>日本の駅名をランダムに表示するアプリです</span>
+            <span>遊び方はとても簡単</span>
+            <span>「サイコロを振る」をタップするだけ</span>
+            <span>右上のメニューアイコンから</span>
+            <span>路線を選ぶこともできます</span>
+            <span>それではよい鉄道旅を！</span>
+        </div>
+        <div class="information" style="display:none;color:#999999;background-color:#333333;border:10px solid black; position:relative;z-index:1;">
             <div>広告掲載スペース</div>
         </div>
         <div class="button-area" style="display:flex;align-items:center;justify-content:center;height:60px;position:relative;z-index:1;">
@@ -602,6 +611,6 @@
         </div>
         <script src="jquery-3.7.0.min.js"></script>
         <script src="ekiData/compNameBack.js?20240519"></script>
-        <script src="main-api.js?20240407"></script>
+        <script src="main-api.js?20240523"></script>
     </body>
 </html>

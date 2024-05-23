@@ -1,10 +1,12 @@
+const $welcome = $('div.welcome');
 const information = document.querySelector('div.information');
 //information.innerHTML = window.innerHeight;
 const headerH = $('header').outerHeight();
 const mainH = document.querySelector('div.main-back').offsetHeight;
 const buttonH = document.querySelector('div.button-area').offsetHeight;
-information.style.height
-= (window.innerHeight - headerH - mainH - buttonH) + 'px';
+const height = (window.innerHeight - headerH - mainH - buttonH) + 'px';
+$welcome.css('height', height);
+information.style.height = height;
 $('#throw-dice').show();
 
 const passNames = [];
