@@ -197,10 +197,13 @@ function updateFace3(eki) {
 function updateFace($face, eki) {
     const next = eki;
     //const next = randomEki();
-    const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimei_kanj).css({ fontSize: '' });
+    const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimei_kanj).css({ scale: '1 1' });
+    //const $spanEkimeiKanj = $face.find('span.ekimeiKanj').text(next.ekimei_kanj).css({ fontSize: '' });
     if (11 < next.ekimei_kanj.length) {
-        const fs = 35 - next.ekimei_kanj.length;
-        $spanEkimeiKanj.css({ fontSize: fs + 'px' });
+        const scaleX = 1 - (next.ekimei_kanj.length - 11) * 0.05;
+        $spanEkimeiKanj.css({ scale: scaleX + ' 1' });
+        //const fs = 35 - next.ekimei_kanj.length;
+        //$spanEkimeiKanj.css({ fontSize: fs + 'px' });
     }
     $face.find('span.ekimeiKana').text(next.ekimei_kana);
     $face.find('span.ekimeiRoma').text(next.ekimei_roma);

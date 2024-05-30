@@ -220,6 +220,7 @@ body {
 span.ekimeiKanj {
     padding: 0 10px;
     font-size: 28px;
+    white-space: nowrap;
 }
 
 span.ekimeiKana {
