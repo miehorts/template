@@ -62,7 +62,8 @@ $('div.pass-name label').on('click', (evt) => {
 $('#throw-dice').on('click', (evt) => {
     const self = evt.target;
     $(self).hide();
-    fetchGet().then((data) => {
+    fetchPost().then((data) => {
+    //fetchGet().then((data) => {
         console.log(data);
         if (!data.length) {
             alert('対象となる駅が０件です。設定を確認してください。');
@@ -138,7 +139,10 @@ function filter() {
 
 function fetchPost() {
     const data = {};
+    data.lineIds = `'${lineIds.join("','")}'`;
+    if (passNames.length) { data.passName = `"${passNames[0]}"`; }
     const url = 'https://strosoft.skr.jp/api/eki/';
+    //const url = 'https://strosoft.skr.jp/api/eki/index2.php';
     const options = {
         method: 'POST',  // HTTPメソッドを指定
         headers: {  // リクエストヘッダを追加
@@ -151,8 +155,9 @@ function fetchPost() {
         body: JSON.stringify(data) // リクエストボディ（送信データ）を指定
     }
     return fetch(url, options)  // サーバにリクエストを送信
-    .then(response => response.json());  // レスポンスデータをJSON形式に
+    .then(response => response.json())  // レスポンスデータをJSON形式に
     //.then(data => console.log(data))  // 取得したデータをコンソール画面に表示
+    .catch((error) => { console.error(error); });
 }
 
 function fetchGet() {
@@ -174,8 +179,8 @@ function fetchGet() {
     }
     return fetch(url, options)  // サーバにリクエストを送信
     .then(response => response.json())  // レスポンスデータをJSON形式に
-    .catch((error) => { console.error(error); });
     //.then(data => console.log(data))  // 取得したデータをコンソール画面に表示
+    .catch((error) => { console.error(error); });
 }
 
 function updateFace0(eki) {
