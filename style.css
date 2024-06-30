@@ -318,3 +318,13 @@ div.passName {
 .shadow.botr {
     transform: translate( 1px,  1px);
 }
+
+.flex-cont {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 56px);
+}
+
+.welcome {
+    flex-grow: 1;
+}
