@@ -28,6 +28,8 @@ $('a.hide-menu').on('click', (evt) => {
     $('div.sp-menu__content').toggleClass('opened');
 });
 
+$('span.refresh').on('click', (evt) => { location.reload(); });
+
 $('a.show-config-lines').on('click', (evt) => {
     $('div.config-lines').toggleClass('opened');
 });
