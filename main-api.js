@@ -234,7 +234,11 @@ function updateFace($face, eki) {
         //const css = { background: `linear-gradient(90deg, ${next.line_back2}, #ffffff)` };
         //$divLineBack2.css(css);
     }
-    $face.find('span.lineName'  ).text(next.line_name  );
+    const $spanLineName = $face.find('span.lineName').text(next.line_name  ).css({ fontSize: '18px' });
+    if (19 < next.line_name.length) {
+        const fontSize = 18 - (next.line_name.length - 19);
+        $spanLineName.css({ fontSize: fontSize + 'px' });
+    }
     $face.find('span.sttnAddr'  ).text(next.sttn_addr  );
     const $divPassName = $face.find('div.passName').empty();
     if (next.pass_area) {
