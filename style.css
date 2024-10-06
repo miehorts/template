@@ -136,7 +136,8 @@ body {
 }
 
 .config-lines .line-name {
-    padding-left: 10px;    
+    padding-left: 10px;
+    font-size: 22px;
 }
 
 .config-lines label {
