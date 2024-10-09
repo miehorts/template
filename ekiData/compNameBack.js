@@ -104,4 +104,5 @@ const compNameBack = {
     '近江鉄道': '#4086e5',
     '信楽高原鐵道': '#00a779',
     '比叡山鉄道': '#b00000',
+    'WILLER TRAINS': '#ea4f6f',
 };
